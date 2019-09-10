@@ -1,3 +1,1 @@
-# Slayer-Tool
-
-Bug Fixes 🐛
+## osrs-slayer-json-data
