@@ -1,4 +1,659 @@
 {
+    "Turael": {
+        "TotalWeight": 172,
+        "Assignments": {
+            "Birds": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 0
+                },
+                "Alternatives": [
+                    "Chicken",
+                    "Mounted terrorbird",
+                    "Terrorbird",
+                    "Rooster",
+                    "Chompy bird",
+                    "Seagull",
+                    "Penguin"
+                ],
+                "Weight": 6
+            },
+            "Goblins": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 0
+                },
+                "Alternatives": [
+                    "Cave goblin guards",
+                    "Sergeant Strongstack",
+                    "Sergeant Steelwill",
+                    "Sergeant Grimspike"
+                ],
+                "Weight": 7
+            },
+            "Monkeys": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 0
+                },
+                "Alternatives": [
+                    "Karamjan Monkey",
+                    "Monkey Guard",
+                    "Monkey Archer",
+                    "Monkey Zombie",
+                    "Demonic Gorilla",
+                    "Tortured Gorilla"
+                ],
+                "Weight": 6
+            },
+            "Rats": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 0
+                },
+                "Alternatives": [
+                    "Giant rat",
+                    "Dungeon rat",
+                    "Crypt rat",
+                    "Brine rat"
+                ],
+                "Weight": 7
+            },
+            "Spiders": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 0
+                },
+                "Alternatives": [
+                    "Giant spider",
+                    "Shadow spider",
+                    "Giant crypt spider",
+                    "Sarachnis",
+                    "Temple Spider",
+                    "Venenatis"
+                ],
+                "Weight": 6
+            },
+            "Bats": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 5
+                },
+                "Alternatives": [
+                    "Giant bat",
+                    "Deathwing"
+                ],
+                "Weight": 7
+            },
+            "Cows": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 5
+                },
+                "Alternatives": [
+                    "Cow calf"
+                ],
+                "Weight": 8
+            },
+            "Dwarves": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 6
+                },
+                "Alternatives": [
+                    "Black Guard",
+                    "Chaos Dwarf",
+                    "Dwarf gang member"
+                ],
+                "Weight": 7
+            },
+            "Minotaurs": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Combat": 7
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Scorpions": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 7
+                },
+                "Alternatives": [
+                    "King Scorpion",
+                    "Poison Scorpion",
+                    "Pit Scorpion",
+                    "Scorpia",
+                    "Lobstrosity"
+                ],
+                "Weight": 7
+            },
+            "Zombies": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 10
+                },
+                "Alternatives": [
+                    "Monkey Zombie",
+                    "Undead chicken",
+                    "Undead cow",
+                    "Undead Druid",
+                    "Undead one",
+                    "Zombie rat"
+                ],
+                "Weight": 7
+            },
+            "Bears": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 13
+                },
+                "Alternatives": [
+                    "Grizzly bear cub",
+                    "Bear cub",
+                    "Grizzly bear",
+                    "Callisto"
+                ],
+                "Weight": 7
+            },
+            "Ghosts": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 13
+                },
+                "Alternatives": [
+                    "Tortured soul"
+                ],
+                "Weight": 7
+            },
+            "Dogs": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "Jackal",
+                    "Guard dog",
+                    "Wild dog"
+                ],
+                "Weight": 7
+            },
+            "Kalphites": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "Kalphite worker",
+                    "Kalphite soldier",
+                    "Kalphite guardian",
+                    "Kalphite Queen"
+                ],
+                "Weight": 6
+            },
+            "Skeletons": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "Skeleton mage",
+                    "Skeletons in the Stronghold of Security and Ancient Cavern",
+                    "Vet'ion"
+                ],
+                "Weight": 7
+            },
+            "Icefiends": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 20
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Wolves": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Combat": 20
+                },
+                "Alternatives": [
+                    "Big Wolf",
+                    "Desert Wolf",
+                    "Ice wolf",
+                    "Jungle wolf",
+                    "White wolf"
+                ],
+                "Weight": 7
+            },
+            "Crawling Hands": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Slayer": 5
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Cave bugs": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Slayer": 7
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Cave crawlers": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Slayer": 10,
+                    "Combat": 10
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Banshees": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Slayer": 15,
+                    "Combat": 20
+                },
+                "Alternatives": [
+                    "Twisted Banshee"
+                ],
+                "Weight": 8
+            },
+            "Cave slime": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Slayer": 17,
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Lizards": {
+                "Amount": "15-50",
+                "UnlockRequirements": {
+                    "Slayer": 22
+                },
+                "Alternatives": [
+                    "Small Lizard",
+                    "Desert Lizard",
+                    "Sulphur Lizard (44 Slayer)"
+                ],
+                "Weight": 8
+            }
+        }
+    },
+    "Mazchna": {
+        "TotalWeight": 217,
+        "Assignments": {
+            "Bat": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 5
+                },
+                "Alternatives ": [
+                    "Giant bat"
+                ],
+                "Weight": 7
+            },
+            "Scorpion": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 7
+                },
+                "Alternatives ": [
+                    "King Scorpion",
+                    "Poison Scorpion",
+                    "Pit Scorpion",
+                    "Scorpia"
+                ],
+                "Weight": 7
+            },
+            "Zombies": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 10
+                },
+                "Alternatives ": [
+                    "Monkey Zombie",
+                    "Undead chicken",
+                    "Undead cow",
+                    "Undead one"
+                ],
+                "Weight": 7
+            },
+            "Bears": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 13
+                },
+                "Alternatives ": [
+                    "Grizzly bear cub",
+                    "Bear cub",
+                    "Grizzly bear",
+                    "Callisto"
+                ],
+                "Weight": 6
+            },
+            "Ghosts": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 13
+                },
+                "Alternatives ": [
+                    "Tortured soul"
+                ],
+                "Weight": 7
+            },
+            "Dogs": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives ": [
+                    "Jackal",
+                    "Guard dog",
+                    "Wild dog"
+                ],
+                "Weight": 7
+            },
+            "Flesh Crawler": {
+                "Amount": "15-25",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Kalphites": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives ": [
+                    "Kalphite worker",
+                    "Kalphite soldier",
+                    "Kalphite guardian",
+                    "Kalphite Queen"
+                ],
+                "Weight": 6
+            },
+            "Skeletons": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives ": [
+                    "Skeleton mage",
+                    "Skeletons in the Stronghold of Security and Ancient Cavern",
+                    "Vet'ion"
+                ],
+                "Weight": 7
+            },
+            "Hobgoblins": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 20
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Wolves": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 20
+                },
+                "Alternatives ": [
+                    "Big Wolf",
+                    "Desert Wolf",
+                    "Ice wolf",
+                    "Jungle wolf",
+                    "White wolf"
+                ],
+                "Weight": 7
+            },
+            "Ghouls": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Quests": [
+                        "Priest in Peril"
+                    ],
+                    "Combat": 25
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Hill Giants": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 25
+                },
+                "Alternatives ": [
+                    "Obor",
+                    "Cyclops"
+                ],
+                "Weight": 7
+            },
+            "Shades": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 30
+                },
+                "Alternatives ": [
+                    "Loar shade",
+                    "Phrin shade",
+                    "Riyl shade",
+                    "Asyn shade",
+                    "Fiyr shade"
+                ],
+                "Weight": 8
+            },
+            "Catablepon": {
+                "Amount": "20-30",
+                "UnlockRequirements": {
+                    "Combat": 35
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Earth warrior": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 35
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Vampyres": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Combat": 35,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives ": [
+                    "Feral Vampyre",
+                    "Vampyre Juvinate",
+                    "Vyrewatch"
+                ],
+                "Weight": 6
+            },
+            "Ice warriors": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Combat": 45
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Crawling Hands": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 5
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Cave bugs": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Slayer": 7
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Cave crawlers": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 10,
+                    "Combat": 10
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Banshee": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 15,
+                    "Combat": 10
+                },
+                "Alternatives ": [
+                    "Twisted Banshee"
+                ],
+                "Weight": 8
+            },
+            "Cave slime": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Slayer": 17,
+                    "Combat": 15
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Rockslug": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 20,
+                    "Combat": 20
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Lizards": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 22
+                },
+                "Alternatives ": [
+                    "Small Lizard",
+                    "Desert Lizard",
+                    "Sulphur Lizard (44 Slayer)"
+                ],
+                "Weight": 8
+            },
+            "Cockatrice": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 25,
+                    "Combat": 25,
+                    "Defence": 20
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Pyrefiend": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 30,
+                    "Combat": 25
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Mogres": {
+                "Amount": "40-70",
+                "UnlockRequirements": {
+                    "Slayer": 32,
+                    "Combat": 30,
+                    "Quests": [
+                        "Skippy and the Mogres"
+                    ]
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Wall beasts": {
+                "Amount": "10-20",
+                "UnlockRequirements": {
+                    "Slayer": 35,
+                    "Combat": 30,
+                    "Defence": 5
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Killerwatt": {
+                "Amount": "30-80",
+                "UnlockRequirements": {
+                    "Slayer": 37,
+                    "Combat": 50,
+                    "Quests": [
+                        "Ernest the Chicken"
+                    ]
+                },
+                "Alternatives ": [
+                    "None"
+                ],
+                "Weight": 6
+            }
+        }
+    },
     "Vannaka": {
         "TotalWeight": 392,
         "Assignments": {
@@ -97,7 +752,7 @@
             },
             "Ankou": {
                 "Amount": "25 - 35 ",
-                "ExtendedAmount": " 90 - 150 ",
+                "ExtendedAmount": "90 - 150 ",
                 "UnlockRequirements": {
                     "Combat": 40
                 },
@@ -181,7 +836,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 52,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -248,7 +903,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 65,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -289,7 +944,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Regicide"
                     ]
                 },
@@ -574,7 +1229,7 @@
                 "UnlockRequirements": {
                     "Slayer": 42,
                     "Combat": 40,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Rum Deal"
                     ]
                 },
@@ -688,7 +1343,7 @@
                 "UnlockRequirements": {
                     "Slayer": 65,
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Desert Treasure"
                     ]
                 },
@@ -750,6 +1405,693 @@
             }
         }
     },
+    "Chaelder": {
+        "TotalWeight": 416,
+        "Assignments": {
+            "Aviansies": {
+                "Amount": "110-170",
+                "ExtendedAmount": "130-250",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Watch the birdy": {
+                            "cost": 80
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "Kree'arra",
+                    "Flight Kilisa",
+                    "Flockleader Geerin",
+                    "Wingman Skree"
+                ],
+                "Weight": 9
+            },
+            "Lizardmen": {
+                "Amount": "70-90",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Reptile got ripped": {
+                            "cost": 75
+                        }
+                    },
+                    "Favor": {
+                        "Shayzien": {
+                            "Amount": "5%",
+                            "Reason": "(unless killing them outside the Lizardman Canyon)"
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "Lizardman brute",
+                    "Lizardman shaman"
+                ],
+                "Weight": 8
+            },
+            "TzHaar": {
+                "Amount": "90-150",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Hot stuff": {
+                            "cost": 100
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "TzTok-Jad",
+                    "TzKal-Zuk"
+                ],
+                "Weight": 8
+            },
+            "Kalphite": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "Kalphite worker",
+                    "Kalphite soldier",
+                    "Kalphite guardian",
+                    "Kalphite Queen"
+                ],
+                "Weight": 11
+            },
+            "Lesser demons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 60
+                },
+                "Alternatives": [
+                    "Zakl'n Gritch"
+                ],
+                "Weight": 9
+            },
+            "Shadow warriors": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 60,
+                    "Quests": [
+                        "Legends' Quest"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Trolls": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 60
+                },
+                "Alternatives": [
+                    "Mountain troll",
+                    "Ice troll",
+                    "Troll general"
+                ],
+                "Weight": 11
+            },
+            "Blue dragons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 65,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "Baby blue dragons",
+                    "brutal blue dragons",
+                    "Vorkath"
+                ],
+                "Weight": 8
+            },
+            "Fire giant": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 12
+            },
+            "Jungle horrors": {
+                "Amount": "",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 65,
+                    "Quests": [
+                        "Cabin Fever"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Elves": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Regicide"
+                    ]
+                },
+                "Alternatives": [
+                    "Elf warrior",
+                    "mourner (Mourner Headquarters)",
+                    "reanimated elf"
+                ],
+                "Weight": 8
+            },
+            "Bronze dragon": {
+                "Amount": "10-20",
+                "ExtendedAmount": "30-50",
+                "UnlockRequirements": {
+                    "Combat": 75,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 11
+            },
+            "Dagannoth": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 75,
+                    "Quests": [
+                        "Horror from the Deep"
+                    ]
+                },
+                "Alternatives": [
+                    "Dagannoth spawn",
+                    "Dagannoth fledgeling",
+                    "Dagannoth Kings"
+                ],
+                "Weight": 11
+            },
+            "Greater demons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "150-250",
+                "UnlockRequirements": {
+                    "Combat": 70
+                },
+                "Alternatives": [
+                    "K'ril Tsutsaroth",
+                    "Tstanon Karlak",
+                    "Skotizo"
+                ],
+                "Weight": 9
+            },
+            "Hellhound": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 75
+                },
+                "Alternatives": [
+                    "Cerberus",
+                    "Skeleton Hellhound",
+                    "Greater Skeleton Hellhound"
+                ],
+                "Weight": 9
+            },
+            "Black demons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Combat": 80
+                },
+                "Alternatives": [
+                    "Demonic gorillas",
+                    "Balfrug Kreeyath",
+                    "Porazdir, Skotizo"
+                ],
+                "Weight": 10
+            },
+            "Iron dragon": {
+                "Amount": "25-45",
+                "ExtendedAmount": "60-100",
+                "UnlockRequirements": {
+                    "Combat": 80,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 12
+            },
+            "Steel dragon": {
+                "Amount": "10-20",
+                "ExtendedAmount": "40-60",
+                "UnlockRequirements": {
+                    "Combat": 85,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 9
+            },
+            "Cave crawler": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 10,
+                    "Combat": 10
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Banshees": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 12,
+                    "Combat": 20
+                },
+                "Alternatives": [
+                    "Twisted Banshee"
+                ],
+                "Weight": 5
+            },
+            "Cave slimes": {
+                "Amount": "10-20",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 17,
+                    "Combat": 15
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Rockslugs": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 20,
+                    "Combat": 20
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Lizards": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 22
+                },
+                "Alternatives": [
+                    "Small Lizard",
+                    "Desert Lizard",
+                    "Sulphur Lizard (44 Slayer)"
+                ],
+                "Weight": 5
+            },
+            "Cockatrice": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 25,
+                    "Combat": 25,
+                    "Defence": 20
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Pyrefiends": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 30,
+                    "Combat": 25
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Mogre": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 32,
+                    "Combat": 30,
+                    "Quests": [
+                        "Skippy and the Mogres"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Harpie Bug Swarms": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 33,
+                    "Combat": 45,
+                    "Firemaking": 33
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Wall beast": {
+                "Amount": "10-20",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 35,
+                    "Combat": 30,
+                    "Defence": 5
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Molanisk": {
+                "Amount": "39-50",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 39,
+                    "Combat": 50,
+                    "Quests": [
+                        "Death to the Dorgeshuun"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Basilisks": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 40,
+                    "Combat": 40,
+                    "Defence": 20
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Fever spider": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 42,
+                    "Combat": 40,
+                    "partialQuests": [
+                        "Rum Deal"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Infernal Mages": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 45,
+                    "Combat": 40,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Brine rat": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 47,
+                    "Combat": 45,
+                    "partialQuests": [
+                        "Olaf's Quest"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Bloodveld": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 50,
+                    "Combat": 50
+                },
+                "Alternatives": [
+                    "Mutated Bloodveld"
+                ],
+                "Weight": 8
+            },
+            "Jellies": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 52,
+                    "Combat": 57
+                },
+                "Alternatives": [
+                    "Warped Jelly"
+                ],
+                "Weight": 10
+            },
+            "Turoth": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 55,
+                    "Combat": 60
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Mutated zygomites": {
+                "Amount": "8-15",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": [
+                    "Ancient Zygomite"
+                ],
+                "Weight": 7
+            },
+            "Cave horror": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 58,
+                    "Combat": 85,
+                    "Quests": [
+                        "Cabin Fever"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Aberrant spectres": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "Deviant spectres"
+                ],
+                "Weight": 8
+            },
+            "Wyrm": {
+                "Amount": "60-120",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Spiritual creatures": {
+                "Amount": "110-170",
+                "ExtendedAmount": "180-250",
+                "UnlockRequirements": {
+                    "Slayer": 63,
+                    "Combat": 60,
+                    "Quests": [
+                        "Death Plateau"
+                    ],
+                    "or": {
+                        "Agility": 60,
+                        "Strength": 60
+                    }
+                },
+                "Alternatives": [
+                    "Spiritual ranger(63 Slayer )",
+                    "warrior(68 Slayer )",
+                    "mage(83 Slayer )"
+                ],
+                "Weight": 12
+            },
+            "Dust devils": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 9
+            },
+            "Fossil Island Wyverns": {
+                "Amount": "10-20",
+                "ExtendedAmount": "55-75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage"
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting, taloned and long-tailed wyvern (66 Slayer)",
+                    "Ancient Wyvern (82 Slayer)"
+                ],
+                "Weight": 7
+            },
+            "Kurask": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 12
+            },
+            "Skeletal Wyverns": {
+                "Amount": "10-20",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat": 70,
+                    "Quests": [
+                        "Elemental Workshop I"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Gargoyles": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 11
+            },
+            "Nechryael": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Greater Nechryael"
+                ],
+                "Weight": 12
+            },
+            "Abyssal demons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Abyssal sire"
+                ],
+                "Weight": 12
+            },
+            "Cave kraken": {
+                "Amount": "30-50",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 12
+            }
+        }
+    },
     "Duradel": {
         "TotalWeight": 286,
         "Assignments": {
@@ -777,7 +2119,7 @@
                     }
                 },
                 "Alternatives": [
-                    " Flight Kilisa",
+                    "Flight Kilisa",
                     "Flockleader Geerin",
                     "Wingman Skree",
                     "Reanimated aviansie"
@@ -807,6 +2149,12 @@
                     "SlayerRewards": {
                         "Reptile got ripped": {
                             "cost": 75
+                        }
+                    },
+                    "Favor": {
+                        "Shayzien": {
+                            "Amount": "5%",
+                            "Reason": "(unless killing them outside the Lizardman Canyon)"
                         }
                     }
                 },
@@ -935,7 +2283,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 68,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ],
                     "SlayerRewards": {
@@ -955,7 +2303,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Regicide"
                     ]
                 },
@@ -966,7 +2314,7 @@
                 ],
                 "Weight": 4
             },
-            " Dagannoth": {
+            "Dagannoth": {
                 "Amount": "130-200",
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
@@ -983,7 +2331,7 @@
                 ],
                 "Weight": 9
             },
-            " Greater demons": {
+            "Greater demons": {
                 "Amount": "130-200",
                 "ExtendedAmount": "150-200",
                 "UnlockRequirements": {
@@ -992,7 +2340,7 @@
                 "Alternatives": [
                     "K'ril Tsutsaroth",
                     "Tstanon Karlak",
-                    " Skotizo"
+                    "Skotizo"
                 ],
                 "Weight": 9
             },
@@ -1040,7 +2388,7 @@
                 "ExtendedAmount": "40-60",
                 "UnlockRequirements": {
                     "Combat": 80,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -1055,7 +2403,7 @@
                 "Amount": "40-60",
                 "ExtendedAmount": "60-100",
                 "UnlockRequirements": {
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ],
                     "Combat": 80
@@ -1070,7 +2418,7 @@
                 "ExtendedAmount": "40-60",
                 "UnlockRequirements": {
                     "Combat": 85,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -1084,7 +2432,7 @@
                 "ExtendedAmount": "180-250",
                 "Combat": 85,
                 "UnlockRequirements": {
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Lunar Diplomacy"
                     ]
                 },
@@ -1186,7 +2534,7 @@
                 "UnlockRequirements": {
                     "Slayer": 65,
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Desert Treasure"
                     ]
                 },
@@ -1252,7 +2600,7 @@
                     ]
                 },
                 "Alternatives": [
-                    " Grotesque Guardians"
+                    "Grotesque Guardians"
                 ],
                 "Weight": 8
             },
@@ -1311,7 +2659,7 @@
                 "UnlockRequirements": {
                     "Combat": 90,
                     "Slayer": 90,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Mourning's End Part II"
                     ]
                 },
@@ -1428,7 +2776,7 @@
                             "cost": 80
                         }
                     },
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Barbarian Training"
                     ]
                 },
@@ -1496,7 +2844,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 65,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -1523,11 +2871,11 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 68,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ],
                     "SlayerRewards": {
-                        "Seeing re": {
+                        "Seeing red": {
                             "cost": 50
                         }
                     }
@@ -1543,7 +2891,7 @@
                 "ExtendedAmount": "N/A",
                 "UnlockRequirements": {
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Regicide"
                     ]
                 },
@@ -1628,7 +2976,7 @@
                 "ExtendedAmount": "60-100",
                 "UnlockRequirements": {
                     "Combat": 80,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -1659,7 +3007,7 @@
                 "ExtendedAmount": "40-60",
                 "UnlockRequirements": {
                     "Combat": 85,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Dragon Slayer"
                     ]
                 },
@@ -1673,7 +3021,7 @@
                 "ExtendedAmount": "180-250",
                 "UnlockRequirements": {
                     "Combat": 85,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Lunar Diplomacy"
                     ]
                 },
@@ -1688,7 +3036,7 @@
                 "UnlockRequirements": {
                     "Slayer": 47,
                     "Combat": 45,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Olaf 's Quest"
                     ]
                 },
@@ -1801,7 +3149,7 @@
                 "UnlockRequirements": {
                     "Slayer": 65,
                     "Combat": 70,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Desert Treasure"
                     ]
                 },
@@ -1926,7 +3274,7 @@
                 "UnlockRequirements": {
                     "Slayer": 90,
                     "Combat": 90,
-                    "PartialQuests": [
+                    "partialQuests": [
                         "Mourning 's End Part II"
                     ]
                 },
@@ -2246,7 +3594,7 @@
                     "Frozen Waste Plateau"
                 ],
                 "WildernessLevels": [
-                    " 44-55"
+                    "44-55"
                 ],
                 "Weight": 7
             },
@@ -2469,7 +3817,7 @@
                             235
                         ],
                         "Locations": [
-                            " Western Ruins"
+                            "Western Ruins"
                         ],
                         "WildernessLevels": [
                             "22-24"
@@ -2525,7 +3873,7 @@
                             388.8
                         ],
                         "Locations": [
-                            " East of the Bone Yard"
+                            "East of the Bone Yard"
                         ],
                         "WildernessLevels": [
                             "26-30"
@@ -2547,6 +3895,790 @@
                     }
                 },
                 "Weight": 8
+            }
+        }
+    },
+    "Konar quo Maten": {
+        "TotalWeight": 250,
+        "Assignments": {
+            "Adamant dragons": {
+                "Locations": [
+                    "Lithkren Vault"
+                ],
+                "Amount": "3-6",
+                "ExtendedAmount": "20-30",
+                "UnlockRequirements": {
+                    "Quests": [
+                        "Dragon Slayer II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Aviansie": {
+                "Locations": [
+                    "God Wars Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount ": "130-250",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Watch the birdy": {
+                            "cost": 80
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "Kree'arra",
+                    "Flight Kilisa",
+                    "Flockleader Geerin",
+                    "Wingman Skree"
+                ],
+                "Weight": 6
+            },
+            "Boss": {
+                "Amount": "3-35 (3-15 for Zulrah)",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Like a boss": {
+                            "cost": 200
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Lizardmen": {
+                "Locations": [
+                    "Battlefront",
+                    "Lizardman Canyon",
+                    "Lizardman Settlement(Lizardman Caves included)",
+                    "Kebos Swamp(area surrounding Xeric 's Shrine)",
+                    "Molch(Lizardman Temple included)"
+                ],
+                "Amount": "90-110",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Reptile got ripped": {
+                            "cost": 75
+                        },
+                        "Favor": {
+                            "Shayzien": {
+                                "Amount": "5%",
+                                "Reason": "(unless killing them outside the Lizardman Canyon)"
+                            }
+                        }
+                    }
+                },
+                "Alternatives": {
+                    "Battlefront": [
+                        "Lizardman brute"
+                    ],
+                    "Lizardman Canyon and Lizardman Settlement": [
+                        "Lizardman brute",
+                        "Lizardman shaman"
+                    ]
+                },
+                "Weight": 8
+            },
+            "Mithril dragons": {
+                "Locations": [
+                    "Ancient Cavern"
+                ],
+                "Amount": "3-6",
+                "ExtendedAmount": "20-40",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "I hope you mith me": {
+                            "cost": 80
+                        },
+                        "partialMiniQuests": [
+                            "Barbarian Training"
+                        ]
+                    }
+                },
+                "Alternatives": [
+                    "None "
+                ],
+                "Weight": 5
+            },
+            "Rune dragons": {
+                "Locations": [
+                    "Lithkren Vault"
+                ],
+                "Amount": "3-6",
+                "ExtendedAmount": "30-60",
+                "UnlockRequirements": {
+                    "Quests": [
+                        "Dragon Slayer II "
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Kalphites": {
+                "Locations": [
+                    "Kalphite Lair",
+                    "Kalphite Cave"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 15
+                },
+                "Alternatives": {
+                    "Kalphite Lair": [
+                        "Kalphite Queen",
+                        "guardian",
+                        "soldier",
+                        "worker"
+                    ],
+                    "Kalphite Cave": [
+                        "Kalphite worker",
+                        "soldier",
+                        "guardian"
+                    ]
+                },
+                "Weight": 9
+            },
+            "Ankou": {
+                "Locations": [
+                    "Stronghold of Security",
+                    "Stronghold Slayer Dungeon",
+                    "Catacombs of Kourend"
+                ],
+                "Amount": "50",
+                "ExtendedAmount": "90-150",
+                "UnlockRequirements": {
+                    "Combat": 40
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Trolls": {
+                "Locations": [
+                    "Troll Stronghold",
+                    "Keldagrim",
+                    "Death Plateau",
+                    "South of Mount Quidamortem"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 60
+                },
+                "Alternatives": {
+                    "Troll Stronghold": [
+                        "Troll general"
+                    ],
+                    "Death Plateau": [
+                        "Pee Hat",
+                        "Kraka",
+                        "Stick",
+                        "Rock",
+                        "Thrower Troll"
+                    ]
+                },
+                "Weight": 6
+            },
+            "Blue dragons": {
+                "Locations": [
+                    "Ogre Enclave",
+                    "Catacombs of Kourend",
+                    "Taverley Dungeon",
+                    "Myth 's Guild Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 65,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Brutal blue dragon(100 Combat required)"
+                    ],
+                    "Taverley Dungeon": [
+                        "Baby blue dragon"
+                    ],
+                    "Myth's Guild Dungeon": [
+                        "Baby blue dragon"
+                    ]
+                },
+                "Weight": 4
+            },
+            "Fire giants": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon",
+                    "Brimhaven Dungeon",
+                    "Waterfall Dungeon",
+                    "Stronghold Slayer Dungeon",
+                    "Catacombs of Kourend"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 9
+            },
+            "Red dragons": {
+                "Locations": [
+                    "Brimhaven Dungeon",
+                    "Catacombs of Kourend",
+                    "Forthos Dungeon",
+                    "Myth's Guild Dungeon"
+                ],
+                "Amount": "30-50",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 68,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ],
+                    "unlocked the Seeing red ability via spending 50 Slayer reward points": 0
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Brutal red dragon(100 Combat required)"
+                    ],
+                    "Brimhaven Dungeon": [
+                        "Baby red dragon"
+                    ],
+                    "Forthos Dungeon": [
+                        "Baby red dragon"
+                    ],
+                    "Myth's Guild Dungeon": [
+                        "Baby red dragon"
+                    ]
+                },
+                "Weight": 5
+            },
+            "Bronze dragons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Brimhaven Dungeon"
+                ],
+                "Amount": "30-50",
+                "ExtendedAmount": "30-50",
+                "UnlockRequirements": {
+                    "Combat ": 75,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Dagannoth": {
+                "Locations ": [
+                    "Catacombs of Kourend",
+                    "Lighthouse",
+                    "Waterbirth Island"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 75,
+                    "Quests": [
+                        "Horror from the Deep"
+                    ]
+                },
+                "Alternatives": {
+                    "Waterbirth Island": [
+                        "Dagannoth Kings",
+                        "dagannoth fledgeling",
+                        "dagannoth spawn"
+                    ]
+                },
+                "Weight": 8
+            },
+            "Greater demons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Chasm of Fire",
+                    "Karuulm Slayer Dungeon",
+                    "Brimhaven Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Combat": 75
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Skotizo"
+                    ]
+                },
+                "Weight": 7
+            },
+            "Hellhounds": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon",
+                    "Catacombs of Kourend",
+                    "Stronghold Slayer Dungeon",
+                    "Taverley Dungeon",
+                    "Witchaven Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 75
+                },
+                "Alternatives": {
+                    "Taverley Dungeon": [
+                        "Cerberus"
+                    ]
+                },
+                "Weight": 8
+            },
+            "Waterfiends": {
+                "Locations": [
+                    "Ancient Cavern (partial completion of Barbarian Training required)",
+                    "Iorwerth Dungeon",
+                    "Kraken Cove"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Combat": 75
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 2
+            },
+            "Black demons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Chasm of Fire",
+                    "Taverley Dungeon",
+                    "Brimhaven Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Combat": 80
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Skotizo"
+                    ]
+                },
+                "Weight": 9
+            },
+            "Black dragons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Myths' Guild Dungeon",
+                    "Evil Chicken's Lair",
+                    "Taverley Dungeon"
+                ],
+                "Amount": "10-15",
+                "ExtendedAmount": "40-60",
+                "UnlockRequirements": {
+                    "Combat": 80,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Brutal black dragon(77 Slayer and 100 Combat required)"
+                    ],
+                    "Taverley Dungeon": [
+                        "Baby black dragon"
+                    ],
+                    "Myth's Guild Dungeon": [
+                        "Baby black dragon"
+                    ]
+                },
+                "Weight": 6
+            },
+            "Iron dragons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Brimhaven Dungeon"
+                ],
+                "Amount": "30-50",
+                "ExtendedAmount": "60-100",
+                "UnlockRequirements": {
+                    "Combat ": 80,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Steel dragon": {
+                "Locations ": [
+                    "Catacombs of Kourend",
+                    "Brimhaven Dungeon"
+                ],
+                "Amount": "30-50",
+                "ExtendedAmount": "40-60",
+                "UnlockRequirements": {
+                    "Combat": 85,
+                    "partialQuests": [
+                        "Dragon Slayer"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Brine rats": {
+                "Locations": [
+                    "Brine Rat Cavern"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 47,
+                    "Combat": 45,
+                    "partialQuests": [
+                        "Olaf 's Quest"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 2
+            },
+            "Bloodvelds": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "God Wars Dungeon",
+                    "Iorwerth Dungeon",
+                    "Slayer Tower",
+                    "Stronghold Slayer Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 50,
+                    "Combat": 50
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Mutated Bloodveld"
+                    ]
+                },
+                "Weight": 9
+            },
+            "Jellies": {
+                "Locations": [
+                    "Fremennik Slayer Dungeon",
+                    "Catacombs of Kourend"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 52,
+                    "Combat": 57
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Warped Jelly"
+                    ]
+                },
+                "Weight": 6
+            },
+            "Turoth": {
+                "Locations": [
+                    "Fremennik Slayer Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 55,
+                    "Combat": 60
+                },
+                "ALternatives": [
+                    "None"
+                ],
+                "Weight": 3
+            },
+            "Mutated Zygomites": {
+                "Locations": [
+                    "Fossil Island",
+                    "Zanaris"
+                ],
+                "Amount": "10-25",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": {
+                    "Fossil Island": [
+                        "Ancient Zygomite(completion of Bone Voyage required)"
+                    ]
+                },
+                "Weight": 2
+            },
+            "Aberrant spectres": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Slayer Tower",
+                    "Stronghold Slayer Cave"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Deviant spectre"
+                    ]
+                },
+                "Weight": 6
+            },
+            "Wyrms": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-190",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Dust devils": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Smoke Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "Quests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Fossil Island Wyverns": {
+                "Locations": [
+                    "Wyvern Cave"
+                ],
+                "Amount": "15-30",
+                "ExtendedAmount": "55-75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage"
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting,taloned and long - tailed wyvern(66 Slayer required)",
+                    "Ancient Wyvern(82 Slayer required)"
+                ],
+                "Weight": 5
+            },
+            "Kurasks": {
+                "Locations": [
+                    "Fremennik Slayer Dungeon",
+                    "Iorwerth Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 3
+            },
+            "Skeletal Wyverns": {
+                "Locations": [
+                    "Asgarnian Ice Dungeon"
+                ],
+                "Amount": "5-12",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat ": 70,
+                    "Quests": [
+                        "Elemental Workshop I"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight ": 5
+            },
+            "Gargoyles": {
+                "Locations": [
+                    "Slayer Tower"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 6
+            },
+            "Nechryael": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Iorwerth Dungeon",
+                    "Slayer Tower"
+                ],
+                "Amount": "110",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer ": 80,
+                    "Combat": 85
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Greater Nechryael"
+                    ]
+                },
+                "Weight": 7
+            },
+            "Drakes": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-140",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 84
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Abyssal demons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Abyssal Area",
+                    "Slayer Tower"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": {
+                    "Abyssal Area": [
+                        "Abyssal Sire"
+                    ]
+                },
+                "Weight": 9
+            },
+            "Cave kraken": {
+                "Locations": [
+                    "Kraken Cove"
+                ],
+                "Amount": "80-100",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 9
+            },
+            "Dark beasts": {
+                "Locations": [
+                    "Mourner Tunnels",
+                    "Iorwerth Dungeon"
+                ],
+                "Amount": "10-15",
+                "ExtendedAmount": "100-150",
+                "UnlockRequirements": {
+                    "Slayer": 90,
+                    "Combat": 90,
+                    "partialQuests": [
+                        "Mourning 's End Part II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Smoke devils": {
+                "Locations": [
+                    "Smoke Devil Dungeon"
+                ],
+                "Amount": "120-170 ",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 93,
+                    "Combat": 75
+                },
+                "Alternatives": [
+                    "Thermonuclear smoke devil"
+                ],
+                "Weight": 7
+            },
+            "Hydras": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-190",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 95
+                },
+                "Alternatives": [
+                    "Alchemical Hydra"
+                ],
+                "Weight": 10
             }
         }
     }
