@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 ## osrs-slayer-json-data
+##### by James Cerniglia
 
 ## Bugs 🐛:
-
 
 ## Data 
 The JSON file contains all slayer master information
@@ -13,8 +13,8 @@ For Example:
     - "Assignments"
       - "Birds"
         - "Amount": "15-50",
-        - "UnlockRequirements": {
-        - "Combat": 0
+        - "UnlockRequirements": 
+          - "Combat": 0
         - "Alternatives": [
           - "Chicken",
           - "Mounted terrorbird",
@@ -24,26 +24,14 @@ For Example:
           - "Seagull",
           - "Penguin"
         - "Weight": 6
+      - "Goblins": {
+        - "Amount": "15-50",
+        - "UnlockRequirements": 
+          - "Combat": 0
+        - "Alternatives": 
+          - "Cave goblin guards",
+          - "Sergeant Strongstack",
+          - "Sergeant Steelwill",
+          - "Sergeant Grimspike"
+        - "Weight": 7
 
-"Turael": {
-        
-        "Assignments": {
-            
-            "Goblins": {
-                "Amount": "15-50",
-                "UnlockRequirements": {
-                    "Combat": 0
-                },
-                "Alternatives": [
-                    "Cave goblin guards",
-                    "Sergeant Strongstack",
-                    "Sergeant Steelwill",
-                    "Sergeant Grimspike"
-                ],
-                "Weight": 7
-            },
-
-  
-=======
-## Slayer-Tool 
->>>>>>> master
