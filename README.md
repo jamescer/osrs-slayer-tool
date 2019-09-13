@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## osrs-slayer-json-data
 
 ## Bugs 🐛:
@@ -43,3 +44,6 @@ For Example:
             },
 
   
+=======
+## Slayer-Tool 
+>>>>>>> master
