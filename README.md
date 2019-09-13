@@ -45,4 +45,49 @@ For Example:
                 "Weight": 7
             }
            }
+           
+           .
+           .
+           .
+           
+  "Konar quo Maten": {
+        "TotalWeight": 250,
+        "Assignments": {
+            "Adamant dragons": {
+                "Locations": [
+                    "Lithkren Vault"
+                ],
+                "Amount": "3-6",
+                "ExtendedAmount": "20-30",
+                "UnlockRequirements": {
+                    "Quests": [
+                        "Dragon Slayer II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Aviansie": {
+                "Locations": [
+                    "God Wars Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount ": "130-250",
+                "UnlockRequirements": {
+                    "SlayerRewards": {
+                        "Watch the birdy": {
+                            "cost": 80
+                        }
+                    }
+                },
+                "Alternatives": [
+                    "Kree'arra",
+                    "Flight Kilisa",
+                    "Flockleader Geerin",
+                    "Wingman Skree"
+                ],
+                "Weight": 6
+            },
 ```
