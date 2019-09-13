@@ -25,10 +25,18 @@ konar = slayer_data['Konar quo Maten']
 
 
 def test(*args):
+    if len(args) == 0:
+        args=[10]
+        args[0] = 'Vannaka'
+    else:
+        # TODO
+        var=0
     dict_x = slayer_data[args[0]]
 
+    # Paths for saving data
     figure_path = './Images/'+args[0]+str(count['counter'])+'.png'
     data_path = './Data/'+args[0]+str(count['counter'])+'.json'
+
     # Get Total Weight from master
     total_slayer_weight = dict_x['TotalWeight']
 
@@ -38,13 +46,13 @@ def test(*args):
     sum1 = 0
     for i in dict_x['Assignments']:
         assign_names.append(i)
-        print(i, " : ", dict_x['Assignments'][i]['Weight'])
+        # print(i, " : ", dict_x['Assignments'][i]['Weight']) # prints the task with the weight.
         weight_array.append((dict_x['Assignments'][i]['Weight'] /
                              total_slayer_weight))
         # print(sum(weight_array))
         sum1 = sum1+dict_x['Assignments'][i]['Weight']
         assign_counter_dict.update({i: 0})
-    print(sum1)
+    # print(sum1)# prints the sum of all the weights, should always be equal to the masters total weight.
 
     # # Creating our data based on our sample size
     sample_size = 100000
@@ -56,7 +64,7 @@ def test(*args):
     performance = []
     objects = []
     for i in assign_counter_dict:
-        print(i, assign_counter_dict[i])
+        # print(i, assign_counter_dict[i]) #prints the assignment ant how many times it was chosen while adding everything to 2 data arrays
         performance.append(assign_counter_dict[i])
         objects.append(i)
 
@@ -71,7 +79,7 @@ def test(*args):
         json.dump(assign_counter_dict, outfile)
 
 
-test('Konar quo Maten')
+test()
 
 # for j in slayer_data:
 #     # for h in i['Assignments']:
