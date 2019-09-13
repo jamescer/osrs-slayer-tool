@@ -1,12 +1,12 @@
 
-# osrs-slayer-json-data
-### by James Cerniglia
+### osrs-slayer-json-data
+#### by James Cerniglia
 ***
 
-# Bugs 🐛:
+### Bugs 🐛:
 ***
-# Data
-*** 
+### Data
+***
 The JSON file contains all slayer master information
 
 For Example: 
