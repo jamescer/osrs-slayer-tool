@@ -5,9 +5,9 @@
 
 ## Introduction
 
-slayer.py - python file to use the slayer.json file
+<span style="color:blue">slayer.py</span> - python file to use the slayer.json file
 
-slayer.json - Old School Runescape's Slayer Master Data file. Contains all useful information about Slayer Masters.
+<span style="color:blue">slayer.json</span> - Old School Runescape's Slayer Master Data file. Contains all useful information about Slayer Masters.
 
 
 ## Bugs 🐛:
