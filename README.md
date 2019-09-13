@@ -1,12 +1,13 @@
 
-### osrs-slayer-json-data
-#### by James Cerniglia
-***
+## osrs-slayer-json-data
 
-### Bugs 🐛:
-***
-### Data
-***
+### by James Cerniglia
+
+
+##Bugs 🐛:
+
+## Data
+
 The JSON file contains all slayer master information
 
 For Example: 
@@ -44,13 +45,9 @@ For Example:
                 ],
                 "Weight": 7
             }
-           }
-           
-           .
-           .
-           .
-           
-  "Konar quo Maten": {
+        }
+    },
+    "Konar quo Maten": {
         "TotalWeight": 250,
         "Assignments": {
             "Adamant dragons": {
@@ -89,5 +86,8 @@ For Example:
                     "Wingman Skree"
                 ],
                 "Weight": 6
-            },
+            }
+        }
+    }
+}
 ```
