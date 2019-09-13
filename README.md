@@ -3,15 +3,23 @@
 
 ### by James Cerniglia
 
+## Introduction
+
+slayer.py - python file to use the slayer.json file
+
+slayer.json - Old School Runescape's Slayer Master Data file. Contains all useful information about Slayer Masters.
+
 
 ## Bugs 🐛:
+
+No serious bugs up to 9/13/2019
 
 ## Data
 
 The JSON file contains all slayer master information
 
 For Example: 
-```perl
+```python
 {
     "Turael": {
         "TotalWeight": 172,
