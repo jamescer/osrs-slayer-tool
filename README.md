@@ -11,7 +11,7 @@
 The JSON file contains all slayer master information
 
 For Example: 
-```Perl
+```perl
 {
     "Turael": {
         "TotalWeight": 172,
