@@ -16,13 +16,6 @@ text in orange
 # text in gray
 ```
 
-## Bugs 🐛:
-```diff
-+ No bugs known to date
-```
-
----
-
 ## Features
 - Slayer Master jsonify'd data
 - Example code to be able to test any data set.
@@ -32,6 +25,13 @@ __Example__
 ```cmd
 py slayer.py
 ```
+
+## Bugs 🐛:
+```diff
+- If you find any bugs, please create an issue.
++ No bugs known to date
+```
+
 
 ## Data
 
