@@ -44,42 +44,46 @@ konar = slayer_data['Konar quo Maten']
 # Runtime Execution
 # slayer.py 'slayer_master' 'sample_size'
 
+
 def evaluate_assignment(dict_x):
     for i in dict_x['Assignments']:
         print('==', i, '==')
         if 'UnlockRequirements' in dict_x['Assignments'][i]:
             for i in dict_x['Assignments'][i]['UnlockRequirements']:
                 if i == 'Slayer':
-                    var=0
+                    var = 0
                 if i == 'Combat':
-                    var=0
+                    var = 0
                 if i == 'Quests':
-                    var=0
+                    var = 0
                 if i == 'partialQuests':
-                    var=0
+                    var = 0
         else:  # Krystilia else statement, none of her tasks have requirements.
+            var = 0
+
 
 def test(*args):
     print(args)
     args = args[0]
-    if len(args) == 0:
-        args = [10]
-        random_master = random.randint(0, 7)
-        args[0] = masters.get(random_master, "Invalid Number")
-        dict_x = slayer_data[args[0]]
-        sample_size = 100000
 
-    else:
+    random_master = random.randint(0, 7)
+    master_name = masters.get(random_master, "Invalid Number")
+    dict_x = slayer_data[master_name]
+    sample_size = 10000
 
-        args[0] = masters.get(int(args[0]), "Invalid Number")
-        dict_x = slayer_data[args[0]]
-        sample_size = int(args[1])
+    if len(args) > 0:
+        master_name = masters.get(int(args[0]), "Invalid Number")
+        dict_x = slayer_data[master_name]
+        sample_size = 10000
+        if len(args) > 1:
+            sample_size = int(args[1])
+     
 
     # Creating our data based on our sample size
 
     # Paths for saving data
-    figure_path = './Images/'+args[0]+str(count['counter'])+'.png'
-    data_path = './Data/'+args[0]+str(count['counter'])+'.json'
+    figure_path = './Images/'+master_name+str(count['counter'])+'.png'
+    data_path = './Data/'+master_name+str(count['counter'])+'.json'
 
     # Get Total Weight from master
     total_slayer_weight = dict_x['TotalWeight'] 
@@ -118,7 +122,7 @@ def test(*args):
     plt.bar(objects, performance, align='center', alpha=0.5, color='red')
     plt.xticks(y_pos, objects, rotation=90, fontsize=6)
     plt.xlabel('Monster')
-    plt.title(args[0])
+    plt.title(master_name)
     plt.show()
     plt.savefig(figure_path)
 
