@@ -4,7 +4,6 @@ from numpy.random import choice
 import matplotlib.pyplot as plt
 import sys
 import random
-print(sys.argv)
 
 plt.rcdefaults()
 data_file = "./slayer.json"
@@ -23,7 +22,7 @@ with open(data_file) as json_file:
     slayer_data = json.load(json_file)
 
 # Masters
-masters = {0: "Tureal",
+masters = {0: "Turael",
            1: "Mazchna",
            2: "Vannaka",
            3: "Chaelder",
@@ -40,9 +39,34 @@ duradel_assignments = slayer_data['Duradel']['Assignments']
 krystilia = slayer_data['Krystilia']
 chae = slayer_data['Chaelder']
 konar = slayer_data['Konar quo Maten']
-
+turael = slayer_data['Turael']
 # Runtime Execution
 # slayer.py 'slayer_master' 'sample_size'
+
+
+def get_doable_assignments(input_slayer_level):
+    doable_tasks = {}
+    for m in slayer_data:
+        # m = master
+        doable_tasks[m]={}
+        doable_tasks[m]['Assignments']={}
+        for t in slayer_data[m]['Assignments'].items():
+            # t= task
+
+            if 'UnlockRequirements' in slayer_data[m]['Assignments'][t[0]]:
+                if 'Slayer' in slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']:
+                    if input_slayer_level >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
+                        print('higher : ',input_slayer_level,' vs ',slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer'])
+                        doable_tasks[m]['Assignments'].update({t[0]: t[1]})
+                else:
+                    doable_tasks[m]['Assignments'].update({t[0]: t[1]})
+            else:
+                print('no requirements for task:', t[0])
+                doable_tasks[m]['Assignments'].update({t[0]: t[1]})
+                    # doable_tasks.update({ doable_tasks[m]['Assignments']: a})
+    
+    with open('doable.json', 'w') as outfile:
+        json.dump(doable_tasks, outfile)
 
 
 def evaluate_assignment(dict_x):
@@ -63,21 +87,19 @@ def evaluate_assignment(dict_x):
 
 
 def test(*args):
-    print(args)
-    args = args[0]
 
+    args = args[0]
     random_master = random.randint(0, 7)
-    master_name = masters.get(random_master, "Invalid Number")
+    master_name = masters.get(random_master, "Indoable Number")
     dict_x = slayer_data[master_name]
     sample_size = 10000
 
     if len(args) > 0:
-        master_name = masters.get(int(args[0]), "Invalid Number")
+        master_name = masters.get(int(args[0]), "Indoable Number")
         dict_x = slayer_data[master_name]
-        sample_size = 10000
+
         if len(args) > 1:
             sample_size = int(args[1])
-     
 
     # Creating our data based on our sample size
 
@@ -86,7 +108,7 @@ def test(*args):
     data_path = './Data/'+master_name+str(count['counter'])+'.json'
 
     # Get Total Weight from master
-    total_slayer_weight = dict_x['TotalWeight'] 
+    total_slayer_weight = dict_x['TotalWeight']
 
     assign_names = []
     weight_array = []
@@ -131,37 +153,6 @@ def test(*args):
         json.dump(assign_counter_dict, outfile)
 
 
-test(sys.argv[1:])
+get_doable_assignments(56)
 
-# for j in slayer_data:
-#     # for h in i['Assignments']:
-#     #     var=0
-#     print(j+": "+str(len(slayer_data[j]['Assignments'])))
-#     assign_names = []
-#     weight_array = []
-#     assign_counter_dict = {}
-#     for l in slayer_data[j]['Assignments']:
-#         assign_names.append(l)
-#         weight_array.append((slayer_data[j]['Assignments'][l]['Weight'] /
-#                             slayer_data[j]['TotalWeight']))
-#         assign_counter_dict.update({l: 0})
-#     sample_size = 100000
-#     for k in range(0, sample_size):
-#         rnd = choice(assign_names, p=weight_array)
-#         assign_counter_dict.update({rnd: assign_counter_dict[rnd]+1})
-#     performance = []
-#     objects = []
-#     for m in assign_counter_dict:
-#         print(m, assign_counter_dict[m])
-#         performance.append(assign_counter_dict[m])
-#         objects.append(m)
-#     y_pos = np.arange(len(assign_counter_dict))
-#     plt.bar(y_pos, performance, align='center', alpha=0.5, color='red')
-#     plt.xticks(y_pos, objects, rotation=90, fontsize=6)
-#     plt.xlabel('Assignment')
-#     plt.ylabel('Amount of Assignments')
-#     plt.title(j)
-
-#     plt.show()
-#     with open('./Data/'+j+'.json', 'w') as outfile:
-#         json.dump(assign_counter_dict, outfile)
+# test(sys.argv[1:])

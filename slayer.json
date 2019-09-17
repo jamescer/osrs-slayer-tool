@@ -4573,7 +4573,7 @@
                 "Amount": "110",
                 "ExtendedAmount": "200-250",
                 "UnlockRequirements": {
-                    "Slayer ": 80,
+                    "Slayer": 80,
                     "Combat": 85
                 },
                 "Alternatives": {
