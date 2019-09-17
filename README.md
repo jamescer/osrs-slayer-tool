@@ -1,11 +1,11 @@
-## osrs-slayer-json-data
+## Slayer Tool
 [![Patreon](https://img.shields.io/badge/Patreon-5cb85c.svg)](https://www.patreon.com/user/creators?u=24528346)   [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/Slayer-Tool/badge.svg)](https://coveralls.io/github/cerniglj1/Slayer-Tool)   [![Maintainability](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/maintainability)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/test_coverage)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/test_coverage)
 ### by James Cerniglia
 
 ## Example Usage
 
 ```diff
-- Master IDs
+! Master IDs
 + 0: Tureal
 + 1: Mazchna
 + 2: Vannaka
@@ -19,22 +19,18 @@
 Command line format:
 <Directory where the python file is>py slayer.py [slayer_master_ID] [Sample_Size]
 
-```cmd
+```zsh
 C:\Users\cerniglj1\Desktop\Slayer-Tool>py slayer.py
 C:\Users\cerniglj1\Desktop\Slayer-Tool>py slayer.py 1 
 C:\Users\cerniglj1\Desktop\Slayer-Tool>py slayer.py 1 9999
 ```
 
+## Bugs 🐛:
 ```diff
-- text in red
-+ slayer.py - python file to use the slayer.json file
-! slayer.json- Old School Runescape's Slayer Master Data file. 
-! Contains all useful information about Slayer Masters.
-# text in gray
+- If you find any bugs, please create an issue.
++ No bugs known to date
 ```
 
-
-## Bugs 🐛:
 
 ## Data
 
