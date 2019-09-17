@@ -35,6 +35,11 @@ C:\Users\cerniglj1\Desktop\Slayer-Tool>py slayer.py 1 9999
 
 
 ## Bugs 🐛:
+```diff
+- If you find any bugs, please create an issue.
++ No bugs known to date
+```
+
 
 ## Data
 
