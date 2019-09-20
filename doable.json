@@ -294,7 +294,8 @@
                 ],
                 "Weight": 8
             }
-        }
+        },
+        "TotalWeight": 172
     },
     "Mazchna": {
         "Assignments": {
@@ -650,7 +651,8 @@
                 ],
                 "Weight": 6
             }
-        }
+        },
+        "TotalWeight": 217
     },
     "Vannaka": {
         "Assignments": {
@@ -1301,7 +1303,8 @@
                 ],
                 "Weight": 8
             }
-        }
+        },
+        "TotalWeight": 346
     },
     "Chaelder": {
         "Assignments": {
@@ -1803,7 +1806,8 @@
                 ],
                 "Weight": 10
             }
-        }
+        },
+        "TotalWeight": 291
     },
     "Duradel": {
         "Assignments": {
@@ -2166,7 +2170,8 @@
                 ],
                 "Weight": 8
             }
-        }
+        },
+        "TotalWeight": 171
     },
     "Nieve": {
         "Assignments": {
@@ -2554,7 +2559,8 @@
                 ],
                 "Weight": 3
             }
-        }
+        },
+        "TotalWeight": 158
     },
     "Krystilia": {
         "Assignments": {
@@ -3154,7 +3160,8 @@
                 },
                 "Weight": 8
             }
-        }
+        },
+        "TotalWeight": 156
     },
     "Konar quo Maten": {
         "Assignments": {
@@ -3677,6 +3684,7 @@
                 ],
                 "Weight": 3
             }
-        }
+        },
+        "TotalWeight": 150
     }
 }

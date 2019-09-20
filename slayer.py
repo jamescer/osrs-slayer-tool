@@ -4,10 +4,13 @@ from numpy.random import choice
 import matplotlib.pyplot as plt
 import sys
 import random
-
+from hiscores import Hiscores
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 plt.rcdefaults()
 data_file = "./slayer.json"
 increment_file = "./counter.json"
+account = 0
 
 # Counter File for incrementation
 with open(increment_file) as json_file:
@@ -48,23 +51,34 @@ def get_doable_assignments(input_slayer_level):
     doable_tasks = {}
     for m in slayer_data:
         # m = master
-        doable_tasks[m]={}
-        doable_tasks[m]['Assignments']={}
+        doable_tasks[m] = {}
+        doable_tasks[m]['Assignments'] = {}
+        sum1 = 0
         for t in slayer_data[m]['Assignments'].items():
             # t= task
-
+            addTask = True
             if 'UnlockRequirements' in slayer_data[m]['Assignments'][t[0]]:
                 if 'Slayer' in slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']:
-                    if input_slayer_level >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
-                        print('higher : ',input_slayer_level,' vs ',slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer'])
-                        doable_tasks[m]['Assignments'].update({t[0]: t[1]})
-                else:
-                    doable_tasks[m]['Assignments'].update({t[0]: t[1]})
+                    if account.skills['slayer'].level >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
+                        print('higher : ', account.skills['slayer'].level, ' vs ',
+                              slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer'])
+                        addTask = True
+                    else:
+                        addTask = False
+                if 'Combat' in slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']:
+                    if account.combat >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
+                        addTask = True
+                    else:
+                        addTask = False
             else:
                 print('no requirements for task:', t[0])
+
+            if addTask:
                 doable_tasks[m]['Assignments'].update({t[0]: t[1]})
-                    # doable_tasks.update({ doable_tasks[m]['Assignments']: a})
-    
+                sum1 = sum1+slayer_data[m]['Assignments'][t[0]]['Weight']
+
+        doable_tasks[m]['TotalWeight'] = sum1
+
     with open('doable.json', 'w') as outfile:
         json.dump(doable_tasks, outfile)
 
@@ -153,6 +167,46 @@ def test(*args):
         json.dump(assign_counter_dict, outfile)
 
 
-get_doable_assignments(56)
-
 # test(sys.argv[1:])
+
+
+def get_cb_lvl(acc):
+    x = [0.325*(acc.skills['attack'].level + acc.skills['strength'].level), 0.325 *
+         (int(3 * acc.skills['ranged'].level / 2)), 0.325*(int(3 * acc.skills['magic'].level / 2))]
+    x.sort()
+
+    return int(0.25 * (acc.skills['defence'].level +
+                       acc.skills['hitpoints'].level + (acc.skills['prayer'].level/2)) + x[-1])
+
+
+def get_help():
+    print(Fore.CYAN+'    == Current List of implemented commands ==')
+    print(Fore.BLUE + '\"-doable\"'+Fore.GREEN +
+          '     - Gets all the doable tasks at your current slayer level')
+    print(Fore.BLUE + '\"-g\"'+Fore.GREEN +
+          '          - Generates graphs based on tasks you\'re available to get')
+    print(Fore.BLUE + '\"-g -nolimit\"'+Fore.GREEN +
+          ' - Generates graphs at level 99 slayer all quests unlocked')
+    print(Fore.BLUE + '\"-doable\"'+Fore.GREEN +
+          '     - Gets all the doable tasks at your current slayer level')
+
+
+def start(arr):
+    if len(arr) >= 1:
+        command = arr[0]
+        if command == '-cmd':
+            get_help()
+        else:
+            ACCOUNT = arr[0].replace('_', ' ')
+            global account
+            account = Hiscores(ACCOUNT)
+            account.combat = get_cb_lvl(account)
+        
+
+
+if len(sys.argv) > 1:
+    start(sys.argv[1:])
+else:
+    print(Fore.GREEN+'No command line arguments given, try:')
+    print('py slayer.py '+Fore.BLUE+'\"user_name\" (use _ for spaces) '+Fore.RED+'\"command\" ' +
+          Fore.WHITE+'- '+Fore.YELLOW+'Need help? do  py slayer.py -cmd')
