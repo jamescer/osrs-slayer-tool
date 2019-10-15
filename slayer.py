@@ -21,14 +21,18 @@ class SlayerTool(object):
     username = ''
     combat_level = 0
     count = {}
-    with open(data_file) as json_file:
-        slayer_data = json.load(json_file)
+    slayer_data = {}
 
     def __init__(self, **kwargs):
+        with open(data_file) as json_file:
+            self.slayer_data = json.load(json_file)
+
         self.account = Hiscores(
             kwargs['username']) if 'username' in kwargs.keys() else Hiscores('Lynx Titan')
+
         self.username = kwargs['username'] if 'username' in kwargs.keys(
         ) else 'Lynx Titan'
+
         self.combat_level = self.get_cb_lvl(self.account)
 
         # Counter File for incrementation
@@ -59,33 +63,21 @@ class SlayerTool(object):
 
     def get_doable_assignments(self, input_slayer_level):
         doable_tasks = {}
-        for m in slayer_data:
+        for m in self.slayer_data:
+            print(m)
             # m = master
             doable_tasks[m] = {}
             doable_tasks[m]['Assignments'] = {}
             sum1 = 0
-            for t in slayer_data[m]['Assignments'].items():
+            for task in self.slayer_data[m]['Assignments'].items():
                 # t= task
-                addTask = True
-                if 'UnlockRequirements' in slayer_data[m]['Assignments'][t[0]]:
-                    if 'Slayer' in slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']:
-                        if account.skills['slayer'].level >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
-                            print('higher : ', account.skills['slayer'].level, ' vs ',
-                                  slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer'])
-                            addTask = True
-                        else:
-                            addTask = False
-                    if 'Combat' in slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']:
-                        if account.combat >= slayer_data[m]['Assignments'][t[0]]['UnlockRequirements']['Slayer']:
-                            addTask = True
-                        else:
-                            addTask = False
-                else:
-                    print('no requirements for task:', t[0])
+                addTask = self.evaluate_assignment(
+                    self.slayer_data[m], task)
 
                 if addTask:
-                    doable_tasks[m]['Assignments'].update({t[0]: t[1]})
-                    sum1 = sum1+slayer_data[m]['Assignments'][t[0]]['Weight']
+                    doable_tasks[m]['Assignments'].update({task[0]: task[1]})
+                    sum1 = sum1 + \
+                        self.slayer_data[m]['Assignments'][task[0]]['Weight']
 
             doable_tasks[m]['TotalWeight'] = sum1
 
@@ -208,25 +200,8 @@ class SlayerTool(object):
         return int(0.25 * (acc.skills['defence'].level +
                            acc.skills['hitpoints'].level + (acc.skills['prayer'].level/2)) + x[-1])
 
-    def get_help(self):
-        print(Fore.CYAN+'    == Current List of implemented commands ==')
-        print(Fore.BLUE + '\"-doable\"'+Fore.GREEN +
-              '     - Gets all the doable tasks at your current slayer level')
-        print(Fore.BLUE + '\"-g\"'+Fore.GREEN +
-              '          - Generates graphs based on tasks you\'re available to get')
-        print(Fore.BLUE + '\"-g -nolimit\"'+Fore.GREEN +
-              ' - Generates graphs at level 99 slayer all quests unlocked')
-        print(Fore.BLUE + '\"-doable\"'+Fore.GREEN +
-              '     - Gets all the doable tasks at your current slayer level')
-
     def __str__(self):
         global author
         stringify = ' == Slayer Tool Developed by '+author+' ==\n \
                     Current methods inside of the Slayer Tool'
         return super().__str__()
-    if len(sys.argv) > 1:
-        start(sys.argv[1:])
-    else:
-        print(Fore.GREEN+'No command line arguments given, try:')
-        print('py slayer.py '+Fore.BLUE+'\"user_name\" (use _ for spaces) '+Fore.RED+'\"command\" ' +
-              Fore.WHITE+'- '+Fore.YELLOW+'Need help? do  py slayer.py -cmd')

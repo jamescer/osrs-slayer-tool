@@ -1,14 +1,20 @@
 
+
 language: python
-repo_token: GzdJ33Hc2nHGJefrUIeLJt8v2fOyjvgND
+branches:
+  only:
+  - master
 python:
   - "3.7"
 cache: pip
+env:
+  global:
+    - CC_TEST_REPORTER_ID=4700197b8114dbcdacaf089f5a7efdb731d6d068d97dc33794bf36be7536435c
 install:
   - pip install -r requirements.txt
 # command to run tests
 script:
   - python example.py
-  - pytest --cov=./
-after_success:
+  - coverage run --source=./ example.py
   - coveralls
+
