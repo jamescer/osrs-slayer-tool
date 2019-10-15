@@ -61,10 +61,10 @@ class SlayerTool(object):
         with open(self.increment_file, 'w') as outfile:
             json.dump(self.count, outfile)
 
-    def get_doable_assignments(self, input_slayer_level):
+    def get_doable_assignments(self):
         doable_tasks = {}
         for m in self.slayer_data:
-            print(m)
+            
             # m = master
             doable_tasks[m] = {}
             doable_tasks[m]['Assignments'] = {}
@@ -72,7 +72,7 @@ class SlayerTool(object):
             for task in self.slayer_data[m]['Assignments'].items():
                 # t= task
                 addTask = self.evaluate_assignment(
-                    self.slayer_data[m], task)
+                   self.slayer_data[m], task)
 
                 if addTask:
                     doable_tasks[m]['Assignments'].update({task[0]: task[1]})
@@ -99,7 +99,7 @@ class SlayerTool(object):
                         pass
                     else:
                         doable = False
-                if i != 'or' and i != 'Combat' and i != 'Quests' and i != 'partialQuests':
+                if i != 'or' and i != 'Combat' and i != 'Quests' and i != 'partialQuests' and i != 'SlayerRewards':
                     # any skill but those
                     if self.account.skills[i.lower()].level >= dict_x['Assignments'][assignment]['UnlockRequirements'][i]:
                         pass
@@ -139,9 +139,6 @@ class SlayerTool(object):
             print("Wrong master")
             return
         # Creating our data based on our sample size
-        # Paths for saving data
-        figure_path = './Images/'+master_name+str(self.count['counter'])+'.png'
-        data_path = './Data/'+master_name+str(self.count['counter'])+'.json'
 
         # Get Total Weight from master
         total_slayer_weight = dict_x['TotalWeight']
@@ -178,6 +175,12 @@ class SlayerTool(object):
             performance.append(assign_counter_dict[i])
             objects.append(i)
 
+        # Paths for saving data
+        figure_save_folder = './Images/'+master_name + \
+            str(self.count['counter'])+'.png'
+        data_save_folder = './Data/'+master_name + \
+            str(self.count['counter'])+'.json'
+
         # Creating actual figure
         y_pos = np.arange(len(assign_counter_dict))
         plt.bar(objects, performance, align='center',
@@ -186,10 +189,10 @@ class SlayerTool(object):
         plt.xlabel('Monster')
         plt.title(master_name)
         plt.show()
-        plt.savefig(figure_path)
+        plt.savefig(figure_save_folder)
 
         # Saves data to a json if the user wants to see the data and use it for something else.
-        with open(data_path, 'w') as outfile:
+        with open(data_save_folder, 'w') as outfile:
             json.dump(assign_counter_dict, outfile)
 
     def get_cb_lvl(self, acc):

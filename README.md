@@ -121,6 +121,7 @@ For Example:
 
 
 ## Thank yous
-- All the wonderful people on my that helped construct the https://oldschool.runescape.wiki/ !
+- Thank you to everyone who contributed to the https://oldschool.runescape.wiki/ !
+- 
 
 
