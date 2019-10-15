@@ -19,7 +19,7 @@ class SlayerTool(object):
     increment_file = "./counter.json"
     account = 0
     combat_level = 0
-
+    count={}
     with open(data_file) as json_file:
         slayer_data = json.load(json_file)
 
@@ -61,7 +61,7 @@ class SlayerTool(object):
         '''
         Reset counter for file outputs
         '''
-        self.count = 0
+        self.count.update({'counter': 0})
         with open(self.increment_file, 'w') as outfile:
             json.dump(self.count, outfile)
 
