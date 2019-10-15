@@ -98,18 +98,19 @@ class SlayerTool(object):
         Dict_x = [dictionary]: dictionary of the master that has the task being evaluated
         assignment = [string]: name of the monster to be keyed from the dicitionary
         '''
+        doable = True
         if 'UnlockRequirements' in dict_x['Assignments'][assignment]:
             doable = True
             for i in dict_x['Assignments'][assignment]['UnlockRequirements']:
                 if i == 'Combat':
                     if self.combat_level >= dict_x['Assignments'][assignment]['UnlockRequirements']['Combat']:
-                        doable = True
+                        pass
                     else:
                         doable = False
                 if i != 'or' and i != 'Combat' and i != 'Quests' and i != 'partialQuests':
                     # any skill but those
                     if self.account.skills[i.lower()].level >= dict_x['Assignments'][assignment]['UnlockRequirements'][i]:
-                        doable = True
+                        pass
                     else:
                         doable = False
                 if i == 'Quests':
