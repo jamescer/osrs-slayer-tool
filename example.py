@@ -1,10 +1,7 @@
 from slayer import SlayerTool
 
-st = SlayerTool()
+tr = SlayerTool()
+print(tr.username)
 
-st.create_graph()
+tr.create_graph(master_name='Krystilia' )
 
-# st.create_graph('Vannaka', 'jimbo jango')
-# 
-# st.create_graph(4, 'jimbo jango')
-# st.create_graph(5)

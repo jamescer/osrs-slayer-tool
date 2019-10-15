@@ -18,18 +18,19 @@ class SlayerTool(object):
     data_file = "./slayer.json"
     increment_file = "./counter.json"
     account = 0
+    username = ''
     combat_level = 0
-    count={}
+    count = {}
     with open(data_file) as json_file:
         slayer_data = json.load(json_file)
 
-    def __init__(self, *args):
-        if len(args) > 1:
-            self.account = Hiscores(args[0])
-            self.combat_level = self.get_cb_lvl(self.account)
-        else:
-            self.account = Hiscores('Lynx Titan')
-            self.combat_level = self.get_cb_lvl(self.account)
+    def __init__(self, **kwargs):
+        self.account = Hiscores(
+            kwargs['username']) if 'username' in kwargs.keys() else Hiscores('Lynx Titan')
+        self.username = kwargs['username'] if 'username' in kwargs.keys(
+        ) else 'Lynx Titan'
+        self.combat_level = self.get_cb_lvl(self.account)
+
         # Counter File for incrementation
         with open(self.increment_file) as json_file:
             self.count = json.load(json_file)
@@ -41,15 +42,6 @@ class SlayerTool(object):
     # Masters
     masters = {0: "Turael", 1: "Mazchna", 2: "Vannaka", 3: "Chaelder",
                4: "Duradel", 5: "Nieve", 6: "Krystilia", 7: "Konar quo Maten"}
-
-    # Master assignment data initialization
-    vannaka_assignments = slayer_data['Vannaka']
-    nieve_assignments = slayer_data['Nieve']
-    duradel_assignments = slayer_data['Duradel']
-    krystilia = slayer_data['Krystilia']
-    chaelder = slayer_data['Chaelder']
-    konar = slayer_data['Konar quo Maten']
-    turael = slayer_data['Turael']
 
     def set_account(self, x):
         '''
@@ -101,63 +93,59 @@ class SlayerTool(object):
             json.dump(doable_tasks, outfile)
 
     def evaluate_assignment(self, dict_x, assignment):
-
+        '''
+        Returns True or False whether the attached account fulfills all the requirements for the said assignment
+        Dict_x = [dictionary]: dictionary of the master that has the task being evaluated
+        assignment = [string]: name of the monster to be keyed from the dicitionary
+        '''
         if 'UnlockRequirements' in dict_x['Assignments'][assignment]:
-            print(dict_x['Assignments'][assignment]['UnlockRequirements'])
+            doable = True
             for i in dict_x['Assignments'][assignment]['UnlockRequirements']:
-                if i == 'Slayer':
-                    if self.account.skills['slayer'].level >= dict_x['Assignments'][assignment]['UnlockRequirements']['Slayer']:
-                        doable = True
-                    else:
-                        doable = False
                 if i == 'Combat':
                     if self.combat_level >= dict_x['Assignments'][assignment]['UnlockRequirements']['Combat']:
                         doable = True
                     else:
                         doable = False
-                if i != 'or' or 'Combat' or 'Quests' or 'partialQuests':
+                if i != 'or' and i != 'Combat' and i != 'Quests' and i != 'partialQuests':
                     # any skill but those
-                    todo=0
+                    if self.account.skills[i.lower()].level >= dict_x['Assignments'][assignment]['UnlockRequirements'][i]:
+                        doable = True
+                    else:
+                        doable = False
                 if i == 'Quests':
                     # TODO
-                    have_not_implemented_quest_checking=0
+                    have_not_implemented_quest_checking = 0
                 if i == 'partialQuests':
                      # TODO
-                    have_not_implemented_quest_checking=0
+                    have_not_implemented_quest_checking = 0
+            return doable
         else:  # Krystilia else statement, none of her tasks have requirements.
             var = 0
+            return doable
 
-    def create_graph(self, *args):
+    def create_graph(self, **kwargs):
         '''
         Creates graph based on input variables
         args[0] = Slayer master ('0' or 'Vannaka')          default: random
         args[1] = sample size                               default: 1000
         args[2] = username or level ('jimbo jango' or '65') default: 99
         '''
+        try:
+            default_sample_size = 1000
+            default_master_name = self.masters.get(random.randint(
+                0, len(self.masters)-1), "Please either use the name of the master or an integer from the dictionary"+str(self.masters))
+            default_dict_x = self.slayer_data[default_master_name]
 
-        master_name = self.masters.get(random.randint(
-            0, len(self.masters)-1), "Please either use the name of the master or an integer from the dictionary"+str(self.masters))
-        dict_x = self.slayer_data[master_name]
-        sample_size = 1000
-        if len(args) > 0:
-            # can either use "0" for Tureal or 'Vannaka' for respected slayer master
-
-            if isinstance(args[0], str):
-                master_name = args[0]
-                dict_x = self.slayer_data[args[0]]
-
-            elif isinstance(args[0], int):
-                master_name = self.masters.get(int(
-                    args[0]), "Please either use the name of the master or an integer from the dictionary : "+str(self.masters))
-                dict_x = self.slayer_data[master_name]
-
-            # Default sample size is 1000 but they can set it with one more number
-            if len(args) > 1:
-                if isinstance(args[2], int):
-                    sample_size = int(args[1])
-
+            master_name = kwargs['master_name'] if 'master_name'in kwargs.keys(
+            ) and isinstance(kwargs['master_name'], str) else default_master_name
+            dict_x = self.slayer_data[kwargs['master_name']
+                                      ] if 'master_name'in kwargs.keys() and isinstance(kwargs['master_name'], str) else default_dict_x
+            sample_size = kwargs['sample_size'] if 'sample_size' in kwargs.keys(
+            ) else default_sample_size
+        except Exception as e:
+            print("Wrong master")
+            return
         # Creating our data based on our sample size
-
         # Paths for saving data
         figure_path = './Images/'+master_name+str(self.count['counter'])+'.png'
         data_path = './Data/'+master_name+str(self.count['counter'])+'.json'
@@ -199,7 +187,8 @@ class SlayerTool(object):
 
         # Creating actual figure
         y_pos = np.arange(len(assign_counter_dict))
-        plt.bar(objects, performance, align='center', alpha=0.5, color='red')
+        plt.bar(objects, performance, align='center',
+                alpha=0.5, color='red')
         plt.xticks(y_pos, objects, rotation=90, fontsize=6)
         plt.xlabel('Monster')
         plt.title(master_name)

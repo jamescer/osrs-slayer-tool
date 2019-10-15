@@ -1,5 +1,6 @@
 
 language: python
+repo_token: GzdJ33Hc2nHGJefrUIeLJt8v2fOyjvgND
 python:
   - "3.7"
 cache: pip
@@ -8,3 +9,6 @@ install:
 # command to run tests
 script:
   - python example.py
+  - pytest --cov=./
+after_success:
+  - coveralls
