@@ -1,9 +1,7 @@
 from slayer import SlayerTool
-
+import sys
 tr = SlayerTool()
-print(tr.username)
-
-tr.create_graph(master_name='Krystilia')
+print(tr)
 
 
 # tr.get_doable_assignments(99)

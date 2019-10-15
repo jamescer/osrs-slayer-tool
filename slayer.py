@@ -24,7 +24,7 @@ class SlayerTool(object):
     slayer_data = {}
 
     def __init__(self, **kwargs):
-        with open(data_file) as json_file:
+        with open(self.data_file) as json_file:
             self.slayer_data = json.load(json_file)
 
         self.account = Hiscores(
@@ -153,7 +153,7 @@ class SlayerTool(object):
         for i in dict_x['Assignments']:
 
             x = self.evaluate_assignment(dict_x, i)
-            print(x)
+            
             assign_names.append(i)
             # print(i, " : ", dict_x['Assignments'][i]['Weight']) # prints the task with the weight.
 
@@ -200,8 +200,10 @@ class SlayerTool(object):
         return int(0.25 * (acc.skills['defence'].level +
                            acc.skills['hitpoints'].level + (acc.skills['prayer'].level/2)) + x[-1])
 
+    def __repr__(self):
+        return self.__str__()
+
     def __str__(self):
         global author
-        stringify = ' == Slayer Tool Developed by '+author+' ==\n \
-                    Current methods inside of the Slayer Tool'
-        return super().__str__()
+
+        return ' == Slayer Tool Developed by '+author+' ==\n Current methods inside of the Slayer Tool'
