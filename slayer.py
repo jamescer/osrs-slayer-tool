@@ -153,7 +153,7 @@ class SlayerTool(object):
         for i in dict_x['Assignments']:
 
             x = self.evaluate_assignment(dict_x, i)
-            
+
             assign_names.append(i)
             # print(i, " : ", dict_x['Assignments'][i]['Weight']) # prints the task with the weight.
 
@@ -206,4 +206,4 @@ class SlayerTool(object):
     def __str__(self):
         global author
 
-        return ' == Slayer Tool Developed by '+author+' ==\n Current methods inside of the Slayer Tool'
+        return ' == Slayer Tool Developed by '+author+' ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.account)
