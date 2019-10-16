@@ -1302,9 +1302,108 @@
                     "None"
                 ],
                 "Weight": 8
+            },
+            "Aberrant spectres": {
+                "Amount": "60-120",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "Deviant spectres"
+                ],
+                "Weight": 8
+            },
+            "Spiritual creatures": {
+                "Amount": "60-120",
+                "ExtendedAmount": "180 - 250",
+                "UnlockRequirements": {
+                    "Slayer": 63,
+                    "Combat": 60,
+                    "Quests": [
+                        "Death Plateau"
+                    ],
+                    "or": {
+                        "Strength": 60,
+                        "Agility": 60
+                    }
+                },
+                "Alternatives": [
+                    "Spiritual ranger",
+                    "warrior",
+                    "mage"
+                ],
+                "Weight": 8
+            },
+            "Dust devils": {
+                "Amount": "60-120",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Kurask": {
+                "Amount": "60-120",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Gargoyles": {
+                "Amount": "60-120",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 5
+            },
+            "Nechryael": {
+                "Amount": "60-120",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Greater Nechryael"
+                ],
+                "Weight": 5
+            },
+            "Abyssal demons": {
+                "Amount": "60-120",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Abyssal Sire"
+                ],
+                "Weight": 5
             }
         },
-        "TotalWeight": 346
+        "TotalWeight": 392
     },
     "Chaelder": {
         "Assignments": {
@@ -1805,9 +1904,193 @@
                     "None"
                 ],
                 "Weight": 10
+            },
+            "Mutated zygomites": {
+                "Amount": "8-15",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": [
+                    "Ancient Zygomite"
+                ],
+                "Weight": 7
+            },
+            "Cave horror": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 58,
+                    "Combat": 85,
+                    "Quests": [
+                        "Cabin Fever"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Aberrant spectres": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "Deviant spectres"
+                ],
+                "Weight": 8
+            },
+            "Wyrm": {
+                "Amount": "60-120",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Spiritual creatures": {
+                "Amount": "110-170",
+                "ExtendedAmount": "180-250",
+                "UnlockRequirements": {
+                    "Slayer": 63,
+                    "Combat": 60,
+                    "Quests": [
+                        "Death Plateau"
+                    ],
+                    "or": {
+                        "Agility": 60,
+                        "Strength": 60
+                    }
+                },
+                "Alternatives": [
+                    "Spiritual ranger(63 Slayer )",
+                    "warrior(68 Slayer )",
+                    "mage(83 Slayer )"
+                ],
+                "Weight": 12
+            },
+            "Dust devils": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 9
+            },
+            "Fossil Island Wyverns": {
+                "Amount": "10-20",
+                "ExtendedAmount": "55-75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage"
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting, taloned and long-tailed wyvern (66 Slayer)",
+                    "Ancient Wyvern (82 Slayer)"
+                ],
+                "Weight": 7
+            },
+            "Kurask": {
+                "Amount": "110-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 12
+            },
+            "Skeletal Wyverns": {
+                "Amount": "10-20",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat": 70,
+                    "Quests": [
+                        "Elemental Workshop I"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Gargoyles": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 11
+            },
+            "Nechryael": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Greater Nechryael"
+                ],
+                "Weight": 12
+            },
+            "Abyssal demons": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Abyssal sire"
+                ],
+                "Weight": 12
+            },
+            "Cave kraken": {
+                "Amount": "30-50",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 12
             }
         },
-        "TotalWeight": 291
+        "TotalWeight": 416
     },
     "Duradel": {
         "Assignments": {
@@ -2169,9 +2452,235 @@
                     "Reanimated Bloodveld"
                 ],
                 "Weight": 8
+            },
+            "Mutated Zygomites": {
+                "Amount": "20-30",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": [
+                    "Ancient Zygomite"
+                ],
+                "Weight": 2
+            },
+            "Cave horrors": {
+                "Amount": "130-200",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Quests": [
+                        "Cabin Fever"
+                    ],
+                    "Slayer": 58,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 4
+            },
+            "Aberrant spectre": {
+                "Amount": "130-200",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "Deviant spectre"
+                ],
+                "Weight": 7
+            },
+            "Wyrms": {
+                "Amount": "100-160",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Spiritual creatures": {
+                "Amount": "130-200",
+                "ExtendedAmount": "180-250",
+                "UnlockRequirements": {
+                    "Slayer": 63,
+                    "Combat": 60,
+                    "Quests": [
+                        "Death Plateau"
+                    ],
+                    "or": {
+                        "Strength": 60,
+                        "Agility": 60
+                    }
+                },
+                "Alternatives": [
+                    "Spiritual ranger",
+                    "Spiritual warrior",
+                    "Spiritual mage"
+                ],
+                "Weight": 7
+            },
+            "Dust devils": {
+                "Amount": "130-200",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Fossil Island Wyverns": {
+                "Amount": "20-60",
+                "ExtendedAmount": "55 - 75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage "
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting",
+                    "taloned",
+                    "long - tailed",
+                    "wyvern",
+                    "Ancient Wyvern"
+                ],
+                "Weight": 5
+            },
+            "Kurask": {
+                "Amount": "130-200",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 4
+            },
+            "Skeletal Wyverns": {
+                "Amount": "20-40",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat": 70,
+                    "Quests": [
+                        "Elemental Workshop I"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Gargoyles": {
+                "Amount": "130-200",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 8
+            },
+            "Nechryael": {
+                "Amount": "130-250",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Greater Nechryael"
+                ],
+                "Weight": 9
+            },
+            "Drakes": {
+                "Amount": "50-110",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 84
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 8
+            },
+            "Abyssal demon": {
+                "Amount": "130-200",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Abyssal Sire",
+                    "Reanimated abyssal"
+                ],
+                "Weight": 12
+            },
+            "Cave kraken": {
+                "Amount": "100-120",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 9
+            },
+            "Dark beasts": {
+                "Amount": "10-20",
+                "ExtendedAmount": "100 - 150",
+                "UnlockRequirements": {
+                    "Combat": 90,
+                    "Slayer": 90,
+                    "partialQuests": [
+                        "Mourning's End Part II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 11
+            },
+            "Smoke devils": {
+                "Amount": "130-200",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 93,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Thermonuclear smoke devil"
+                ],
+                "Weight": 9
             }
         },
-        "TotalWeight": 171
+        "TotalWeight": 286
     },
     "Nieve": {
         "Assignments": {
@@ -2558,9 +3067,235 @@
                     "None"
                 ],
                 "Weight": 3
+            },
+            "Mutated Zygomites": {
+                "Amount": "10-25",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": [
+                    "Ancient Zygomite"
+                ],
+                "Weight": 2
+            },
+            "Cave horror": {
+                "Amount": "120-180",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 58,
+                    "Combat": 85,
+                    "Quests": [
+                        "Cabin Fever"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Aberrant spectre": {
+                "Amount": "120-185",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "Deviant spectres"
+                ],
+                "Weight": 6
+            },
+            "Wyrms": {
+                "Amount": "80-145",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Spiritual creatures": {
+                "Amount": "120-185",
+                "ExtendedAmount": "180-250",
+                "UnlockRequirements": {
+                    "Slayer": 63,
+                    "Combat": 60,
+                    "Quests": [
+                        "Death Plateau"
+                    ],
+                    "or": {
+                        "Strength": 60,
+                        "Agility": 60
+                    }
+                },
+                "Alternatives": [
+                    "Spiritual ranger",
+                    "warrior",
+                    "mage"
+                ],
+                "Weight": 6
+            },
+            "Dust devils": {
+                "Amount": "120-185",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "partialQuests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Fossil Island Wyverns": {
+                "Amount": "20-60",
+                "ExtendedAmount": "55-75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage"
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting",
+                    "taloned",
+                    "long-tailed",
+                    "wyvern",
+                    "Ancient Wyvern"
+                ],
+                "Weight": 5
+            },
+            "Kurask": {
+                "Amount": "120-185",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 3
+            },
+            "Skeletal Wyverns": {
+                "Amount": "5-15",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat": 70,
+                    "Quests": [
+                        "Elemental Workshop I "
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Gargoyles": {
+                "Amount": "120-185",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 6
+            },
+            "Nechryael": {
+                "Amount": "110-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Greater Nechryael"
+                ],
+                "Weight": 7
+            },
+            "Drakes": {
+                "Amount": "30-95",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 84
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 7
+            },
+            "Abyssal demon": {
+                "Amount": "120-185",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Abyssal Sire",
+                    "Reanimated abyssal"
+                ],
+                "Weight": 9
+            },
+            "Cave kraken": {
+                "Amount": "100-120",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 6
+            },
+            "Dark beasts": {
+                "Amount": "10-20",
+                "ExtendedAmount": "100-150",
+                "UnlockRequirements": {
+                    "Slayer": 90,
+                    "Combat": 90,
+                    "partialQuests": [
+                        "Mourning 's End Part II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Smoke devil": {
+                "Amount": "120-185",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 93,
+                    "Combat": 85
+                },
+                "Alternatives": [
+                    "Thermonuclear smoke devil"
+                ],
+                "Weight": 7
             }
         },
-        "TotalWeight": 158
+        "TotalWeight": 250
     },
     "Krystilia": {
         "Assignments": {
@@ -3683,8 +4418,268 @@
                     "None"
                 ],
                 "Weight": 3
+            },
+            "Mutated Zygomites": {
+                "Locations": [
+                    "Fossil Island",
+                    "Zanaris"
+                ],
+                "Amount": "10-25",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 57,
+                    "Combat": 60,
+                    "Quests": [
+                        "Lost City"
+                    ]
+                },
+                "Alternatives": {
+                    "Fossil Island": [
+                        "Ancient Zygomite(completion of Bone Voyage required)"
+                    ]
+                },
+                "Weight": 2
+            },
+            "Aberrant spectres": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Slayer Tower",
+                    "Stronghold Slayer Cave"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 60,
+                    "Combat": 65
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Deviant spectre"
+                    ]
+                },
+                "Weight": 6
+            },
+            "Wyrms": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-190",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 62
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Dust devils": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Smoke Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 65,
+                    "Combat": 70,
+                    "Quests": [
+                        "Desert Treasure"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 6
+            },
+            "Fossil Island Wyverns": {
+                "Locations": [
+                    "Wyvern Cave"
+                ],
+                "Amount": "15-30",
+                "ExtendedAmount": "55-75",
+                "UnlockRequirements": {
+                    "Slayer": 66,
+                    "Combat": 60,
+                    "Quests": [
+                        "Bone Voyage"
+                    ]
+                },
+                "Alternatives": [
+                    "Spitting,taloned and long - tailed wyvern(66 Slayer required)",
+                    "Ancient Wyvern(82 Slayer required)"
+                ],
+                "Weight": 5
+            },
+            "Kurasks": {
+                "Locations": [
+                    "Fremennik Slayer Dungeon",
+                    "Iorwerth Dungeon"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 70,
+                    "Combat": 65
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 3
+            },
+            "Skeletal Wyverns": {
+                "Locations": [
+                    "Asgarnian Ice Dungeon"
+                ],
+                "Amount": "5-12",
+                "ExtendedAmount": "50-70",
+                "UnlockRequirements": {
+                    "Slayer": 72,
+                    "Combat ": 70,
+                    "Quests": [
+                        "Elemental Workshop I"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Gargoyles": {
+                "Locations": [
+                    "Slayer Tower"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 75,
+                    "Combat": 80,
+                    "Quests": [
+                        "Priest in Peril"
+                    ]
+                },
+                "Alternatives": [
+                    "Grotesque Guardians"
+                ],
+                "Weight": 6
+            },
+            "Nechryael": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Iorwerth Dungeon",
+                    "Slayer Tower"
+                ],
+                "Amount": "110",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 80,
+                    "Combat": 85
+                },
+                "Alternatives": {
+                    "Catacombs of Kourend": [
+                        "Greater Nechryael"
+                    ]
+                },
+                "Weight": 7
+            },
+            "Drakes": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-140",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 84
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 10
+            },
+            "Abyssal demons": {
+                "Locations": [
+                    "Catacombs of Kourend",
+                    "Abyssal Area",
+                    "Slayer Tower"
+                ],
+                "Amount": "120-170",
+                "ExtendedAmount": "200-250",
+                "UnlockRequirements": {
+                    "Slayer": 85,
+                    "Combat": 85
+                },
+                "Alternatives": {
+                    "Abyssal Area": [
+                        "Abyssal Sire"
+                    ]
+                },
+                "Weight": 9
+            },
+            "Cave kraken": {
+                "Locations": [
+                    "Kraken Cove"
+                ],
+                "Amount": "80-100",
+                "ExtendedAmount": "150-200",
+                "UnlockRequirements": {
+                    "Slayer": 87,
+                    "Combat": 80,
+                    "Magic": 50
+                },
+                "Alternatives": [
+                    "Kraken"
+                ],
+                "Weight": 9
+            },
+            "Dark beasts": {
+                "Locations": [
+                    "Mourner Tunnels",
+                    "Iorwerth Dungeon"
+                ],
+                "Amount": "10-15",
+                "ExtendedAmount": "100-150",
+                "UnlockRequirements": {
+                    "Slayer": 90,
+                    "Combat": 90,
+                    "partialQuests": [
+                        "Mourning 's End Part II"
+                    ]
+                },
+                "Alternatives": [
+                    "None"
+                ],
+                "Weight": 5
+            },
+            "Smoke devils": {
+                "Locations": [
+                    "Smoke Devil Dungeon"
+                ],
+                "Amount": "120-170 ",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 93,
+                    "Combat": 75
+                },
+                "Alternatives": [
+                    "Thermonuclear smoke devil"
+                ],
+                "Weight": 7
+            },
+            "Hydras": {
+                "Locations": [
+                    "Karuulm Slayer Dungeon"
+                ],
+                "Amount": "125-190",
+                "ExtendedAmount": "N/A",
+                "UnlockRequirements": {
+                    "Slayer": 95
+                },
+                "Alternatives": [
+                    "Alchemical Hydra"
+                ],
+                "Weight": 10
             }
         },
-        "TotalWeight": 150
+        "TotalWeight": 250
     }
 }

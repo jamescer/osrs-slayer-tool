@@ -6,6 +6,7 @@ import sys
 import random
 from hiscores import Hiscores
 from colorama import init, Fore, Back, Style
+import const
 init(autoreset=True)
 plt.rcdefaults()
 author = 'James Cerniglia'
@@ -62,22 +63,26 @@ class SlayerTool(object):
             json.dump(self.count, outfile)
 
     def get_doable_assignments(self):
+        '''
+        Method that gets all doable assignments based on the account currently tied to this object
+        '''
         doable_tasks = {}
         for m in self.slayer_data:
-            
+
             # m = master
             doable_tasks[m] = {}
             doable_tasks[m]['Assignments'] = {}
             sum1 = 0
-            for task in self.slayer_data[m]['Assignments'].items():
-                # t= task
+            for task in self.slayer_data[m]['Assignments']:
+                # evaluates task to see if self.account has requirements to do
                 addTask = self.evaluate_assignment(
-                   self.slayer_data[m], task)
+                    self.slayer_data[m], task)
 
                 if addTask:
-                    doable_tasks[m]['Assignments'].update({task[0]: task[1]})
+                    doable_tasks[m]['Assignments'].update(
+                        {task: self.slayer_data[m]['Assignments'][task]})
                     sum1 = sum1 + \
-                        self.slayer_data[m]['Assignments'][task[0]]['Weight']
+                        self.slayer_data[m]['Assignments'][task]['Weight']
 
             doable_tasks[m]['TotalWeight'] = sum1
 
@@ -90,8 +95,10 @@ class SlayerTool(object):
         Dict_x = [dictionary]: dictionary of the master that has the task being evaluated
         assignment = [string]: name of the monster to be keyed from the dicitionary
         '''
+
         doable = True
         if 'UnlockRequirements' in dict_x['Assignments'][assignment]:
+
             doable = True
             for i in dict_x['Assignments'][assignment]['UnlockRequirements']:
                 if i == 'Combat':
@@ -99,18 +106,31 @@ class SlayerTool(object):
                         pass
                     else:
                         doable = False
-                if i != 'or' and i != 'Combat' and i != 'Quests' and i != 'partialQuests' and i != 'SlayerRewards':
+                if i.lower() in const.SKILLS:
                     # any skill but those
                     if self.account.skills[i.lower()].level >= dict_x['Assignments'][assignment]['UnlockRequirements'][i]:
                         pass
                     else:
                         doable = False
+
+                if i == 'or':
+                    # TODO
+                    have_not_implemented = 0
+                if i == 'SlayerRewards':
+                    # TODO
+                    have_not_implemented = 0
+                if i == 'MiniQuests':
+                    # TODO
+                    have_not_implemented = 0
+                if i == 'Favor':
+                    # TODO
+                    have_not_implemented = 0
                 if i == 'Quests':
                     # TODO
-                    have_not_implemented_quest_checking = 0
+                    have_not_implemented = 0
                 if i == 'partialQuests':
-                     # TODO
-                    have_not_implemented_quest_checking = 0
+                    # TODO
+                    have_not_implemented = 0
             return doable
         else:  # Krystilia else statement, none of her tasks have requirements.
             var = 0
