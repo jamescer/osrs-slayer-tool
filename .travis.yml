@@ -23,5 +23,4 @@ script:
   - codecov --token=8c5a7154-23cc-47b7-8a7d-d94a3d2ec889
   - coverage run --source=./ example.py
   - coveralls
-after_success:
-  - coveralls
+

@@ -13,7 +13,10 @@ class Skill(object):
 
     # xp to next level
     def xp_tnl(self):
-        return const.XP_TABLE[self.level] - self.xp
+        if self.level >= 99:
+            return float('inf')
+        else:
+            return const.XP_TABLE[self.level] - self.xp
 
     def xp_to(self, level):
         return const.XP_TABLE[level - 1] - self.xp

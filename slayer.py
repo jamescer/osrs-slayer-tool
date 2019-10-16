@@ -102,15 +102,11 @@ class SlayerTool(object):
             doable = True
             for i in reqs['UnlockRequirements']:
                 if i == 'Combat':
-                    if self.combat_level >= reqs['UnlockRequirements']['Combat']:
-                        pass
-                    else:
+                    if self.combat_level < reqs['UnlockRequirements']['Combat']:
                         doable = False
                 if i.lower() in const.SKILLS:
                     # any skill inside const.SKILLS array
-                    if self.account.skills[i.lower()].level >= reqs['UnlockRequirements'][i]:
-                        pass
-                    else:
+                    if self.account.skills[i.lower()].level < reqs['UnlockRequirements'][i]:
                         doable = False
                 # These are the conditional outliers I have not implemented
                 if i == 'or':
