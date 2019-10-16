@@ -19,8 +19,9 @@ install:
 # command to run tests
 script:
   - python test_example.py
-  - codecov --token=8c5a7154-23cc-47b7-8a7d-d94a3d2ec889
+  
   - pytest test_example.py
   - coverage run --source=./ test_example.py
   - coveralls
+  - codecov --token=8c5a7154-23cc-47b7-8a7d-d94a3d2ec889
 
