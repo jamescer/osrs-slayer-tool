@@ -1,1 +1,4 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID="4700197b8114dbcdacaf089f5a7efdb731d6d068d97dc33794bf36be7536435c"
 repo_token: GzdJ33Hc2nHGJefrUIeLJt8v2fOyjvgND

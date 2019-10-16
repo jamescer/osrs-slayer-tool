@@ -89,30 +89,30 @@ class SlayerTool(object):
         with open('doable.json', 'w') as outfile:
             json.dump(doable_tasks, outfile)
 
-    def evaluate_assignment(self, dict_x, assignment):
+    def evaluate_assignment(self, Master_dict, assignment):
         '''
         Returns True or False whether the attached account fulfills all the requirements for the said assignment
-        Dict_x = [dictionary]: dictionary of the master that has the task being evaluated
+        Master_dict = [dictionary]: dictionary of the master that has the task being evaluated
         assignment = [string]: name of the monster to be keyed from the dicitionary
         '''
-
+        reqs = Master_dict['Assignments'][assignment]
         doable = True
-        if 'UnlockRequirements' in dict_x['Assignments'][assignment]:
+        if 'UnlockRequirements' in Master_dict['Assignments'][assignment]:
 
             doable = True
-            for i in dict_x['Assignments'][assignment]['UnlockRequirements']:
+            for i in reqs['UnlockRequirements']:
                 if i == 'Combat':
-                    if self.combat_level >= dict_x['Assignments'][assignment]['UnlockRequirements']['Combat']:
+                    if self.combat_level >= reqs['UnlockRequirements']['Combat']:
                         pass
                     else:
                         doable = False
                 if i.lower() in const.SKILLS:
-                    # any skill but those
-                    if self.account.skills[i.lower()].level >= dict_x['Assignments'][assignment]['UnlockRequirements'][i]:
+                    # any skill inside const.SKILLS array
+                    if self.account.skills[i.lower()].level >= reqs['UnlockRequirements'][i]:
                         pass
                     else:
                         doable = False
-
+                # These are the conditional outliers I have not implemented
                 if i == 'or':
                     # TODO
                     have_not_implemented = 0
