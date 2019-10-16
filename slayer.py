@@ -34,7 +34,7 @@ class SlayerTool(object):
         self.username = kwargs['username'] if 'username' in kwargs.keys(
         ) else 'Lynx Titan'
 
-        self.combat_level = self.get_cb_lvl(self.account)
+        self.combat_level = self.get_cb_lvl()
 
         # Counter File for incrementation
         with open(self.increment_file) as json_file:
@@ -191,11 +191,6 @@ class SlayerTool(object):
             performance.append(assign_counter_dict[i])
             objects.append(i)
 
-        # Paths for saving data
-        figure_save_folder = './Images/'+master_name + \
-            str(self.count['counter'])+'.png'
-        data_save_folder = './Data/'+master_name + \
-            str(self.count['counter'])+'.json'
 
         # Creating actual figure
         y_pos = np.arange(len(assign_counter_dict))
@@ -204,20 +199,22 @@ class SlayerTool(object):
         plt.xticks(y_pos, objects, rotation=90, fontsize=6)
         plt.xlabel('Monster')
         plt.title(master_name)
-        plt.show()
-        plt.savefig(figure_save_folder)
+        # plt.show()
+        plt.savefig('./Images/'+master_name + \
+            str(self.count['counter'])+'.png')
 
         # Saves data to a json if the user wants to see the data and use it for something else.
-        with open(data_save_folder, 'w') as outfile:
+        with open('./Data/'+master_name + \
+            str(self.count['counter'])+'.json', 'w') as outfile:
             json.dump(assign_counter_dict, outfile)
 
-    def get_cb_lvl(self, acc):
-        x = [0.325*(acc.skills['attack'].level + acc.skills['strength'].level), 0.325 *
-             (int(3 * acc.skills['ranged'].level / 2)), 0.325*(int(3 * acc.skills['magic'].level / 2))]
+    def get_cb_lvl(self):
+        x = [0.325*(self.account.skills['attack'].level + self.account.skills['strength'].level), 0.325 *
+             (int(3 * self.account.skills['ranged'].level / 2)), 0.325*(int(3 * self.account.skills['magic'].level / 2))]
         x.sort()
 
-        return int(0.25 * (acc.skills['defence'].level +
-                           acc.skills['hitpoints'].level + (acc.skills['prayer'].level/2)) + x[-1])
+        return int(0.25 * (self.account.skills['defence'].level +
+                           self.account.skills['hitpoints'].level + (self.account.skills['prayer'].level/2)) + x[-1])
 
     def __repr__(self):
         return self.__str__()
