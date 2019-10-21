@@ -5,15 +5,14 @@ import matplotlib.pyplot as plt
 import sys
 import random
 from hiscores import Hiscores
-from colorama import init, Fore, Back, Style
 import const
-init(autoreset=True)
+import plotly.express as px
+import pandas as pd
+from pandas.io.json import json_normalize
 plt.rcdefaults()
-author = 'James Cerniglia'
 
-# Runtime Execution
-# slayer.py 'slayer_master' 'sample_size'
 
+# author = 'James Cerniglia'
 
 class SlayerTool(object):
     data_file = "./slayer.json"
@@ -173,37 +172,33 @@ class SlayerTool(object):
 
             weight_array.append((dict_x['Assignments'][i]['Weight'] /
                                  total_slayer_weight))
-            assign_counter_dict.update({i: 0})
+            assign_counter_dict.update({i: {'name': i, 'amount': 0}})
             # print(sum(weight_array))
             sum1 = sum1+dict_x['Assignments'][i]['Weight']
 
-        # print(sum1)# prints the sum of all the weights, should always be equal to the masters total weight.
+        data_canada = px.data.gapminder().query("country == 'Canada'")
 
         for i in range(0, sample_size):
             rnd = choice(assign_names, p=weight_array)
-            assign_counter_dict.update({rnd: assign_counter_dict[rnd]+1})
+            assign_counter_dict[rnd].update(
+                {'name': rnd, 'amount': assign_counter_dict[rnd]['amount']+1})
 
         # # Initializing graph arrays with x and y columns
-        performance = [assign_counter_dict[i] for i in assign_counter_dict]
+        performance = [assign_counter_dict[i]['amount']
+                       for i in assign_counter_dict]
         objects = [i for i in assign_counter_dict]
-        performance = []
-        objects = []
-        
-        # for i in assign_counter_dict:
-        #     # print(i, assign_counter_dict[i]) #prints the assignment ant how many times it was chosen while adding everything to 2 data arrays
-        #     performance.append(assign_counter_dict[i])
-        #     objects.append(i)
 
-        # Creating actual figure
-        y_pos = np.arange(len(assign_counter_dict))
-        plt.bar(objects, performance, align='center',
-                alpha=0.5, color='red')
-        plt.xticks(y_pos, objects, rotation=90, fontsize=6)
-        plt.xlabel('Monster')
-        plt.title(master_name)
-        # plt.show()
-        plt.savefig('./Images/'+master_name +
-                    str(self.count['counter'])+'.png')
+        data = {'Name': objects,
+                'Times Assigned': performance}
+
+        # Create DataFrame
+        df = pd.DataFrame(data)
+        fig = px.bar(df, x='Name', y='Times Assigned',
+                     color='Times Assigned', title=str(master_name)+", N="+str(sample_size),
+                     height=400)
+        show_figure = kwargs['show_figure'] if 'show_figure' in kwargs.keys() else False
+        if show_figure:
+            fig.show()
 
         # Saves data to a json if the user wants to see the data and use it for something else.
         with open('./Data/'+master_name +
@@ -225,3 +220,8 @@ class SlayerTool(object):
         global author
 
         return ' == Slayer Tool Developed by '+author+' ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.account)
+
+
+if __name__ == 'main':
+    tr = SlayerTool(username='jimbo jango')
+    tr.create_graph(master_name='Vannaka', sample_size=1000)
