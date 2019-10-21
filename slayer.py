@@ -149,6 +149,7 @@ class SlayerTool(object):
             ) and isinstance(kwargs['master_name'], str) else default_master_name
             dict_x = self.slayer_data[kwargs['master_name']
                                       ] if 'master_name'in kwargs.keys() and isinstance(kwargs['master_name'], str) else default_dict_x
+
             sample_size = kwargs['sample_size'] if 'sample_size' in kwargs.keys(
             ) else default_sample_size
         except Exception as e:
@@ -183,14 +184,15 @@ class SlayerTool(object):
             assign_counter_dict.update({rnd: assign_counter_dict[rnd]+1})
 
         # # Initializing graph arrays with x and y columns
+        performance = [assign_counter_dict[i] for i in assign_counter_dict]
+        objects = [i for i in assign_counter_dict]
         performance = []
         objects = []
-
-        for i in assign_counter_dict:
-            # print(i, assign_counter_dict[i]) #prints the assignment ant how many times it was chosen while adding everything to 2 data arrays
-            performance.append(assign_counter_dict[i])
-            objects.append(i)
-
+        
+        # for i in assign_counter_dict:
+        #     # print(i, assign_counter_dict[i]) #prints the assignment ant how many times it was chosen while adding everything to 2 data arrays
+        #     performance.append(assign_counter_dict[i])
+        #     objects.append(i)
 
         # Creating actual figure
         y_pos = np.arange(len(assign_counter_dict))
@@ -200,12 +202,12 @@ class SlayerTool(object):
         plt.xlabel('Monster')
         plt.title(master_name)
         # plt.show()
-        plt.savefig('./Images/'+master_name + \
-            str(self.count['counter'])+'.png')
+        plt.savefig('./Images/'+master_name +
+                    str(self.count['counter'])+'.png')
 
         # Saves data to a json if the user wants to see the data and use it for something else.
-        with open('./Data/'+master_name + \
-            str(self.count['counter'])+'.json', 'w') as outfile:
+        with open('./Data/'+master_name +
+                  str(self.count['counter'])+'.json', 'w') as outfile:
             json.dump(assign_counter_dict, outfile)
 
     def get_cb_lvl(self):

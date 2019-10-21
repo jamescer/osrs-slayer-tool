@@ -8,10 +8,13 @@ def test_demo():
     # slayer tool testing
     tr = SlayerTool(username='jimbo jango')
     tr.get_doable_assignments()
-    tr.set_account('not poop')
+    tr.create_graph(master_name='Vannaka', sample_size=1000)
+
+    
     tr.reset_counter()
     tr.create_graph(master_name='sdfsdf', sample_size=1000)
-    tr.create_graph(master_name='Vannaka', sample_size=1000)
+    
+    tr.set_account('not poop')
     print(str(tr),repr(tr))
     
 

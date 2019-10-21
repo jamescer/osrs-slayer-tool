@@ -1,9 +1,25 @@
 ## osrs-slayer-tool
-[![Patreon](https://img.shields.io/badge/Patreon-5cb85c.svg)](https://www.patreon.com/user/creators?u=24528346) [![Build Status](https://travis-ci.org/cerniglj1/osrs-slayer-tool.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-slayer-tool) [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-slayer-tool/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-slayer-tool?branch=master)  [![Maintainability](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/maintainability)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/maintainability) [![codecov](https://codecov.io/gh/cerniglj1/osrs-slayer-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/cerniglj1/osrs-slayer-tool) [![Test Coverage](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/test_coverage)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/test_coverage)
+[![Patreon](https://img.shields.io/badge/Patreon-5cb85c.svg)](https://www.patreon.com/user/creators?u=24528346)   [![Build Status](https://travis-ci.org/cerniglj1/osrs-slayer-tool.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-slayer-tool)   [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-slayer-tool/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-slayer-tool?branch=master)   [![codecov](https://codecov.io/gh/cerniglj1/osrs-slayer-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/cerniglj1/osrs-slayer-tool)   [![Maintainability](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/maintainability)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/maintainability)   [![Test Coverage](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/test_coverage)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/test_coverage)
 
 
-## Example Usage
+## [Example Usage](test_example.py)
 
+```python
+st = SlayerTool(username='jimbo jango')
+st.get_doable_assignments()
+st.create_graph(master_name='Vannaka', sample_size=500)
+st.create_graph(master_name=5, sample_size=9999)
+```
+
+
+
+## Build From Source
+__Windows:__
+```bash
+pip install osrs-slayer-tool
+```
+
+## Master Keys
 ```diff
 ! Master IDs
 + 0: Tureal
@@ -14,15 +30,9 @@
 + 5: Nieve
 + 6: Krystilia
 + 7: Konar quo Maten
-```
+``` 
 
-## Build From Source
-__Windows:__
-```bash
-pip install osrs-slayer-tool
-```
-
-## Bugs 🐛:
+## Bugs:
 ```diff
 - If you find any bugs, please create an issue.
 + No bugs known to date
@@ -39,7 +49,7 @@ See [BACKERS.md](BACKERS.md)
 
 ## Credit
 - Thank you to everyone who contributed to the https://oldschool.runescape.wiki/ !
-- 
+- Whoever made the OSRS
 
 ## [License](LICENSE)
 
