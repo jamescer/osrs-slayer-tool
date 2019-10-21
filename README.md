@@ -7,7 +7,7 @@
 ```python
 st = SlayerTool(username='jimbo jango')
 st.get_doable_assignments()
-st.create_graph(master_name='Vannaka', sample_size=500)
+tr.create_graph(master_name='Vannaka', sample_size=1000, show_figure=True)
 st.create_graph(master_name=5, sample_size=9999)
 ```
 
