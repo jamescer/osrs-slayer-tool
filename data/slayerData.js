@@ -1,9 +1,11 @@
-{
+export default [{
     "Turael": {
-        "totalWeight": 172,
-        "assignments": {
-            "Birds": {
-                "amount": "15-50",
+        "name": "Turael",
+        "assignments": [
+            {
+                "name": "Birds",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 0
                 },
@@ -18,8 +20,10 @@
                 ],
                 "weight": 6
             },
-            "Goblins": {
-                "amount": "15-50",
+            {
+                "name": "Goblins",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 0
                 },
@@ -31,8 +35,10 @@
                 ],
                 "weight": 7
             },
-            "Monkeys": {
-                "amount": "15-50",
+            {
+                "name": "Monkeys",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 0
                 },
@@ -46,8 +52,10 @@
                 ],
                 "weight": 6
             },
-            "Rats": {
-                "amount": "15-50",
+            {
+                "name": "Rats",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 0
                 },
@@ -59,8 +67,10 @@
                 ],
                 "weight": 7
             },
-            "Spiders": {
-                "amount": "15-50",
+            {
+                "name": "Spiders",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 0
                 },
@@ -74,8 +84,10 @@
                 ],
                 "weight": 6
             },
-            "Bats": {
-                "amount": "15-50",
+            {
+                "name": "Bats",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 5
                 },
@@ -85,8 +97,10 @@
                 ],
                 "weight": 7
             },
-            "Cows": {
-                "amount": "15-50",
+            {
+                "name": "Cows",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 5
                 },
@@ -95,8 +109,10 @@
                 ],
                 "weight": 8
             },
-            "Dwarves": {
-                "amount": "15-50",
+            {
+                "name": "Dwarves",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 6
                 },
@@ -107,8 +123,10 @@
                 ],
                 "weight": 7
             },
-            "Minotaurs": {
-                "amount": "10-20",
+            {
+                "name": "Minotaurs",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "combat": 7
                 },
@@ -117,8 +135,10 @@
                 ],
                 "weight": 7
             },
-            "Scorpions": {
-                "amount": "15-50",
+            {
+                "name": "Scorpions",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 7
                 },
@@ -131,8 +151,10 @@
                 ],
                 "weight": 7
             },
-            "Zombies": {
-                "amount": "15-50",
+            {
+                "name": "Zombies",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 10
                 },
@@ -146,8 +168,10 @@
                 ],
                 "weight": 7
             },
-            "Bears": {
-                "amount": "15-50",
+            {
+                "name": "Bears",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 13
                 },
@@ -159,8 +183,10 @@
                 ],
                 "weight": 7
             },
-            "Ghosts": {
-                "amount": "15-50",
+            {
+                "name": "Ghosts",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 13
                 },
@@ -169,8 +195,10 @@
                 ],
                 "weight": 7
             },
-            "Dogs": {
-                "amount": "15-50",
+            {
+                "name": "Dogs",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -181,8 +209,10 @@
                 ],
                 "weight": 7
             },
-            "Kalphites": {
-                "amount": "15-50",
+            {
+                "name": "Kalphites",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -194,8 +224,10 @@
                 ],
                 "weight": 6
             },
-            "Skeletons": {
-                "amount": "15-50",
+            {
+                "name": "Skeletons",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -206,8 +238,10 @@
                 ],
                 "weight": 7
             },
-            "Icefiends": {
-                "amount": "15-50",
+            {
+                "name": "Icefiends",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 20
                 },
@@ -216,8 +250,10 @@
                 ],
                 "weight": 8
             },
-            "Wolves": {
-                "amount": "15-50",
+            {
+                "name": "Wolves",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "combat": 20
                 },
@@ -230,8 +266,10 @@
                 ],
                 "weight": 7
             },
-            "Crawling Hands": {
-                "amount": "15-50",
+            {
+                "name": "Crawling Hands",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "slayer": 5
                 },
@@ -240,8 +278,10 @@
                 ],
                 "weight": 8
             },
-            "Cave bugs": {
-                "amount": "10-20",
+            {
+                "name": "Cave bugs",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "slayer": 7
                 },
@@ -250,8 +290,10 @@
                 ],
                 "weight": 8
             },
-            "Cave crawlers": {
-                "amount": "15-50",
+            {
+                "name": "Cave crawlers",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "slayer": 10,
                     "combat": 10
@@ -261,8 +303,10 @@
                 ],
                 "weight": 8
             },
-            "Banshees": {
-                "amount": "15-50",
+            {
+                "name": "Banshees",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "slayer": 15,
                     "combat": 20
@@ -272,8 +316,10 @@
                 ],
                 "weight": 8
             },
-            "Cave slime": {
-                "amount": "10-20",
+            {
+                "name": "Cave slime",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "slayer": 17,
                     "combat": 15
@@ -283,8 +329,10 @@
                 ],
                 "weight": 8
             },
-            "Lizards": {
-                "amount": "15-50",
+            {
+                "name": "Lizards",
+                "amountMin": 15,
+                "amountMax": 50,
                 "unlockRequirements": {
                     "slayer": 22
                 },
@@ -295,13 +343,16 @@
                 ],
                 "weight": 8
             }
-        }
+        ],
+        "totalWeight": 172
     },
     "Mazchna": {
-        "totalWeight": 217,
-        "assignments": {
-            "Bat": {
-                "amount": "40-70",
+        "name": "Mazchna",
+        "assignments": [
+            {
+                "name": "Bat",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 5
                 },
@@ -310,8 +361,10 @@
                 ],
                 "weight": 7
             },
-            "Scorpion": {
-                "amount": "40-70",
+            {
+                "name": "Scorpion",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 7
                 },
@@ -323,8 +376,10 @@
                 ],
                 "weight": 7
             },
-            "Zombies": {
-                "amount": "40-70",
+            {
+                "name": "Zombies",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 10
                 },
@@ -336,8 +391,10 @@
                 ],
                 "weight": 7
             },
-            "Bears": {
-                "amount": "40-70",
+            {
+                "name": "Bears",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 13
                 },
@@ -349,8 +406,10 @@
                 ],
                 "weight": 6
             },
-            "Ghosts": {
-                "amount": "40-70",
+            {
+                "name": "Ghosts",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 13
                 },
@@ -359,8 +418,10 @@
                 ],
                 "weight": 7
             },
-            "Dogs": {
-                "amount": "40-70",
+            {
+                "name": "Dogs",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -371,8 +432,10 @@
                 ],
                 "weight": 7
             },
-            "Flesh Crawler": {
-                "amount": "15-25",
+            {
+                "name": "Flesh Crawler",
+                "amountMin": 15,
+                "amountMax": 25,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -381,8 +444,10 @@
                 ],
                 "weight": 7
             },
-            "Kalphites": {
-                "amount": "40-70",
+            {
+                "name": "Kalphites",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -394,8 +459,10 @@
                 ],
                 "weight": 6
             },
-            "Skeletons": {
-                "amount": "40-70",
+            {
+                "name": "Skeletons",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -406,8 +473,10 @@
                 ],
                 "weight": 7
             },
-            "Hobgoblins": {
-                "amount": "40-70",
+            {
+                "name": "Hobgoblins",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 20
                 },
@@ -416,8 +485,10 @@
                 ],
                 "weight": 7
             },
-            "Wolves": {
-                "amount": "40-70",
+            {
+                "name": "Wolves",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 20
                 },
@@ -430,8 +501,10 @@
                 ],
                 "weight": 7
             },
-            "Ghouls": {
-                "amount": "10-20",
+            {
+                "name": "Ghouls",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "quests": [
                         "Priest in Peril"
@@ -443,8 +516,10 @@
                 ],
                 "weight": 7
             },
-            "Hill Giants": {
-                "amount": "40-70",
+            {
+                "name": "Hill Giants",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 25
                 },
@@ -454,8 +529,10 @@
                 ],
                 "weight": 7
             },
-            "Shades": {
-                "amount": "40-70",
+            {
+                "name": "Shades",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 30
                 },
@@ -468,8 +545,10 @@
                 ],
                 "weight": 8
             },
-            "Catablepon": {
-                "amount": "20-30",
+            {
+                "name": "Catablepon",
+                "amountMin": 20,
+                "amountMax": 30,
                 "unlockRequirements": {
                     "combat": 35
                 },
@@ -478,8 +557,10 @@
                 ],
                 "weight": 8
             },
-            "Earth warrior": {
-                "amount": "40-70",
+            {
+                "name": "Earth warrior",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 35
                 },
@@ -488,8 +569,10 @@
                 ],
                 "weight": 6
             },
-            "Vampyres": {
-                "amount": "10-20",
+            {
+                "name": "Vampyres",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "combat": 35,
                     "quests": [
@@ -503,8 +586,10 @@
                 ],
                 "weight": 6
             },
-            "Ice warriors": {
-                "amount": "40-70",
+            {
+                "name": "Ice warriors",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "combat": 45
                 },
@@ -513,8 +598,10 @@
                 ],
                 "weight": 7
             },
-            "Crawling Hands": {
-                "amount": "40-70",
+            {
+                "name": "Crawling Hands",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 5
                 },
@@ -523,8 +610,10 @@
                 ],
                 "weight": 8
             },
-            "Cave bugs": {
-                "amount": "10-20",
+            {
+                "name": "Cave bugs",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "slayer": 7
                 },
@@ -533,8 +622,10 @@
                 ],
                 "weight": 8
             },
-            "Cave crawlers": {
-                "amount": "40-70",
+            {
+                "name": "Cave crawlers",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 10,
                     "combat": 10
@@ -544,8 +635,10 @@
                 ],
                 "weight": 8
             },
-            "Banshee": {
-                "amount": "40-70",
+            {
+                "name": "Banshee",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 15,
                     "combat": 10
@@ -555,8 +648,10 @@
                 ],
                 "weight": 8
             },
-            "Cave slime": {
-                "amount": "10-20",
+            {
+                "name": "Cave slime",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "slayer": 17,
                     "combat": 15
@@ -566,8 +661,10 @@
                 ],
                 "weight": 8
             },
-            "Rockslug": {
-                "amount": "40-70",
+            {
+                "name": "Rockslug",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 20,
                     "combat": 20
@@ -577,8 +674,10 @@
                 ],
                 "weight": 8
             },
-            "Lizards": {
-                "amount": "40-70",
+            {
+                "name": "Lizards",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 22
                 },
@@ -589,8 +688,10 @@
                 ],
                 "weight": 8
             },
-            "Cockatrice": {
-                "amount": "40-70",
+            {
+                "name": "Cockatrice",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 25,
                     "combat": 25,
@@ -601,8 +702,10 @@
                 ],
                 "weight": 8
             },
-            "Pyrefiend": {
-                "amount": "40-70",
+            {
+                "name": "Pyrefiend",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 30,
                     "combat": 25
@@ -612,8 +715,10 @@
                 ],
                 "weight": 8
             },
-            "Mogres": {
-                "amount": "40-70",
+            {
+                "name": "Mogres",
+                "amountMin": 40,
+                "amountMax": 70,
                 "unlockRequirements": {
                     "slayer": 32,
                     "combat": 30,
@@ -626,8 +731,10 @@
                 ],
                 "weight": 8
             },
-            "Wall beasts": {
-                "amount": "10-20",
+            {
+                "name": "Wall beasts",
+                "amountMin": 10,
+                "amountMax": 20,
                 "unlockRequirements": {
                     "slayer": 35,
                     "combat": 30,
@@ -638,8 +745,10 @@
                 ],
                 "weight": 7
             },
-            "Killerwatt": {
-                "amount": "30-80",
+            {
+                "name": "Killerwatt",
+                "amountMin": 30,
+                "amountMax": 80,
                 "unlockRequirements": {
                     "slayer": 37,
                     "combat": 50,
@@ -652,14 +761,18 @@
                 ],
                 "weight": 6
             }
-        }
+        ],
+        "totalWeight": 217
     },
     "Vannaka": {
-        "totalWeight": 392,
-        "assignments": {
-            "Kalphites": {
-                "amount": "60 - 120 ",
-                "extendedAmount": null,
+        "name": "Vannaka",
+        "assignments": [
+            {
+                "name": "Kalphites",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -671,9 +784,12 @@
                 ],
                 "weight": 7
             },
-            "Hobgoblins": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Hobgoblins",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 20
                 },
@@ -682,9 +798,12 @@
                 ],
                 "weight": 7
             },
-            "Ghouls": {
-                "amount": "10-40",
-                "extendedAmount": null,
+            {
+                "name": "Ghouls",
+                "amountMin": 10,
+                "amountMax": 40,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 25,
                     "quests": [
@@ -696,9 +815,12 @@
                 ],
                 "weight": 7
             },
-            "Hill Giant": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Hill Giant",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 25
                 },
@@ -708,9 +830,12 @@
                 ],
                 "weight": 7
             },
-            "Shades": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Shades",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 30
                 },
@@ -723,9 +848,12 @@
                 ],
                 "weight": 8
             },
-            "Earth warriors": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Earth warriors",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 35
                 },
@@ -734,9 +862,12 @@
                 ],
                 "weight": 6
             },
-            "Vampyre": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Vampyre",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 35,
                     "quests": [
@@ -750,9 +881,12 @@
                 ],
                 "weight": 7
             },
-            "Ankou": {
-                "amount": "25 - 35 ",
-                "extendedAmount": "90 - 150 ",
+            {
+                "name": "Ankou",
+                "amountMin": 25,
+                "amountMax": 35,
+                "extendedAmountMin": 90,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -761,9 +895,12 @@
                 ],
                 "weight": 7
             },
-            "Moss giant": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Moss giant",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -772,9 +909,12 @@
                 ],
                 "weight": 7
             },
-            "Ogres": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Ogres",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -784,9 +924,12 @@
                 ],
                 "weight": 7
             },
-            "Otherworldly beings": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Otherworldly beings",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 40,
                     "quests": [
@@ -798,9 +941,12 @@
                 ],
                 "weight": 8
             },
-            "Ice warriors": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Ice warriors",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 45
                 },
@@ -809,9 +955,12 @@
                 ],
                 "weight": 7
             },
-            "Crocodile": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Crocodile",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 50
                 },
@@ -820,9 +969,12 @@
                 ],
                 "weight": 6
             },
-            "Ice giants": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Ice giants",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 50
                 },
@@ -831,9 +983,12 @@
                 ],
                 "weight": 7
             },
-            "Green dragons": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Green dragons",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 52,
                     "partialQuests": [
@@ -846,9 +1001,12 @@
                 ],
                 "weight": 6
             },
-            "Lesser demons": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Lesser demons",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -857,9 +1015,12 @@
                 ],
                 "weight": 7
             },
-            "Shadow warriors": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Shadow warriors",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60,
                     "quests": [
@@ -871,9 +1032,12 @@
                 ],
                 "weight": 8
             },
-            "Trolls": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Trolls",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -884,9 +1048,12 @@
                 ],
                 "weight": 7
             },
-            "Werewolf": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Werewolf",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60,
                     "quests": [
@@ -898,9 +1065,12 @@
                 ],
                 "weight": 7
             },
-            "Blue dragons": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Blue dragons",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "partialQuests": [
@@ -914,9 +1084,12 @@
                 ],
                 "weight": 7
             },
-            "Fire giants": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Fire giants",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65
                 },
@@ -925,9 +1098,12 @@
                 ],
                 "weight": 7
             },
-            "Jungle horrors": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Jungle horrors",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "quests": [
@@ -939,9 +1115,12 @@
                 ],
                 "weight": 8
             },
-            "Elves": {
-                "amount": "40-100",
-                "extendedAmount": null,
+            {
+                "name": "Elves",
+                "amountMin": 40,
+                "amountMax": 100,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 70,
                     "partialQuests": [
@@ -954,9 +1133,12 @@
                 ],
                 "weight": 7
             },
-            "Bronze dragons": {
-                "amount": "10-20",
-                "extendedAmount": "30-50",
+            {
+                "name": "Bronze dragons",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 50,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -968,9 +1150,12 @@
                 ],
                 "weight": 7
             },
-            "Dagannoth": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Dagannoth",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -984,9 +1169,12 @@
                 ],
                 "weight": 7
             },
-            "Hellhounds": {
-                "amount": "40-80",
-                "extendedAmount": null,
+            {
+                "name": "Hellhounds",
+                "amountMin": 40,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -997,9 +1185,12 @@
                 ],
                 "weight": 7
             },
-            "Crawling Hands": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Crawling Hands",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 5,
                     "quests": [
@@ -1011,9 +1202,12 @@
                 ],
                 "weight": 6
             },
-            "Cave bugs": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Cave bugs",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 7
                 },
@@ -1022,9 +1216,12 @@
                 ],
                 "weight": 7
             },
-            "Cave crawlers": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Cave crawlers",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 10,
                     "combat": 10
@@ -1034,9 +1231,12 @@
                 ],
                 "weight": 7
             },
-            "Banshees": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Banshees",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 15,
                     "combat": 20
@@ -1046,9 +1246,12 @@
                 ],
                 "weight": 6
             },
-            "Cave slime": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Cave slime",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 17,
                     "combat": 15
@@ -1058,9 +1261,12 @@
                 ],
                 "weight": 7
             },
-            "Rockslugs": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Rockslugs",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 20,
                     "combat": 20
@@ -1070,9 +1276,12 @@
                 ],
                 "weight": 7
             },
-            "Lizards": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Lizards",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 22
                 },
@@ -1083,9 +1292,12 @@
                 ],
                 "weight": 7
             },
-            "Cockatrice": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Cockatrice",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 25,
                     "combat": 25,
@@ -1096,9 +1308,12 @@
                 ],
                 "weight": 8
             },
-            "Pyrefiends": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Pyrefiends",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 30,
                     "combat": 25
@@ -1108,9 +1323,12 @@
                 ],
                 "weight": 8
             },
-            "Mogres": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Mogres",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 32,
                     "combat": 30,
@@ -1123,9 +1341,12 @@
                 ],
                 "weight": 7
             },
-            "Harpie Bug Swarm": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Harpie Bug Swarm",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 33,
                     "combat": 45,
@@ -1136,9 +1357,12 @@
                 ],
                 "weight": 8
             },
-            "Wall beast": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Wall beast",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 35,
                     "combat": 30,
@@ -1149,9 +1373,12 @@
                 ],
                 "weight": 6
             },
-            "Killerwatts": {
-                "amount": "30-80",
-                "extendedAmount": null,
+            {
+                "name": "Killerwatts",
+                "amountMin": 30,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 37,
                     "combat": 50,
@@ -1164,9 +1391,12 @@
                 ],
                 "weight": 6
             },
-            "Molanisk": {
-                "amount": "39-50",
-                "extendedAmount": null,
+            {
+                "name": "Molanisk",
+                "amountMin": 39,
+                "amountMax": 50,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 39,
                     "combat": 50,
@@ -1179,9 +1409,12 @@
                 ],
                 "weight": 7
             },
-            "Basilisks": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Basilisks",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 40,
                     "combat": 40,
@@ -1192,9 +1425,12 @@
                 ],
                 "weight": 8
             },
-            "Sea snakes": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Sea snakes",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 40,
                     "combat": 50,
@@ -1208,9 +1444,12 @@
                 ],
                 "weight": 6
             },
-            "Terror dogs": {
-                "amount": "20-45",
-                "extendedAmount": null,
+            {
+                "name": "Terror dogs",
+                "amountMin": 20,
+                "amountMax": 45,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 40,
                     "combat": 60,
@@ -1223,9 +1462,12 @@
                 ],
                 "weight": 6
             },
-            "Fever spiders": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Fever spiders",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 42,
                     "combat": 40,
@@ -1238,9 +1480,12 @@
                 ],
                 "weight": 7
             },
-            "Infernal Mages": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Infernal Mages",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 45,
                     "combat": 40,
@@ -1253,9 +1498,12 @@
                 ],
                 "weight": 8
             },
-            "Brine rat": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Brine rat",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 47,
                     "combat": 45,
@@ -1268,9 +1516,12 @@
                 ],
                 "weight": 7
             },
-            "Bloodveld": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Bloodveld",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 50,
                     "combat": 50
@@ -1280,9 +1531,12 @@
                 ],
                 "weight": 8
             },
-            "Jellies": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Jellies",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 52,
                     "combat": 57
@@ -1292,9 +1546,12 @@
                 ],
                 "weight": 8
             },
-            "Turoth": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Turoth",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 55,
                     "combat": 60
@@ -1304,9 +1561,12 @@
                 ],
                 "weight": 8
             },
-            "Aberrant spectres": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Aberrant spectres",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 60,
                     "combat": 65
@@ -1316,9 +1576,12 @@
                 ],
                 "weight": 8
             },
-            "Spiritual creatures": {
-                "amount": "60-120",
-                "extendedAmount": "180 - 250",
+            {
+                "name": "Spiritual creatures",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 63,
                     "combat": 60,
@@ -1337,9 +1600,12 @@
                 ],
                 "weight": 8
             },
-            "Dust devils": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Dust devils",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 65,
                     "combat": 70,
@@ -1352,9 +1618,12 @@
                 ],
                 "weight": 8
             },
-            "Kurask": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Kurask",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 70,
                     "combat": 65
@@ -1364,9 +1633,12 @@
                 ],
                 "weight": 7
             },
-            "Gargoyles": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Gargoyles",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 75,
                     "combat": 80,
@@ -1379,9 +1651,12 @@
                 ],
                 "weight": 5
             },
-            "Nechryael": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Nechryael",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 80,
                     "combat": 85
@@ -1391,9 +1666,12 @@
                 ],
                 "weight": 5
             },
-            "Abyssal demons": {
-                "amount": "60-120",
-                "extendedAmount": "200-250",
+            {
+                "name": "Abyssal demons",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 85,
                     "combat": 85
@@ -1403,14 +1681,18 @@
                 ],
                 "weight": 5
             }
-        }
+        ],
+        "totalWeight": 392
     },
     "Chaelder": {
-        "totalWeight": 416,
-        "assignments": {
-            "Aviansies": {
-                "amount": "110-170",
-                "extendedAmount": "130-250",
+        "name": "Chaelder",
+        "assignments": [
+            {
+                "name": "Aviansies",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 130,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Watch the birdy": {
@@ -1426,9 +1708,12 @@
                 ],
                 "weight": 9
             },
-            "Lizardmen": {
-                "amount": "70-90",
-                "extendedAmount": null,
+            {
+                "name": "Lizardmen",
+                "amountMin": 70,
+                "amountMax": 90,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Reptile got ripped": {
@@ -1448,9 +1733,12 @@
                 ],
                 "weight": 8
             },
-            "TzHaar": {
-                "amount": "90-150",
-                "extendedAmount": null,
+            {
+                "name": "TzHaar",
+                "amountMin": 90,
+                "amountMax": 150,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Hot stuff": {
@@ -1464,9 +1752,12 @@
                 ],
                 "weight": 8
             },
-            "Kalphite": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Kalphite",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -1478,9 +1769,12 @@
                 ],
                 "weight": 11
             },
-            "Lesser demons": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Lesser demons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -1489,9 +1783,12 @@
                 ],
                 "weight": 9
             },
-            "Shadow warriors": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Shadow warriors",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60,
                     "quests": [
@@ -1503,9 +1800,12 @@
                 ],
                 "weight": 8
             },
-            "Trolls": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Trolls",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -1516,9 +1816,12 @@
                 ],
                 "weight": 11
             },
-            "Blue dragons": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Blue dragons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "partialQuests": [
@@ -1532,9 +1835,12 @@
                 ],
                 "weight": 8
             },
-            "Fire giant": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Fire giant",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65
                 },
@@ -1543,9 +1849,12 @@
                 ],
                 "weight": 12
             },
-            "Jungle horrors": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Jungle horrors",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "quests": [
@@ -1557,9 +1866,12 @@
                 ],
                 "weight": 10
             },
-            "Elves": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Elves",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 70,
                     "partialQuests": [
@@ -1573,9 +1885,12 @@
                 ],
                 "weight": 8
             },
-            "Bronze dragon": {
-                "amount": "10-20",
-                "extendedAmount": "30-50",
+            {
+                "name": "Bronze dragon",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 50,
                 "unlockRequirements": {
                     "combat": 75,
                     "partialQuests": [
@@ -1587,9 +1902,12 @@
                 ],
                 "weight": 11
             },
-            "Dagannoth": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Dagannoth",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -1603,9 +1921,12 @@
                 ],
                 "weight": 11
             },
-            "Greater demons": {
-                "amount": "110-170",
-                "extendedAmount": "150-250",
+            {
+                "name": "Greater demons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 70
                 },
@@ -1616,9 +1937,12 @@
                 ],
                 "weight": 9
             },
-            "Hellhound": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Hellhound",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -1629,9 +1953,12 @@
                 ],
                 "weight": 9
             },
-            "Black demons": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Black demons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 80
                 },
@@ -1642,9 +1969,12 @@
                 ],
                 "weight": 10
             },
-            "Iron dragon": {
-                "amount": "25-45",
-                "extendedAmount": "60-100",
+            {
+                "name": "Iron dragon",
+                "amountMin": 25,
+                "amountMax": 45,
+                "extendedAmountMin": 60,
+                "extendedAmountMax": 100,
                 "unlockRequirements": {
                     "combat": 80,
                     "partialQuests": [
@@ -1656,9 +1986,12 @@
                 ],
                 "weight": 12
             },
-            "Steel dragon": {
-                "amount": "10-20",
-                "extendedAmount": "40-60",
+            {
+                "name": "Steel dragon",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 85,
                     "partialQuests": [
@@ -1670,9 +2003,12 @@
                 ],
                 "weight": 9
             },
-            "Cave crawler": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Cave crawler",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 10,
                     "combat": 10
@@ -1682,9 +2018,12 @@
                 ],
                 "weight": 5
             },
-            "Banshees": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Banshees",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 12,
                     "combat": 20
@@ -1694,9 +2033,12 @@
                 ],
                 "weight": 5
             },
-            "Cave slimes": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Cave slimes",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 17,
                     "combat": 15
@@ -1706,9 +2048,12 @@
                 ],
                 "weight": 6
             },
-            "Rockslugs": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Rockslugs",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 20,
                     "combat": 20
@@ -1718,9 +2063,12 @@
                 ],
                 "weight": 5
             },
-            "Lizards": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Lizards",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 22
                 },
@@ -1731,9 +2079,12 @@
                 ],
                 "weight": 5
             },
-            "Cockatrice": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Cockatrice",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 25,
                     "combat": 25,
@@ -1744,9 +2095,12 @@
                 ],
                 "weight": 6
             },
-            "Pyrefiends": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Pyrefiends",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 30,
                     "combat": 25
@@ -1756,9 +2110,12 @@
                 ],
                 "weight": 6
             },
-            "Mogre": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Mogre",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 32,
                     "combat": 30,
@@ -1771,9 +2128,12 @@
                 ],
                 "weight": 6
             },
-            "Harpie Bug Swarms": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Harpie Bug Swarms",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 33,
                     "combat": 45,
@@ -1784,9 +2144,12 @@
                 ],
                 "weight": 6
             },
-            "Wall beast": {
-                "amount": "10-20",
-                "extendedAmount": null,
+            {
+                "name": "Wall beast",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 35,
                     "combat": 30,
@@ -1797,9 +2160,12 @@
                 ],
                 "weight": 6
             },
-            "Molanisk": {
-                "amount": "39-50",
-                "extendedAmount": null,
+            {
+                "name": "Molanisk",
+                "amountMin": 39,
+                "amountMax": 50,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 39,
                     "combat": 50,
@@ -1812,9 +2178,12 @@
                 ],
                 "weight": 6
             },
-            "Basilisks": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Basilisks",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 40,
                     "combat": 40,
@@ -1825,9 +2194,12 @@
                 ],
                 "weight": 7
             },
-            "Fever spider": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Fever spider",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 42,
                     "combat": 40,
@@ -1840,9 +2212,12 @@
                 ],
                 "weight": 7
             },
-            "Infernal Mages": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Infernal Mages",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 45,
                     "combat": 40,
@@ -1855,9 +2230,12 @@
                 ],
                 "weight": 7
             },
-            "Brine rat": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Brine rat",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 47,
                     "combat": 45,
@@ -1870,9 +2248,12 @@
                 ],
                 "weight": 7
             },
-            "Bloodveld": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Bloodveld",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 50,
                     "combat": 50
@@ -1882,9 +2263,12 @@
                 ],
                 "weight": 8
             },
-            "Jellies": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Jellies",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 52,
                     "combat": 57
@@ -1894,9 +2278,12 @@
                 ],
                 "weight": 10
             },
-            "Turoth": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Turoth",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 55,
                     "combat": 60
@@ -1906,9 +2293,12 @@
                 ],
                 "weight": 10
             },
-            "Mutated zygomites": {
-                "amount": "8-15",
-                "extendedAmount": null,
+            {
+                "name": "Mutated zygomites",
+                "amountMin": 8,
+                "amountMax": 15,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 57,
                     "combat": 60,
@@ -1921,9 +2311,12 @@
                 ],
                 "weight": 7
             },
-            "Cave horror": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Cave horror",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 58,
                     "combat": 85,
@@ -1936,9 +2329,12 @@
                 ],
                 "weight": 10
             },
-            "Aberrant spectres": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Aberrant spectres",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 60,
                     "combat": 65
@@ -1948,9 +2344,12 @@
                 ],
                 "weight": 8
             },
-            "Wyrm": {
-                "amount": "60-120",
-                "extendedAmount": null,
+            {
+                "name": "Wyrm",
+                "amountMin": 60,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 62
                 },
@@ -1959,9 +2358,12 @@
                 ],
                 "weight": 6
             },
-            "Spiritual creatures": {
-                "amount": "110-170",
-                "extendedAmount": "180-250",
+            {
+                "name": "Spiritual creatures",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 63,
                     "combat": 60,
@@ -1980,9 +2382,12 @@
                 ],
                 "weight": 12
             },
-            "Dust devils": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Dust devils",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 65,
                     "combat": 70,
@@ -1995,9 +2400,12 @@
                 ],
                 "weight": 9
             },
-            "Fossil Island Wyverns": {
-                "amount": "10-20",
-                "extendedAmount": "55-75",
+            {
+                "name": "Fossil Island Wyverns",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 55,
+                "extendedAmountMax": 75,
                 "unlockRequirements": {
                     "slayer": 66,
                     "combat": 60,
@@ -2011,9 +2419,12 @@
                 ],
                 "weight": 7
             },
-            "Kurask": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Kurask",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 70,
                     "combat": 65
@@ -2023,9 +2434,12 @@
                 ],
                 "weight": 12
             },
-            "Skeletal Wyverns": {
-                "amount": "10-20",
-                "extendedAmount": "50-70",
+            {
+                "name": "Skeletal Wyverns",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 50,
+                "extendedAmountMax": 70,
                 "unlockRequirements": {
                     "slayer": 72,
                     "combat": 70,
@@ -2038,9 +2452,12 @@
                 ],
                 "weight": 7
             },
-            "Gargoyles": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Gargoyles",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 75,
                     "combat": 80,
@@ -2053,9 +2470,12 @@
                 ],
                 "weight": 11
             },
-            "Nechryael": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Nechryael",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 80,
                     "combat": 85
@@ -2065,9 +2485,12 @@
                 ],
                 "weight": 12
             },
-            "Abyssal demons": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Abyssal demons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 85,
                     "combat": 85
@@ -2077,9 +2500,12 @@
                 ],
                 "weight": 12
             },
-            "Cave kraken": {
-                "amount": "30-50",
-                "extendedAmount": "150-200",
+            {
+                "name": "Cave kraken",
+                "amountMin": 30,
+                "amountMax": 50,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "slayer": 87,
                     "combat": 80,
@@ -2090,14 +2516,18 @@
                 ],
                 "weight": 12
             }
-        }
+        ],
+        "totalWeight": 416
     },
     "Duradel": {
-        "totalWeight": 286,
-        "assignments": {
-            "Adamant dragon": {
-                "amount": "4-9",
-                "extendedAmount": "20-30",
+        "name": "Duradel",
+        "assignments": [
+            {
+                "name": "Adamant dragon",
+                "amountMin": 4,
+                "amountMax": 9,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 30,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II"
@@ -2108,9 +2538,12 @@
                 ],
                 "weight": 2
             },
-            "Aviansie": {
-                "amount": "120-200",
-                "extendedAmount": "130-250",
+            {
+                "name": "Aviansie",
+                "amountMin": 120,
+                "amountMax": 200,
+                "extendedAmountMin": 130,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Watch the birdy": {
@@ -2126,10 +2559,13 @@
                 ],
                 "weight": 8
             },
-            "Boss": {
-                "amount": "3-35",
+            {
+                "name": "Boss",
+                "amountMin": 3,
+                "amountMax": 35,
                 "zulrahAmount": "3-15",
-                "extendedAmount": null,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Like a boss": {
@@ -2142,9 +2578,12 @@
                 ],
                 "weight": 12
             },
-            "Lizardmen": {
-                "amount": "130-210",
-                "extendedAmount": null,
+            {
+                "name": "Lizardmen",
+                "amountMin": 130,
+                "amountMax": 210,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Reptile got ripped": {
@@ -2164,9 +2603,12 @@
                 ],
                 "weight": 10
             },
-            "Mithril dragons": {
-                "amount": "5-10",
-                "extendedAmount": "20-40",
+            {
+                "name": "Mithril dragons",
+                "amountMin": 5,
+                "amountMax": 10,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 40,
                 "unlockRequirements": {
                     "MiniQuests": [
                         "Barbarian Training"
@@ -2182,9 +2624,12 @@
                 ],
                 "weight": 9
             },
-            "Rune dragons": {
-                "amount": "3-8",
-                "extendedAmount": "30-60",
+            {
+                "name": "Rune dragons",
+                "amountMin": 3,
+                "amountMax": 8,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II"
@@ -2195,9 +2640,12 @@
                 ],
                 "weight": 2
             },
-            "TzHaar": {
-                "amount": "130-199",
-                "extendedAmount": null,
+            {
+                "name": "TzHaar",
+                "amountMin": 130,
+                "amountMax": 199,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Hot stuff": {
@@ -2211,9 +2659,12 @@
                 ],
                 "weight": 10
             },
-            "Kalphite": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Kalphite",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -2226,9 +2677,12 @@
                 ],
                 "weight": 9
             },
-            "Ankou": {
-                "amount": "50-80",
-                "extendedAmount": "90-150",
+            {
+                "name": "Ankou",
+                "amountMin": 50,
+                "amountMax": 80,
+                "extendedAmountMin": 90,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -2237,9 +2691,12 @@
                 ],
                 "weight": 5
             },
-            "Trolls": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Trolls",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -2251,9 +2708,12 @@
                 ],
                 "weight": 6
             },
-            "Blue dragons": {
-                "amount": "110-170",
-                "extendedAmount": null,
+            {
+                "name": "Blue dragons",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "quests": [
@@ -2267,9 +2727,12 @@
                 ],
                 "weight": 4
             },
-            "Fire giant": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Fire giant",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65
                 },
@@ -2278,9 +2741,12 @@
                 ],
                 "weight": 7
             },
-            "Red dragons": {
-                "amount": "30-65",
-                "extendedAmount": null,
+            {
+                "name": "Red dragons",
+                "amountMin": 30,
+                "amountMax": 65,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 68,
                     "partialQuests": [
@@ -2298,9 +2764,12 @@
                 ],
                 "weight": 8
             },
-            "Elves": {
-                "amount": "100-170",
-                "extendedAmount": null,
+            {
+                "name": "Elves",
+                "amountMin": 100,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 70,
                     "partialQuests": [
@@ -2314,9 +2783,12 @@
                 ],
                 "weight": 4
             },
-            "Dagannoth": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Dagannoth",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -2331,9 +2803,12 @@
                 ],
                 "weight": 9
             },
-            "Greater demons": {
-                "amount": "130-200",
-                "extendedAmount": "150-200",
+            {
+                "name": "Greater demons",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -2344,9 +2819,12 @@
                 ],
                 "weight": 9
             },
-            "Hellhounds": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Hellhounds",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -2357,9 +2835,12 @@
                 ],
                 "weight": 10
             },
-            "Waterfiends": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Waterfiends",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "Misc ": "entered the Ancient Cavern once"
@@ -2369,9 +2850,12 @@
                 ],
                 "weight": 2
             },
-            "Black demons": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Black demons",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 80
                 },
@@ -2383,9 +2867,12 @@
                 ],
                 "weight": 8
             },
-            "Black dragons": {
-                "amount": "10-20",
-                "extendedAmount": "40-60",
+            {
+                "name": "Black dragons",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 80,
                     "partialQuests": [
@@ -2399,9 +2886,12 @@
                 ],
                 "weight": 9
             },
-            "Iron dragons": {
-                "amount": "40-60",
-                "extendedAmount": "60-100",
+            {
+                "name": "Iron dragons",
+                "amountMin": 40,
+                "amountMax": 60,
+                "extendedAmountMin": 60,
+                "extendedAmountMax": 100,
                 "unlockRequirements": {
                     "partialQuests": [
                         "Dragon slayer"
@@ -2413,9 +2903,12 @@
                 ],
                 "weight": 5
             },
-            "Steel dragons": {
-                "amount": "10-20",
-                "extendedAmount": "40-60",
+            {
+                "name": "Steel dragons",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 85,
                     "partialQuests": [
@@ -2427,9 +2920,12 @@
                 ],
                 "weight": 7
             },
-            "Suqah": {
-                "amount": "60-90",
-                "extendedAmount": "180-250",
+            {
+                "name": "Suqah",
+                "amountMin": 60,
+                "amountMax": 90,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "combat": 85,
                 "unlockRequirements": {
                     "partialQuests": [
@@ -2441,9 +2937,12 @@
                 ],
                 "weight": 8
             },
-            "Bloodvelds": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Bloodvelds",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 50,
                     "combat": 50
@@ -2454,9 +2953,12 @@
                 ],
                 "weight": 8
             },
-            "Mutated Zygomites": {
-                "amount": "20-30",
-                "extendedAmount": null,
+            {
+                "name": "Mutated Zygomites",
+                "amountMin": 20,
+                "amountMax": 30,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 57,
                     "combat": 60,
@@ -2469,9 +2971,12 @@
                 ],
                 "weight": 2
             },
-            "Cave horrors": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Cave horrors",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "quests": [
                         "Cabin Fever"
@@ -2484,9 +2989,12 @@
                 ],
                 "weight": 4
             },
-            "Aberrant spectre": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Aberrant spectre",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 60,
                     "combat": 65
@@ -2496,9 +3004,12 @@
                 ],
                 "weight": 7
             },
-            "Wyrms": {
-                "amount": "100-160",
-                "extendedAmount": null,
+            {
+                "name": "Wyrms",
+                "amountMin": 100,
+                "amountMax": 160,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 62
                 },
@@ -2507,9 +3018,12 @@
                 ],
                 "weight": 8
             },
-            "Spiritual creatures": {
-                "amount": "130-200",
-                "extendedAmount": "180-250",
+            {
+                "name": "Spiritual creatures",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 63,
                     "combat": 60,
@@ -2528,9 +3042,12 @@
                 ],
                 "weight": 7
             },
-            "Dust devils": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Dust devils",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 65,
                     "combat": 70,
@@ -2543,9 +3060,12 @@
                 ],
                 "weight": 5
             },
-            "Fossil Island Wyverns": {
-                "amount": "20-60",
-                "extendedAmount": "55 - 75",
+            {
+                "name": "Fossil Island Wyverns",
+                "amountMin": 20,
+                "amountMax": 60,
+                "extendedAmountMin": 55,
+                "extendedAmountMax": 75,
                 "unlockRequirements": {
                     "slayer": 66,
                     "combat": 60,
@@ -2562,9 +3082,12 @@
                 ],
                 "weight": 5
             },
-            "Kurask": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Kurask",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 70,
                     "combat": 65
@@ -2574,9 +3097,12 @@
                 ],
                 "weight": 4
             },
-            "Skeletal Wyverns": {
-                "amount": "20-40",
-                "extendedAmount": "50-70",
+            {
+                "name": "Skeletal Wyverns",
+                "amountMin": 20,
+                "amountMax": 40,
+                "extendedAmountMin": 50,
+                "extendedAmountMax": 70,
                 "unlockRequirements": {
                     "slayer": 72,
                     "combat": 70,
@@ -2589,9 +3115,12 @@
                 ],
                 "weight": 7
             },
-            "Gargoyles": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Gargoyles",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 75,
                     "combat": 80,
@@ -2604,9 +3133,12 @@
                 ],
                 "weight": 8
             },
-            "Nechryael": {
-                "amount": "130-250",
-                "extendedAmount": "200-250",
+            {
+                "name": "Nechryael",
+                "amountMin": 130,
+                "amountMax": 250,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 80,
                     "combat": 85
@@ -2616,9 +3148,12 @@
                 ],
                 "weight": 9
             },
-            "Drakes": {
-                "amount": "50-110",
-                "extendedAmount": null,
+            {
+                "name": "Drakes",
+                "amountMin": 50,
+                "amountMax": 110,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 84
                 },
@@ -2627,9 +3162,12 @@
                 ],
                 "weight": 8
             },
-            "Abyssal demon": {
-                "amount": "130-200",
-                "extendedAmount": "200-250",
+            {
+                "name": "Abyssal demon",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 85,
                     "combat": 85
@@ -2640,9 +3178,12 @@
                 ],
                 "weight": 12
             },
-            "Cave kraken": {
-                "amount": "100-120",
-                "extendedAmount": "150-200",
+            {
+                "name": "Cave kraken",
+                "amountMin": 100,
+                "amountMax": 120,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "slayer": 87,
                     "combat": 80,
@@ -2653,9 +3194,12 @@
                 ],
                 "weight": 9
             },
-            "Dark beasts": {
-                "amount": "10-20",
-                "extendedAmount": "100 - 150",
+            {
+                "name": "Dark beasts",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 100,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "combat": 90,
                     "slayer": 90,
@@ -2668,9 +3212,12 @@
                 ],
                 "weight": 11
             },
-            "Smoke devils": {
-                "amount": "130-200",
-                "extendedAmount": null,
+            {
+                "name": "Smoke devils",
+                "amountMin": 130,
+                "amountMax": 200,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 93,
                     "combat": 85
@@ -2680,14 +3227,18 @@
                 ],
                 "weight": 9
             }
-        }
+        ],
+        "totalWeight": 286
     },
     "Nieve": {
-        "totalWeight": 250,
-        "assignments": {
-            "Rune dragon": {
-                "amount": "3-6",
-                "extendedAmount": "30-60",
+        "name": "Nieve",
+        "assignments": [
+            {
+                "name": "Rune dragon",
+                "amountMin": 3,
+                "amountMax": 6,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II"
@@ -2698,9 +3249,12 @@
                 ],
                 "weight": 2
             },
-            "Adamant dragon": {
-                "amount": "3-7",
-                "extendedAmount": "20-30",
+            {
+                "name": "Adamant dragon",
+                "amountMin": 3,
+                "amountMax": 7,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 30,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II"
@@ -2711,9 +3265,12 @@
                 ],
                 "weight": 2
             },
-            "Aviansie": {
-                "amount": "120-185",
-                "extendedAmount": "130-250",
+            {
+                "name": "Aviansie",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 130,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Watch the bird": {
@@ -2730,10 +3287,13 @@
                 ],
                 "weight": 6
             },
-            "Boss": {
-                "amount": "3-35",
+            {
+                "name": "Boss",
+                "amountMin": 3,
+                "amountMax": 35,
                 "zulrahAmount": "3-15",
-                "extendedAmount": null,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Like a boss ": {
@@ -2746,9 +3306,12 @@
                 ],
                 "weight": 8
             },
-            "Lizardmen": {
-                "amount": "90-120",
-                "extendedAmount": null,
+            {
+                "name": "Lizardmen",
+                "amountMin": 90,
+                "amountMax": 120,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {},
                 "SlayerRewards": {
                     "Reptile got ripped": {
@@ -2767,9 +3330,12 @@
                 ],
                 "weight": 8
             },
-            "Mithril dragons": {
-                "amount": "4-9",
-                "extendedAmount": "20-40",
+            {
+                "name": "Mithril dragons",
+                "amountMin": 4,
+                "amountMax": 9,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 40,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "I hope you mith m": {
@@ -2785,9 +3351,12 @@
                 ],
                 "weight": 5
             },
-            "TzHaar": {
-                "amount": "110-180",
-                "extendedAmount": null,
+            {
+                "name": "TzHaar",
+                "amountMin": 110,
+                "amountMax": 180,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Hot stuf": {
@@ -2801,9 +3370,12 @@
                 ],
                 "weight": 10
             },
-            "Kalphites": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Kalphites",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -2815,9 +3387,12 @@
                 ],
                 "weight": 9
             },
-            "Ankou": {
-                "amount": "50-90",
-                "extendedAmount": "90-150",
+            {
+                "name": "Ankou",
+                "amountMin": 50,
+                "amountMax": 90,
+                "extendedAmountMin": 90,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -2826,9 +3401,12 @@
                 ],
                 "weight": 5
             },
-            "Trolls": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Trolls",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -2839,9 +3417,12 @@
                 ],
                 "weight": 6
             },
-            "Blue dragons": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Blue dragons",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "partialQuests": [
@@ -2855,9 +3436,12 @@
                 ],
                 "weight": 4
             },
-            "Fire giants": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Fire giants",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65
                 },
@@ -2866,9 +3450,12 @@
                 ],
                 "weight": 9
             },
-            "Red dragons": {
-                "amount": "30-80",
-                "extendedAmount": null,
+            {
+                "name": "Red dragons",
+                "amountMin": 30,
+                "amountMax": 80,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 68,
                     "partialQuests": [
@@ -2886,9 +3473,12 @@
                 ],
                 "weight": 5
             },
-            "Elves": {
-                "amount": "60-90",
-                "extendedAmount": null,
+            {
+                "name": "Elves",
+                "amountMin": 60,
+                "amountMax": 90,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 70,
                     "partialQuests": [
@@ -2902,9 +3492,12 @@
                 ],
                 "weight": 4
             },
-            "Dagannoth": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Dagannoth",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -2918,9 +3511,12 @@
                 ],
                 "weight": 8
             },
-            "Greater demons": {
-                "amount": "120-185",
-                "extendedAmount": "150-200",
+            {
+                "name": "Greater demons",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -2931,9 +3527,12 @@
                 ],
                 "weight": 7
             },
-            "Hellhounds": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Hellhounds",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -2944,9 +3543,12 @@
                 ],
                 "weight": 8
             },
-            "Black demons": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Black demons",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 80
                 },
@@ -2958,9 +3560,12 @@
                 ],
                 "weight": 9
             },
-            "Black dragons": {
-                "amount": "10-20",
-                "extendedAmount": "40-60",
+            {
+                "name": "Black dragons",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 80
                 },
@@ -2971,9 +3576,12 @@
                 ],
                 "weight": 6
             },
-            "Iron dragons": {
-                "amount": "30-60",
-                "extendedAmount": "60-100",
+            {
+                "name": "Iron dragons",
+                "amountMin": 30,
+                "amountMax": 60,
+                "extendedAmountMin": 60,
+                "extendedAmountMax": 100,
                 "unlockRequirements": {
                     "combat": 80,
                     "partialQuests": [
@@ -2985,9 +3593,12 @@
                 ],
                 "weight": 5
             },
-            "Minions of Scabaras": {
-                "amount": "30-60",
-                "extendedAmount": "130-170",
+            {
+                "name": "Minions of Scabaras",
+                "amountMin": 30,
+                "amountMax": 60,
+                "extendedAmountMin": 130,
+                "extendedAmountMax": 170,
                 "unlockRequirements": {
                     "combat": 85,
                     "quests": [
@@ -3002,9 +3613,12 @@
                 ],
                 "weight": 4
             },
-            "Steel dragons": {
-                "amount": "30-60",
-                "extendedAmount": "40-60",
+            {
+                "name": "Steel dragons",
+                "amountMin": 30,
+                "amountMax": 60,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 85,
                     "partialQuests": [
@@ -3016,9 +3630,12 @@
                 ],
                 "weight": 5
             },
-            "Suqah": {
-                "amount": "120-185",
-                "extendedAmount": "180-250",
+            {
+                "name": "Suqah",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 85,
                     "partialQuests": [
@@ -3030,9 +3647,12 @@
                 ],
                 "weight": 8
             },
-            "Brine rat": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Brine rat",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 47,
                     "combat": 45,
@@ -3045,9 +3665,12 @@
                 ],
                 "weight": 3
             },
-            "Bloodvelds": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Bloodvelds",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 50,
                     "combat": 50
@@ -3057,9 +3680,12 @@
                 ],
                 "weight": 9
             },
-            "Turoth": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Turoth",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 55,
                     "combat": 60
@@ -3069,9 +3695,12 @@
                 ],
                 "weight": 3
             },
-            "Mutated Zygomites": {
-                "amount": "10-25",
-                "extendedAmount": null,
+            {
+                "name": "Mutated Zygomites",
+                "amountMin": 10,
+                "amountMax": 25,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 57,
                     "combat": 60,
@@ -3084,9 +3713,12 @@
                 ],
                 "weight": 2
             },
-            "Cave horror": {
-                "amount": "120-180",
-                "extendedAmount": "200-250",
+            {
+                "name": "Cave horror",
+                "amountMin": 120,
+                "amountMax": 180,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 58,
                     "combat": 85,
@@ -3099,9 +3731,12 @@
                 ],
                 "weight": 5
             },
-            "Aberrant spectre": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Aberrant spectre",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 60,
                     "combat": 65
@@ -3111,9 +3746,12 @@
                 ],
                 "weight": 6
             },
-            "Wyrms": {
-                "amount": "80-145",
-                "extendedAmount": null,
+            {
+                "name": "Wyrms",
+                "amountMin": 80,
+                "amountMax": 145,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 62
                 },
@@ -3122,9 +3760,12 @@
                 ],
                 "weight": 7
             },
-            "Spiritual creatures": {
-                "amount": "120-185",
-                "extendedAmount": "180-250",
+            {
+                "name": "Spiritual creatures",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 180,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 63,
                     "combat": 60,
@@ -3143,9 +3784,12 @@
                 ],
                 "weight": 6
             },
-            "Dust devils": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Dust devils",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 65,
                     "combat": 70,
@@ -3158,9 +3802,12 @@
                 ],
                 "weight": 6
             },
-            "Fossil Island Wyverns": {
-                "amount": "20-60",
-                "extendedAmount": "55-75",
+            {
+                "name": "Fossil Island Wyverns",
+                "amountMin": 20,
+                "amountMax": 60,
+                "extendedAmountMin": 55,
+                "extendedAmountMax": 75,
                 "unlockRequirements": {
                     "slayer": 66,
                     "combat": 60,
@@ -3177,9 +3824,12 @@
                 ],
                 "weight": 5
             },
-            "Kurask": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Kurask",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 70,
                     "combat": 65
@@ -3189,9 +3839,12 @@
                 ],
                 "weight": 3
             },
-            "Skeletal Wyverns": {
-                "amount": "5-15",
-                "extendedAmount": "50-70",
+            {
+                "name": "Skeletal Wyverns",
+                "amountMin": 5,
+                "amountMax": 15,
+                "extendedAmountMin": 50,
+                "extendedAmountMax": 70,
                 "unlockRequirements": {
                     "slayer": 72,
                     "combat": 70,
@@ -3204,9 +3857,12 @@
                 ],
                 "weight": 5
             },
-            "Gargoyles": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Gargoyles",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 75,
                     "combat": 80,
@@ -3219,9 +3875,12 @@
                 ],
                 "weight": 6
             },
-            "Nechryael": {
-                "amount": "110-170",
-                "extendedAmount": "200-250",
+            {
+                "name": "Nechryael",
+                "amountMin": 110,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 80,
                     "combat": 85
@@ -3231,9 +3890,12 @@
                 ],
                 "weight": 7
             },
-            "Drakes": {
-                "amount": "30-95",
-                "extendedAmount": null,
+            {
+                "name": "Drakes",
+                "amountMin": 30,
+                "amountMax": 95,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 84
                 },
@@ -3242,9 +3904,12 @@
                 ],
                 "weight": 7
             },
-            "Abyssal demon": {
-                "amount": "120-185",
-                "extendedAmount": "200-250",
+            {
+                "name": "Abyssal demon",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 85,
                     "combat": 85
@@ -3255,9 +3920,12 @@
                 ],
                 "weight": 9
             },
-            "Cave kraken": {
-                "amount": "100-120",
-                "extendedAmount": "150-200",
+            {
+                "name": "Cave kraken",
+                "amountMin": 100,
+                "amountMax": 120,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "slayer": 87,
                     "combat": 80,
@@ -3268,9 +3936,12 @@
                 ],
                 "weight": 6
             },
-            "Dark beasts": {
-                "amount": "10-20",
-                "extendedAmount": "100-150",
+            {
+                "name": "Dark beasts",
+                "amountMin": 10,
+                "amountMax": 20,
+                "extendedAmountMin": 100,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "slayer": 90,
                     "combat": 90,
@@ -3283,9 +3954,12 @@
                 ],
                 "weight": 5
             },
-            "Smoke devil": {
-                "amount": "120-185",
-                "extendedAmount": null,
+            {
+                "name": "Smoke devil",
+                "amountMin": 120,
+                "amountMax": 185,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 93,
                     "combat": 85
@@ -3295,13 +3969,16 @@
                 ],
                 "weight": 7
             }
-        }
+        ],
+        "totalWeight": 250
     },
     "Krystilia": {
-        "totalWeight": 156,
-        "assignments": {
-            "Ankou": {
-                "amount": "40-130",
+        "name": "Krystilia",
+        "assignments": [
+            {
+                "name": "Ankou",
+                "amountMin": 40,
+                "amountMax": 130,
                 "CombatLevels": [
                     86,
                     98
@@ -3318,8 +3995,10 @@
                 ],
                 "weight": 6
             },
-            "Aviansie": {
-                "amount": "80-150",
+            {
+                "name": "Aviansie",
+                "amountMin": 80,
+                "amountMax": 150,
                 "CombatLevels": [
                     "69-137"
                 ],
@@ -3334,8 +4013,10 @@
                 ],
                 "weight": 7
             },
-            "Bandits": {
-                "amount": "75-125",
+            {
+                "name": "Bandits",
+                "amountMin": 75,
+                "amountMax": 125,
                 "CombatLevels": [
                     22,
                     34,
@@ -3354,8 +4035,10 @@
                 ],
                 "weight": 4
             },
-            "Bear": {
-                "amount": "50-100",
+            {
+                "name": "Bear",
+                "amountMin": 50,
+                "amountMax": 100,
                 "CombatLevels": [
                     21
                 ],
@@ -3372,8 +4055,10 @@
                 ],
                 "weight": 6
             },
-            "Black demon": {
-                "amount": "100-150",
+            {
+                "name": "Black demon",
+                "amountMin": 100,
+                "amountMax": 150,
                 "CombatLevels": [
                     172,
                     188
@@ -3391,8 +4076,10 @@
                 ],
                 "weight": 7
             },
-            "Black dragon": {
-                "amount": "5-20",
+            {
+                "name": "Black dragon",
+                "amountMin": 5,
+                "amountMax": 20,
                 "CombatLevels": [
                     227,
                     247
@@ -3410,8 +4097,10 @@
                 ],
                 "weight": 4
             },
-            "Chaos druid": {
-                "amount": "50-85",
+            {
+                "name": "Chaos druid",
+                "amountMin": 50,
+                "amountMax": 85,
                 "CombatLevels": [
                     13,
                     129
@@ -3430,8 +4119,10 @@
                 ],
                 "weight": 5
             },
-            "Dark warrior": {
-                "amount": "70-125",
+            {
+                "name": "Dark warrior",
+                "amountMin": 70,
+                "amountMax": 125,
                 "CombatLevels": [
                     8,
                     145
@@ -3448,8 +4139,10 @@
                 ],
                 "weight": 4
             },
-            "Earth warrior": {
-                "amount": "75-130",
+            {
+                "name": "Earth warrior",
+                "amountMin": 75,
+                "amountMax": 130,
                 "CombatLevels": [
                     51
                 ],
@@ -3464,8 +4157,10 @@
                 ],
                 "weight": 6
             },
-            "Ent": {
-                "amount": "35-60",
+            {
+                "name": "Ent",
+                "amountMin": 35,
+                "amountMax": 60,
                 "CombatLevels": [
                     101
                 ],
@@ -3481,8 +4176,10 @@
                 ],
                 "weight": 5
             },
-            "Fire giant": {
-                "amount": "100-150",
+            {
+                "name": "Fire giant",
+                "amountMin": 100,
+                "amountMax": 150,
                 "CombatLevels": [
                     86
                 ],
@@ -3497,8 +4194,10 @@
                 ],
                 "weight": 7
             },
-            "Greater demon": {
-                "amount": "100-150",
+            {
+                "name": "Greater demon",
+                "amountMin": 100,
+                "amountMax": 150,
                 "CombatLevels": [
                     92,
                     104
@@ -3519,8 +4218,10 @@
                 ],
                 "weight": 8
             },
-            "Green dragon": {
-                "amount": "60-100",
+            {
+                "name": "Green dragon",
+                "amountMin": 60,
+                "amountMax": 100,
                 "CombatLevels": [
                     79,
                     88
@@ -3543,8 +4244,10 @@
                 ],
                 "weight": 4
             },
-            "Hellhound": {
-                "amount": "70-123",
+            {
+                "name": "Hellhound",
+                "amountMin": 70,
+                "amountMax": 123,
                 "CombatLevels": [
                     122,
                     136
@@ -3563,8 +4266,10 @@
                 ],
                 "weight": 7
             },
-            "Ice giant": {
-                "amount": "100-160",
+            {
+                "name": "Ice giant",
+                "amountMin": 100,
+                "amountMax": 160,
                 "CombatLevels": [
                     53,
                     67
@@ -3582,8 +4287,10 @@
                 ],
                 "weight": 6
             },
-            "Ice warrior": {
-                "amount": "100-150",
+            {
+                "name": "Ice warrior",
+                "amountMin": 100,
+                "amountMax": 150,
                 "CombatLevels": [
                     57
                 ],
@@ -3598,8 +4305,10 @@
                 ],
                 "weight": 7
             },
-            "Lava dragon": {
-                "amount": "35-60",
+            {
+                "name": "Lava dragon",
+                "amountMin": 35,
+                "amountMax": 60,
                 "CombatLevels": [
                     252
                 ],
@@ -3614,8 +4323,10 @@
                 ],
                 "weight": 3
             },
-            "Lesser demon": {
-                "amount": "80-120",
+            {
+                "name": "Lesser demon",
+                "amountMin": 80,
+                "amountMax": 120,
                 "CombatLevels": [
                     82,
                     94
@@ -3636,8 +4347,10 @@
                 ],
                 "weight": 6
             },
-            "Magic axe": {
-                "amount": "70-125",
+            {
+                "name": "Magic axe",
+                "amountMin": 70,
+                "amountMax": 125,
                 "CombatLevels": [
                     42
                 ],
@@ -3652,8 +4365,10 @@
                 ],
                 "weight": 7
             },
-            "Mammoth": {
-                "amount": "75-125",
+            {
+                "name": "Mammoth",
+                "amountMin": 75,
+                "amountMax": 125,
                 "CombatLevels": [
                     80
                 ],
@@ -3668,8 +4383,10 @@
                 ],
                 "weight": 6
             },
-            "Revenant": {
-                "amount": "40-100",
+            {
+                "name": "Revenant",
+                "amountMin": 40,
+                "amountMax": 100,
                 "CombatLevels": [
                     "7-135"
                 ],
@@ -3684,8 +4401,10 @@
                 ],
                 "weight": 5
             },
-            "Rogue": {
-                "amount": "75-125",
+            {
+                "name": "Rogue",
+                "amountMin": 75,
+                "amountMax": 125,
                 "CombatLevels": [
                     15,
                     135
@@ -3702,8 +4421,10 @@
                 ],
                 "weight": 5
             },
-            "Scorpion": {
-                "amount": "60-100",
+            {
+                "name": "Scorpion",
+                "amountMin": 60,
+                "amountMax": 100,
                 "CombatLevels": [
                     14
                 ],
@@ -3722,8 +4443,10 @@
                 ],
                 "weight": 6
             },
-            "Skeleton": {
-                "amount": "60-100",
+            {
+                "name": "Skeleton",
+                "amountMin": 60,
+                "amountMax": 100,
                 "CombatLevels": [
                     22,
                     25,
@@ -3746,8 +4469,10 @@
                 ],
                 "weight": 5
             },
-            "Spider": {
-                "amount": "60-100",
+            {
+                "name": "Spider",
+                "amountMin": 60,
+                "amountMax": 100,
                 "CombatLevels": [
                     2,
                     27,
@@ -3774,8 +4499,10 @@
                 ],
                 "weight": 6
             },
-            "Spiritual creatures": {
-                "amount": "100-150",
+            {
+                "name": "Spiritual creatures",
+                "amountMin": 100,
+                "amountMax": 150,
                 "CombatLevels": [
                     "120-123"
                 ],
@@ -3792,8 +4519,10 @@
                 ],
                 "weight": 6
             },
-            "Wilderness bosses / demi-bosses": {
-                "amount": "3-35",
+            {
+                "name": "Wilderness bosses / demi-bosses",
+                "amountMin": 3,
+                "amountMax": 35,
                 "bosses": {
                     "Chaos Fanatic": {
                         "CombatLevels": [
@@ -3896,17 +4625,21 @@
                 },
                 "weight": 8
             }
-        }
+        ],
+        "totalWeight": 156
     },
     "Konar quo Maten": {
-        "totalWeight": 250,
-        "assignments": {
-            "Adamant dragons": {
+        "name": "Konar quo Maten",
+        "assignments": [
+            {
+                "name": "Adamant dragons",
                 "locations": [
                     "Lithkren Vault"
                 ],
-                "amount": "3-6",
-                "extendedAmount": "20-30",
+                "amountMin": 3,
+                "amountMax": 6,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 30,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II"
@@ -3917,11 +4650,13 @@
                 ],
                 "weight": 5
             },
-            "Aviansie": {
+            {
+                "name": "Aviansie",
                 "locations": [
                     "God Wars Dungeon"
                 ],
-                "amount": "120-170",
+                "amountMin": 120,
+                "amountMax": 170,
                 "extendedAmount ": "130-250",
                 "unlockRequirements": {
                     "SlayerRewards": {
@@ -3938,10 +4673,13 @@
                 ],
                 "weight": 6
             },
-            "Boss": {
-                "amount": "3-35",
+            {
+                "name": "Boss",
+                "amountMin": 3,
+                "amountMax": 35,
                 "zulrahAmount": "3-15",
-                "extendedAmount": null,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Like a boss": {
@@ -3954,7 +4692,8 @@
                 ],
                 "weight": 8
             },
-            "Lizardmen": {
+            {
+                "name": "Lizardmen",
                 "locations": [
                     "Battlefront",
                     "Lizardman Canyon",
@@ -3962,8 +4701,10 @@
                     "Kebos Swamp(area surrounding Xeric 's Shrine)",
                     "Molch(Lizardman Temple included)"
                 ],
-                "amount": "90-110",
-                "extendedAmount": null,
+                "amountMin": 90,
+                "amountMax": 110,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "Reptile got ripped": {
@@ -3988,12 +4729,15 @@
                 },
                 "weight": 8
             },
-            "Mithril dragons": {
+            {
+                "name": "Mithril dragons",
                 "locations": [
                     "Ancient Cavern"
                 ],
-                "amount": "3-6",
-                "extendedAmount": "20-40",
+                "amountMin": 3,
+                "amountMax": 6,
+                "extendedAmountMin": 20,
+                "extendedAmountMax": 40,
                 "unlockRequirements": {
                     "SlayerRewards": {
                         "I hope you mith me": {
@@ -4009,12 +4753,15 @@
                 ],
                 "weight": 5
             },
-            "Rune dragons": {
+            {
+                "name": "Rune dragons",
                 "locations": [
                     "Lithkren Vault"
                 ],
-                "amount": "3-6",
-                "extendedAmount": "30-60",
+                "amountMin": 3,
+                "amountMax": 6,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "quests": [
                         "Dragon slayer II "
@@ -4025,13 +4772,16 @@
                 ],
                 "weight": 5
             },
-            "Kalphites": {
+            {
+                "name": "Kalphites",
                 "locations": [
                     "Kalphite Lair",
                     "Kalphite Cave"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 15
                 },
@@ -4050,14 +4800,17 @@
                 },
                 "weight": 9
             },
-            "Ankou": {
+            {
+                "name": "Ankou",
                 "locations": [
                     "Stronghold of Security",
                     "Stronghold slayer Dungeon",
                     "Catacombs of Kourend"
                 ],
-                "amount": "50",
-                "extendedAmount": "90-150",
+                "amountMin": 50,
+                "amountMax": 50,
+                "extendedAmountMin": 90,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "combat": 40
                 },
@@ -4066,15 +4819,18 @@
                 ],
                 "weight": 5
             },
-            "Trolls": {
+            {
+                "name": "Trolls",
                 "locations": [
                     "Troll Stronghold",
                     "Keldagrim",
                     "Death Plateau",
                     "South of Mount Quidamortem"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 60
                 },
@@ -4092,15 +4848,18 @@
                 },
                 "weight": 6
             },
-            "Blue dragons": {
+            {
+                "name": "Blue dragons",
                 "locations": [
                     "Ogre Enclave",
                     "Catacombs of Kourend",
                     "Taverley Dungeon",
                     "Myth 's Guild Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65,
                     "partialQuests": [
@@ -4120,7 +4879,8 @@
                 },
                 "weight": 4
             },
-            "Fire giants": {
+            {
+                "name": "Fire giants",
                 "locations": [
                     "Karuulm slayer Dungeon",
                     "Brimhaven Dungeon",
@@ -4128,8 +4888,10 @@
                     "Stronghold slayer Dungeon",
                     "Catacombs of Kourend"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 65
                 },
@@ -4138,15 +4900,18 @@
                 ],
                 "weight": 9
             },
-            "Red dragons": {
+            {
+                "name": "Red dragons",
                 "locations": [
                     "Brimhaven Dungeon",
                     "Catacombs of Kourend",
                     "Forthos Dungeon",
                     "Myth's Guild Dungeon"
                 ],
-                "amount": "30-50",
-                "extendedAmount": null,
+                "amountMin": 30,
+                "amountMax": 50,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 68,
                     "partialQuests": [
@@ -4170,13 +4935,16 @@
                 },
                 "weight": 5
             },
-            "Bronze dragons": {
+            {
+                "name": "Bronze dragons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Brimhaven Dungeon"
                 ],
-                "amount": "30-50",
-                "extendedAmount": "30-50",
+                "amountMin": 30,
+                "amountMax": 50,
+                "extendedAmountMin": 30,
+                "extendedAmountMax": 50,
                 "unlockRequirements": {
                     "combat ": 75,
                     "partialQuests": [
@@ -4188,14 +4956,17 @@
                 ],
                 "weight": 5
             },
-            "Dagannoth": {
+            {
+                "name": "Dagannoth",
                 "locations ": [
                     "Catacombs of Kourend",
                     "Lighthouse",
                     "Waterbirth Island"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75,
                     "quests": [
@@ -4211,15 +4982,18 @@
                 },
                 "weight": 8
             },
-            "Greater demons": {
+            {
+                "name": "Greater demons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Chasm of Fire",
                     "Karuulm slayer Dungeon",
                     "Brimhaven Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "150-200",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -4230,7 +5004,8 @@
                 },
                 "weight": 7
             },
-            "Hellhounds": {
+            {
+                "name": "Hellhounds",
                 "locations": [
                     "Karuulm slayer Dungeon",
                     "Catacombs of Kourend",
@@ -4238,8 +5013,10 @@
                     "Taverley Dungeon",
                     "Witchaven Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -4250,14 +5027,17 @@
                 },
                 "weight": 8
             },
-            "Waterfiends": {
+            {
+                "name": "Waterfiends",
                 "locations": [
                     "Ancient Cavern (partial completion of Barbarian Training required)",
                     "Iorwerth Dungeon",
                     "Kraken Cove"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "combat": 75
                 },
@@ -4266,15 +5046,18 @@
                 ],
                 "weight": 2
             },
-            "Black demons": {
+            {
+                "name": "Black demons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Chasm of Fire",
                     "Taverley Dungeon",
                     "Brimhaven Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "combat": 80
                 },
@@ -4285,15 +5068,18 @@
                 },
                 "weight": 9
             },
-            "Black dragons": {
+            {
+                "name": "Black dragons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Myths' Guild Dungeon",
                     "Evil Chicken's Lair",
                     "Taverley Dungeon"
                 ],
-                "amount": "10-15",
-                "extendedAmount": "40-60",
+                "amountMin": 10,
+                "amountMax": 15,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 80,
                     "partialQuests": [
@@ -4313,13 +5099,16 @@
                 },
                 "weight": 6
             },
-            "Iron dragons": {
+            {
+                "name": "Iron dragons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Brimhaven Dungeon"
                 ],
-                "amount": "30-50",
-                "extendedAmount": "60-100",
+                "amountMin": 30,
+                "amountMax": 50,
+                "extendedAmountMin": 60,
+                "extendedAmountMax": 100,
                 "unlockRequirements": {
                     "combat ": 80,
                     "partialQuests": [
@@ -4331,13 +5120,16 @@
                 ],
                 "weight": 5
             },
-            "Steel dragon": {
+            {
+                "name": "Steel dragon",
                 "locations ": [
                     "Catacombs of Kourend",
                     "Brimhaven Dungeon"
                 ],
-                "amount": "30-50",
-                "extendedAmount": "40-60",
+                "amountMin": 30,
+                "amountMax": 50,
+                "extendedAmountMin": 40,
+                "extendedAmountMax": 60,
                 "unlockRequirements": {
                     "combat": 85,
                     "partialQuests": [
@@ -4349,12 +5141,15 @@
                 ],
                 "weight": 5
             },
-            "Brine rats": {
+            {
+                "name": "Brine rats",
                 "locations": [
                     "Brine Rat Cavern"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 47,
                     "combat": 45,
@@ -4367,7 +5162,8 @@
                 ],
                 "weight": 2
             },
-            "Bloodvelds": {
+            {
+                "name": "Bloodvelds",
                 "locations": [
                     "Catacombs of Kourend",
                     "God Wars Dungeon",
@@ -4375,8 +5171,10 @@
                     "slayer Tower",
                     "Stronghold slayer Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 50,
                     "combat": 50
@@ -4388,13 +5186,16 @@
                 },
                 "weight": 9
             },
-            "Jellies": {
+            {
+                "name": "Jellies",
                 "locations": [
                     "Fremennik slayer Dungeon",
                     "Catacombs of Kourend"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 52,
                     "combat": 57
@@ -4406,12 +5207,15 @@
                 },
                 "weight": 6
             },
-            "Turoth": {
+            {
+                "name": "Turoth",
                 "locations": [
                     "Fremennik slayer Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 55,
                     "combat": 60
@@ -4421,13 +5225,16 @@
                 ],
                 "weight": 3
             },
-            "Mutated Zygomites": {
+            {
+                "name": "Mutated Zygomites",
                 "locations": [
                     "Fossil Island",
                     "Zanaris"
                 ],
-                "amount": "10-25",
-                "extendedAmount": null,
+                "amountMin": 10,
+                "amountMax": 25,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 57,
                     "combat": 60,
@@ -4442,14 +5249,17 @@
                 },
                 "weight": 2
             },
-            "Aberrant spectres": {
+            {
+                "name": "Aberrant spectres",
                 "locations": [
                     "Catacombs of Kourend",
                     "slayer Tower",
                     "Stronghold slayer Cave"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 60,
                     "combat": 65
@@ -4461,12 +5271,15 @@
                 },
                 "weight": 6
             },
-            "Wyrms": {
+            {
+                "name": "Wyrms",
                 "locations": [
                     "Karuulm slayer Dungeon"
                 ],
-                "amount": "125-190",
-                "extendedAmount": null,
+                "amountMin": 125,
+                "amountMax": 190,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 62
                 },
@@ -4475,13 +5288,16 @@
                 ],
                 "weight": 10
             },
-            "Dust devils": {
+            {
+                "name": "Dust devils",
                 "locations": [
                     "Catacombs of Kourend",
                     "Smoke Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 65,
                     "combat": 70,
@@ -4494,12 +5310,15 @@
                 ],
                 "weight": 6
             },
-            "Fossil Island Wyverns": {
+            {
+                "name": "Fossil Island Wyverns",
                 "locations": [
                     "Wyvern Cave"
                 ],
-                "amount": "15-30",
-                "extendedAmount": "55-75",
+                "amountMin": 15,
+                "amountMax": 30,
+                "extendedAmountMin": 55,
+                "extendedAmountMax": 75,
                 "unlockRequirements": {
                     "slayer": 66,
                     "combat": 60,
@@ -4513,13 +5332,16 @@
                 ],
                 "weight": 5
             },
-            "Kurasks": {
+            {
+                "name": "Kurasks",
                 "locations": [
                     "Fremennik slayer Dungeon",
                     "Iorwerth Dungeon"
                 ],
-                "amount": "120-170",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 70,
                     "combat": 65
@@ -4529,12 +5351,15 @@
                 ],
                 "weight": 3
             },
-            "Skeletal Wyverns": {
+            {
+                "name": "Skeletal Wyverns",
                 "locations": [
                     "Asgarnian Ice Dungeon"
                 ],
-                "amount": "5-12",
-                "extendedAmount": "50-70",
+                "amountMin": 5,
+                "amountMax": 12,
+                "extendedAmountMin": 50,
+                "extendedAmountMax": 70,
                 "unlockRequirements": {
                     "slayer": 72,
                     "combat ": 70,
@@ -4547,12 +5372,15 @@
                 ],
                 "weight": 5
             },
-            "Gargoyles": {
+            {
+                "name": "Gargoyles",
                 "locations": [
                     "slayer Tower"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 75,
                     "combat": 80,
@@ -4565,14 +5393,17 @@
                 ],
                 "weight": 6
             },
-            "Nechryael": {
+            {
+                "name": "Nechryael",
                 "locations": [
                     "Catacombs of Kourend",
                     "Iorwerth Dungeon",
                     "slayer Tower"
                 ],
-                "amount": "110",
-                "extendedAmount": "200-250",
+                "amountMin": 110,
+                "amountMax": 110,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 80,
                     "combat": 85
@@ -4584,12 +5415,15 @@
                 },
                 "weight": 7
             },
-            "Drakes": {
+            {
+                "name": "Drakes",
                 "locations": [
                     "Karuulm slayer Dungeon"
                 ],
-                "amount": "125-140",
-                "extendedAmount": null,
+                "amountMin": 125,
+                "amountMax": 140,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 84
                 },
@@ -4598,14 +5432,17 @@
                 ],
                 "weight": 10
             },
-            "Abyssal demons": {
+            {
+                "name": "Abyssal demons",
                 "locations": [
                     "Catacombs of Kourend",
                     "Abyssal Area",
                     "slayer Tower"
                 ],
-                "amount": "120-170",
-                "extendedAmount": "200-250",
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": 200,
+                "extendedAmountMax": 250,
                 "unlockRequirements": {
                     "slayer": 85,
                     "combat": 85
@@ -4617,12 +5454,15 @@
                 },
                 "weight": 9
             },
-            "Cave kraken": {
+            {
+                "name": "Cave kraken",
                 "locations": [
                     "Kraken Cove"
                 ],
-                "amount": "80-100",
-                "extendedAmount": "150-200",
+                "amountMin": 80,
+                "amountMax": 100,
+                "extendedAmountMin": 150,
+                "extendedAmountMax": 200,
                 "unlockRequirements": {
                     "slayer": 87,
                     "combat": 80,
@@ -4633,13 +5473,16 @@
                 ],
                 "weight": 9
             },
-            "Dark beasts": {
+            {
+                "name": "Dark beasts",
                 "locations": [
                     "Mourner Tunnels",
                     "Iorwerth Dungeon"
                 ],
-                "amount": "10-15",
-                "extendedAmount": "100-150",
+                "amountMin": 10,
+                "amountMax": 15,
+                "extendedAmountMin": 100,
+                "extendedAmountMax": 150,
                 "unlockRequirements": {
                     "slayer": 90,
                     "combat": 90,
@@ -4652,12 +5495,15 @@
                 ],
                 "weight": 5
             },
-            "Smoke devils": {
+            {
+                "name": "Smoke devils",
                 "locations": [
                     "Smoke Devil Dungeon"
                 ],
-                "amount": "120-170 ",
-                "extendedAmount": null,
+                "amountMin": 120,
+                "amountMax": 170,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 93,
                     "combat": 75
@@ -4667,12 +5513,15 @@
                 ],
                 "weight": 7
             },
-            "Hydras": {
+            {
+                "name": "Hydras",
                 "locations": [
                     "Karuulm slayer Dungeon"
                 ],
-                "amount": "125-190",
-                "extendedAmount": null,
+                "amountMin": 125,
+                "amountMax": 190,
+                "extendedAmountMin": null,
+                "extendedAmountMax": null,
                 "unlockRequirements": {
                     "slayer": 95
                 },
@@ -4681,6 +5530,7 @@
                 ],
                 "weight": 10
             }
-        }
+        ],
+        "totalWeight": 250
     }
-}
+}]

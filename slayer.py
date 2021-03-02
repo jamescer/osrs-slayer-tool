@@ -35,14 +35,6 @@ class SlayerTool(object):
 
         self.combat_level = self.get_cb_lvl()
 
-        # Counter File for incrementation
-        with open(self.increment_file) as json_file:
-            self.count = json.load(json_file)
-        self.count.update({'counter': self.count['counter']+1})
-
-        with open(self.increment_file, 'w') as outfile:
-            json.dump(self.count, outfile)
-
     # Masters
     masters = {0: "Turael", 1: "Mazchna", 2: "Vannaka", 3: "Chaelder",
                4: "Duradel", 5: "Nieve", 6: "Krystilia", 7: "Konar quo Maten"}
@@ -70,20 +62,20 @@ class SlayerTool(object):
 
             # m = master
             doable_tasks[m] = {}
-            doable_tasks[m]['Assignments'] = {}
+            doable_tasks[m]['assignments'] = {}
             sum1 = 0
-            for task in self.slayer_data[m]['Assignments']:
+            for task in self.slayer_data[m]['assignments']:
                 # evaluates task to see if self.account has requirements to do
                 addTask = self.evaluate_assignment(
                     self.slayer_data[m], task)
 
                 if addTask:
-                    doable_tasks[m]['Assignments'].update(
-                        {task: self.slayer_data[m]['Assignments'][task]})
+                    doable_tasks[m]['assignments'].update(
+                        {task: self.slayer_data[m]['assignments'][task]})
                     sum1 = sum1 + \
-                        self.slayer_data[m]['Assignments'][task]['Weight']
+                        self.slayer_data[m]['assignments'][task]['weight']
 
-            doable_tasks[m]['TotalWeight'] = sum1
+            doable_tasks[m]['totalWeight'] = sum1
 
         with open('doable.json', 'w') as outfile:
             json.dump(doable_tasks, outfile)
@@ -94,9 +86,9 @@ class SlayerTool(object):
         Master_dict = [dictionary]: dictionary of the master that has the task being evaluated
         assignment = [string]: name of the monster to be keyed from the dicitionary
         '''
-        reqs = Master_dict['Assignments'][assignment]
+        reqs = Master_dict['assignments'][assignment]
         doable = True
-        if 'UnlockRequirements' in Master_dict['Assignments'][assignment]:
+        if 'UnlockRequirements' in Master_dict['assignments'][assignment]:
 
             doable = True
             for i in reqs['UnlockRequirements']:
@@ -144,10 +136,10 @@ class SlayerTool(object):
                 0, len(self.masters)-1), "Please either use the name of the master or an integer from the dictionary"+str(self.masters))
             default_dict_x = self.slayer_data[default_master_name]
 
-            master_name = kwargs['master_name'] if 'master_name'in kwargs.keys(
+            master_name = kwargs['master_name'] if 'master_name' in kwargs.keys(
             ) and isinstance(kwargs['master_name'], str) else default_master_name
             dict_x = self.slayer_data[kwargs['master_name']
-                                      ] if 'master_name'in kwargs.keys() and isinstance(kwargs['master_name'], str) else default_dict_x
+                                      ] if 'master_name' in kwargs.keys() and isinstance(kwargs['master_name'], str) else default_dict_x
 
             sample_size = kwargs['sample_size'] if 'sample_size' in kwargs.keys(
             ) else default_sample_size
@@ -156,25 +148,25 @@ class SlayerTool(object):
             return
         # Creating our data based on our sample size
 
-        # Get Total Weight from master
-        total_slayer_weight = dict_x['TotalWeight']
+        # Get Total weight from master
+        total_slayer_weight = dict_x['totalWeight']
 
         assign_names = []
         weight_array = []
         assign_counter_dict = {}
         sum1 = 0
-        for i in dict_x['Assignments']:
+        for i in dict_x['assignments']:
 
             x = self.evaluate_assignment(dict_x, i)
 
             assign_names.append(i)
-            # print(i, " : ", dict_x['Assignments'][i]['Weight']) # prints the task with the weight.
+            # print(i, " : ", dict_x['assignments'][i]['weight']) # prints the task with the weight.
 
-            weight_array.append((dict_x['Assignments'][i]['Weight'] /
+            weight_array.append((dict_x['assignments'][i]['weight'] /
                                  total_slayer_weight))
             assign_counter_dict.update({i: {'name': i, 'amount': 0}})
             # print(sum(weight_array))
-            sum1 = sum1+dict_x['Assignments'][i]['Weight']
+            sum1 = sum1+dict_x['assignments'][i]['weight']
 
         data_canada = px.data.gapminder().query("country == 'Canada'")
 
@@ -196,7 +188,8 @@ class SlayerTool(object):
         fig = px.bar(df, x='Name', y='Times Assigned',
                      color='Times Assigned', title=str(master_name)+", N="+str(sample_size),
                      height=400)
-        show_figure = kwargs['show_figure'] if 'show_figure' in kwargs.keys() else False
+        show_figure = kwargs['show_figure'] if 'show_figure' in kwargs.keys(
+        ) else False
         if show_figure:
             fig.show()
 
@@ -217,9 +210,7 @@ class SlayerTool(object):
         return self.__str__()
 
     def __str__(self):
-        global author
-
-        return ' == Slayer Tool Developed by '+author+' ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.account)
+        return ' == Slayer Tool Developed by James Cerniglia ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.account)
 
 
 if __name__ == 'main':
