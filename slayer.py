@@ -16,12 +16,14 @@ plt.rcdefaults()
 
 class SlayerTool(object):
     data_file = "./slayer.json"
-    increment_file = "./counter.json"
     account = 0
     username = ''
     combat_level = 0
     count = {}
     slayer_data = {}
+
+    # lets implement quests that can be completedin order to obtain certain tasks
+    quests = []
 
     def __init__(self, **kwargs):
         with open(self.data_file) as json_file:
@@ -40,22 +42,31 @@ class SlayerTool(object):
                4: "Duradel", 5: "Nieve", 6: "Krystilia", 7: "Konar quo Maten"}
 
     def set_account(self, x):
-        '''
+        """ 
         Set Acount for object reference, only needed to query once instead of a million times
-        '''
+
+        Parameters: 
+        arg1 (str): Account Name ('Zezima') ('Not Poop')
+
+        Returns: 
+        None. Sets this objects self.account object;
+
+        """
         self.account = Hiscores(x)
 
-    def reset_counter(self):
-        '''
-        Reset counter for file outputs
-        '''
-        self.count.update({'counter': 0})
-        with open(self.increment_file, 'w') as outfile:
-            json.dump(self.count, outfile)
-
     def get_doable_assignments(self):
-        '''
+        """ 
         Method that gets all doable assignments based on the account currently tied to this object
+
+        Parameters: 
+        None.
+
+        Returns: 
+        None. Sets this objects self.account object;
+
+        """
+        '''
+        
         '''
         doable_tasks = {}
         for m in self.slayer_data:
@@ -66,8 +77,7 @@ class SlayerTool(object):
             sum1 = 0
             for task in self.slayer_data[m]['assignments']:
                 # evaluates task to see if self.account has requirements to do
-                addTask = self.evaluate_assignment(
-                    self.slayer_data[m], task)
+                addTask = self.evaluate_assignment(self.slayer_data[m], task)
 
                 if addTask:
                     doable_tasks[m]['assignments'].update(
@@ -79,6 +89,8 @@ class SlayerTool(object):
 
         with open('doable.json', 'w') as outfile:
             json.dump(doable_tasks, outfile)
+
+        return doable_tasks
 
     def evaluate_assignment(self, Master_dict, assignment):
         '''
@@ -112,7 +124,7 @@ class SlayerTool(object):
                 if i == 'Favor':
                     # TODO
                     have_not_implemented = 0
-                if i == 'Quests':
+                if i == 'quests':
                     # TODO
                     have_not_implemented = 0
                 if i == 'partialQuests':
@@ -192,11 +204,6 @@ class SlayerTool(object):
         ) else False
         if show_figure:
             fig.show()
-
-        # Saves data to a json if the user wants to see the data and use it for something else.
-        with open('./Data/'+master_name +
-                  str(self.count['counter'])+'.json', 'w') as outfile:
-            json.dump(assign_counter_dict, outfile)
 
     def get_cb_lvl(self):
         x = [0.325*(self.account.skills['attack'].level + self.account.skills['strength'].level), 0.325 *
