@@ -88,7 +88,6 @@ class Hiscores(object):
         return {s: self.skills[s] for s in self.skills if predicate(self, s)}
 
     def __str__(self):
-
         return ('Overall Rank: '+str(self.rank)+', Total Level: ' + str(self.total_level)+', Total Exp: ' + str(self.total_xp) + '\n' +
                 '\n'.join(str(self.skills[skill]) for skill in self.skills))
 
@@ -100,7 +99,6 @@ class Hiscores(object):
 
     # !=
     def __ne__(self, other):
-
         return not self.__eq__(other)
 
     # <

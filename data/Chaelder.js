@@ -823,7 +823,7 @@ export default [{
             "unlockRequirements": {
                 "slayer": 87,
                 "combat": 80,
-                "Magic": 50
+                "magic": 50
             },
             "alternatives": [
                 "Kraken"

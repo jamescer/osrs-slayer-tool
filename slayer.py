@@ -16,43 +16,59 @@ plt.rcdefaults()
 
 class SlayerTool(object):
     data_file = "./slayer.json"
-    account = 0
-    username = ''
-    combat_level = 0
-    count = {}
-    slayer_data = {}
+
+    # Account used to determine restrictions
+    osrsAccount = None
+
+    # Username associated if passed in constructor or hiscore set
+    username = None
+
+    slayer_data = None
+
+    # TODO implement restriction functionality to restriction tasks based on requirements
+    # like quests levels combat level
+    # if restrictions is False: dont check for unlockRequirements
+    # if restrictions if True: check for combat level and skills
+    restrictions = False
 
     # lets implement quests that can be completedin order to obtain certain tasks
     quests = []
-
-    def __init__(self, **kwargs):
-        with open(self.data_file) as json_file:
-            self.slayer_data = json.load(json_file)
-
-        self.account = Hiscores(
-            kwargs['username']) if 'username' in kwargs.keys() else Hiscores('Lynx Titan')
-
-        self.username = kwargs['username'] if 'username' in kwargs.keys(
-        ) else 'Lynx Titan'
-
-        self.combat_level = self.get_cb_lvl()
 
     # Masters
     masters = {0: "Turael", 1: "Mazchna", 2: "Vannaka", 3: "Chaelder",
                4: "Duradel", 5: "Nieve", 6: "Krystilia", 7: "Konar quo Maten"}
 
+    def __init__(self, **kwargs):
+        '''
+        TODO
+        Lets make it so they can use the tool with no setup.
+        Also allow for configuration using accounts and quests
+        '''
+
+        self.username = kwargs['username'] if 'username' in kwargs.keys(
+        ) else None
+
+        with open(self.data_file) as json_file:
+            self.slayer_data = json.load(json_file)
+
+        self.osrsAccount = Hiscores(
+            kwargs['username']) if 'username' in kwargs.keys() else None
+
+        self.set_cb_lvl(self.get_cb_lvl())
+
     def set_account(self, x):
         """ 
-        Set Acount for object reference, only needed to query once instead of a million times
+        Set Acount for object reference by calling Hiscores api to get account levels.
 
         Parameters: 
         arg1 (str): Account Name ('Zezima') ('Not Poop')
 
         Returns: 
-        None. Sets this objects self.account object;
+        None. Sets this objects self.osrsAccount object;
 
         """
-        self.account = Hiscores(x)
+        self.osrsAccount = Hiscores(x)
+        return True
 
     def get_doable_assignments(self):
         """ 
@@ -60,23 +76,29 @@ class SlayerTool(object):
 
         Parameters: 
         None.
+        TODO
+        Lets implement quests?
+        Quest unlockables
 
         Returns: 
-        None. Sets this objects self.account object;
+        None. 
 
         """
-        '''
-        
-        '''
+
+        # empty doable task dictionary/object
         doable_tasks = {}
         for m in self.slayer_data:
-
             # m = master
+
+            # init master object
             doable_tasks[m] = {}
+
+            # init assignments for master object TODO can refactor this to be a simple
             doable_tasks[m]['assignments'] = {}
+
             sum1 = 0
             for task in self.slayer_data[m]['assignments']:
-                # evaluates task to see if self.account has requirements to do
+                # evaluates task to see if self.osrsAccount has requirements to do
                 addTask = self.evaluate_assignment(self.slayer_data[m], task)
 
                 if addTask:
@@ -98,42 +120,51 @@ class SlayerTool(object):
         Master_dict = [dictionary]: dictionary of the master that has the task being evaluated
         assignment = [string]: name of the monster to be keyed from the dicitionary
         '''
+        # assignment object assigne dto requirements(reqs)
         reqs = Master_dict['assignments'][assignment]
-        doable = True
-        if 'UnlockRequirements' in Master_dict['assignments'][assignment]:
 
-            doable = True
-            for i in reqs['UnlockRequirements']:
-                if i == 'Combat':
-                    if self.combat_level < reqs['UnlockRequirements']['Combat']:
-                        doable = False
+        if 'unlockRequirements' in Master_dict['assignments'][assignment]:
+
+            for i in reqs['unlockRequirements']:
+                if i == 'combat':
+                    if self.combat_level < reqs['unlockRequirements']['combat']:
+                        return False
                 if i.lower() in const.SKILLS:
                     # any skill inside const.SKILLS array
-                    if self.account.skills[i.lower()].level < reqs['UnlockRequirements'][i]:
-                        doable = False
+                    if self.osrsAccount.skills[i.lower()].level < reqs['unlockRequirements'][i]:
+                        return False
+
                 # These are the conditional outliers I have not implemented
                 if i == 'or':
                     # TODO
                     have_not_implemented = 0
-                if i == 'SlayerRewards':
+                    return False
+                if i == 'slayerRewards':
                     # TODO
                     have_not_implemented = 0
-                if i == 'MiniQuests':
+                    return False
+                if i == 'miniQuests':
                     # TODO
                     have_not_implemented = 0
-                if i == 'Favor':
+                    return False
+                if i == 'favor':
                     # TODO
                     have_not_implemented = 0
+                    return False
                 if i == 'quests':
                     # TODO
                     have_not_implemented = 0
+                    return False
                 if i == 'partialQuests':
                     # TODO
                     have_not_implemented = 0
-            return doable
-        else:  # Krystilia else statement, none of her tasks have requirements.
+                    return False
+            return True
+        else:
+            # Krystilia else statement, none of her tasks have requirements (none of the items in the array have the unlockRequirements key).
+            # Krysti does take a 75 combat level requirement to get tasks from.
             var = 0
-            return doable
+            return True
 
     def create_graph(self, **kwargs):
         '''
@@ -200,24 +231,30 @@ class SlayerTool(object):
         fig = px.bar(df, x='Name', y='Times Assigned',
                      color='Times Assigned', title=str(master_name)+", N="+str(sample_size),
                      height=400)
+
+        # show figure if passed in function params
         show_figure = kwargs['show_figure'] if 'show_figure' in kwargs.keys(
         ) else False
         if show_figure:
             fig.show()
 
+    def set_cb_lvl(self, x):
+        self.combat_level = x
+        return True
+
     def get_cb_lvl(self):
-        x = [0.325*(self.account.skills['attack'].level + self.account.skills['strength'].level), 0.325 *
-             (int(3 * self.account.skills['ranged'].level / 2)), 0.325*(int(3 * self.account.skills['magic'].level / 2))]
+        x = [0.325*(self.osrsAccount.skills['attack'].level + self.osrsAccount.skills['strength'].level), 0.325 *
+             (int(3 * self.osrsAccount.skills['ranged'].level / 2)), 0.325*(int(3 * self.osrsAccount.skills['magic'].level / 2))]
         x.sort()
 
-        return int(0.25 * (self.account.skills['defence'].level +
-                           self.account.skills['hitpoints'].level + (self.account.skills['prayer'].level/2)) + x[-1])
+        return int(0.25 * (self.osrsAccount.skills['defence'].level +
+                           self.osrsAccount.skills['hitpoints'].level + (self.osrsAccount.skills['prayer'].level/2)) + x[-1])
 
     def __repr__(self):
         return self.__str__()
 
     def __str__(self):
-        return ' == Slayer Tool Developed by James Cerniglia ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.account)
+        return ' == Slayer Tool Developed by James Cerniglia ==\n Current methods inside of the Slayer Tool \n Current username: '+self.username+'\n Stats: '+str(self.osrsAccount)
 
 
 if __name__ == 'main':

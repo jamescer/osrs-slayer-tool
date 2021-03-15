@@ -9,6 +9,7 @@ import * as krys from './data/Krystilia.js';
 
 export class SlayerTool {
     name = 'SlayerTool'
+    osrsAccount = null;
     constructor() {
         this.slayerData = slayerData.default[0];
         this.konarQuoMaten = konar.default[0];
@@ -23,8 +24,9 @@ export class SlayerTool {
      * @todo
      * */
     toString() {
-        return 'SlayerTool :) WIP ';
+        return 'SlayerTool :) WIP';
     }
+
     /**
         * Get Turael Data
      * @return {Object} Json data for Turael

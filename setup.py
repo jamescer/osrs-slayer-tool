@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="OsrsSlayerTool",
-    version="0.0.6",
+    version="0.0.7",
     author="James Cerniglia",
     author_email="jamesmcerniglia@gmail.com",
     description="A package for developers or players to use to visualize what they can do with the slayer skills on Old School Runescape. The tool can be used to see graphs of which task the player wil most likely receive (create_graph() method). The user can see what tasks they can do at their current stats (get_doable_assignments()). This does not calculate quests yet.",
