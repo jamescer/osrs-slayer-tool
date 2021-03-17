@@ -1,5 +1,4 @@
-import { SlayerTool } from './slayerTool.js';
+'use strict';
 
-module.export = { SlayerTool };
 
-console.log(slayerData);
+module.exports = require('./lib/slayerTool');
