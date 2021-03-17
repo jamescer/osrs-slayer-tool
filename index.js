@@ -1,4 +1,4 @@
 'use strict';
 
 
-module.exports = require('./lib/slayerTool');
+module.exports = require('./lib/slayerTool.js');
