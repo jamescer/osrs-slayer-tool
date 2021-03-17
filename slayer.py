@@ -15,7 +15,6 @@ plt.rcdefaults()
 # author = 'James Cerniglia'
 
 class SlayerTool(object):
-    data_file = "./slayer.json"
 
     # Account used to determine restrictions
     osrsAccount = None
@@ -23,6 +22,7 @@ class SlayerTool(object):
     # Username associated if passed in constructor or hiscore set
     username = None
 
+    # Slayer Data from json file
     slayer_data = None
 
     # TODO implement restriction functionality to restriction tasks based on requirements
@@ -31,8 +31,8 @@ class SlayerTool(object):
     # if restrictions if True: check for combat level and skills
     restrictions = False
 
-    # lets implement quests that can be completedin order to obtain certain tasks
-    quests = []
+    # lets implement quests that can be completed in order to obtain certain tasks
+    QUESTS_COMPLETED = []
 
     # Masters
     masters = {0: "Turael", 1: "Mazchna", 2: "Vannaka", 3: "Chaelder",
@@ -48,7 +48,7 @@ class SlayerTool(object):
         self.username = kwargs['username'] if 'username' in kwargs.keys(
         ) else None
 
-        with open(self.data_file) as json_file:
+        with open("./slayer.json") as json_file:
             self.slayer_data = json.load(json_file)
 
         self.osrsAccount = Hiscores(

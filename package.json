@@ -1,0 +1,29 @@
+{
+  "name": "osrs-slayer-tool",
+  "version": "1.0.1",
+  "description": "A package for Old School Runescape Slayer Data and development tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerniglj1/osrs-slayer-tool.git"
+  },
+  "keywords": [
+    "OSRS",
+    "OSRS slayer",
+    "slayer",
+    "old school runescape",
+    "runescape"
+  ],
+  "author": "James Cerniglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerniglj1/osrs-slayer-tool/issues"
+  },
+  "homepage": "https://github.com/cerniglj1/osrs-slayer-tool#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
