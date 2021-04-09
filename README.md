@@ -4,11 +4,8 @@
 
 ## [Example Usage](test_example.py)
 
-```python
-st = SlayerTool(username='jimbo jango')
-st.get_doable_assignments()
-tr.create_graph(master_name='Vannaka', sample_size=1000, show_figure=True)
-st.create_graph(master_name=5, sample_size=9999)
+```js
+
 ```
 
 ## Build From Source
@@ -16,22 +13,10 @@ st.create_graph(master_name=5, sample_size=9999)
 **Windows:**
 
 ```bash
-pip install osrs-slayer-tool
+npm i osrs-slayer-tool
 ```
 
 ## Master Keys
-
-```diff
-! Master IDs
-+ 0: Tureal
-+ 1: Mazchna
-+ 2: Vannaka
-+ 3: Chaelder
-+ 4: Duradel
-+ 5: Nieve
-+ 6: Krystilia
-+ 7: Konar quo Maten
-```
 
 ## Bugs:
 

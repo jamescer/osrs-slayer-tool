@@ -1,10 +1,10 @@
 'use strict';
-var QuestTool = require('./index.js');
+const { SlayerTool } = require('./modules/SlayerTool.js');
+
+console.log('SlayerTool: ', SlayerTool);
+
+var x = new SlayerTool();
 
 
-console.log(QuestTool);
 
-var x = new QuestTool();
-
-console.log(x.getTurael());
-
+console.log('x: ', x);

@@ -1,4 +1,7 @@
 'use strict';
 
+const { SlayerTool } = require('./modules/SlayerTool.js');
 
-module.exports = require('./lib/slayerTool.js');
+
+module.exports = { SlayerTool };
+// export default
