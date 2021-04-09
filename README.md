@@ -5,10 +5,9 @@
 ## [Example Usage](test_example.py)
 
 ```js
-
+import { SlayerTool } from "osrs-slayer-tool";
+console.log(SlayerTool);
 ```
-
-## Build From Source
 
 **Windows:**
 
