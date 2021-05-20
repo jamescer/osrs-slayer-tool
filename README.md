@@ -1,8 +1,14 @@
-## osrs-slayer-tool
+##
 
-[![Build Status](https://travis-ci.org/cerniglj1/osrs-slayer-tool.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-slayer-tool) [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-slayer-tool/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-slayer-tool?branch=master) [![codecov](https://codecov.io/gh/cerniglj1/osrs-slayer-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/cerniglj1/osrs-slayer-tool) [![Maintainability](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/maintainability)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/ae66200607a2c9dae991/test_coverage)](https://codeclimate.com/github/cerniglj1/Slayer-Tool/test_coverage)
+<h2>osrs-slayer-tool </h2>
+<img   align='right'src="https://i.ibb.co/x3tcMM6/Slayer-cape-emote.gif" alt="Slayer-cape-emote" border="0" width="230">
+<p>A NodeJS package of Old School RuneScape slayer data and development tools to go with it.</p>
 
-## [Example Usage](test_example.py)
+<span class="badge-npmversion"><a href="https://npmjs.org/package/osrs-quest-tool" title="View this project on NPM"><img src="https://img.shields.io/npm/v/badges.svg" alt="NPM version" /></a></span>
+
+[![Build Status](https://travis-ci.org/cerniglj1/osrs-slayer-tool.svg?branch=master)](https://travis-ci.org/cerniglj1/osrs-slayer-tool) [![Coverage Status](https://coveralls.io/repos/github/cerniglj1/osrs-slayer-tool/badge.svg?branch=master)](https://coveralls.io/github/cerniglj1/osrs-slayer-tool?branch=master) [![codecov](https://codecov.io/gh/cerniglj1/osrs-slayer-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/cerniglj1/osrs-slayer-tool)
+
+## [Example Usage](test.js)
 
 ```js
 import { SlayerTool } from "osrs-slayer-tool";

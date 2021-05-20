@@ -1,4 +1,3 @@
-
 'use strict';
 const { SlayerData, konar, vannaka, nieve, mazchna, turael, krystilia } = require('../assets/data/slayerData.js');
 const { SlayerMaster } = require('./SlayerMaster.js');
@@ -6,33 +5,32 @@ const { SlayerMaster } = require('./SlayerMaster.js');
 class SlayerTool {
 
     constructor() {
-
-        this.slayerData = SlayerData;
-        this.konarQuoMaten = new SlayerMaster(konar);
-        this.vannaka = new SlayerMaster(vannaka);
-        this.nieve = new SlayerMaster(nieve);
-        this.mazchna = new SlayerMaster(mazchna);
-        this.turael = new SlayerMaster(turael);
-        this.krystilia = new SlayerMaster(krystilia);
-    }
-    /**
-     * to string func
-     * @todo
-     * */
+            this.slayerData = SlayerData;
+            this.konarQuoMaten = new SlayerMaster(konar);
+            this.vannaka = new SlayerMaster(vannaka);
+            this.nieve = new SlayerMaster(nieve);
+            this.mazchna = new SlayerMaster(mazchna);
+            this.turael = new SlayerMaster(turael);
+            this.krystilia = new SlayerMaster(krystilia);
+        }
+        /**
+         * to string func
+         * @todo
+         * */
     toString() {
         return 'SlayerTool :) WIP';
     }
 
     /**
-        * Get Turael Data
+     * Get Turael Data
      * @return {Object} Json data for Turael
-         * */
+     * */
     getTurael() { return this.turael }
 
     /**
      * Get All Slayer Master Data
      * @return {Object} Json data for all Slayer masters
-        * */
+     * */
     getSlayerData() { return this.slayerData }
 
     /**
