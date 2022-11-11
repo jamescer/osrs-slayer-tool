@@ -24,6 +24,6 @@
     },
     "homepage": "https://github.com/cerniglj1/osrs-slayer-tool#readme",
     "dependencies": {
-        "mocha": "^8.3.2"
+        "mocha": "^10.1.0"
     }
 }
