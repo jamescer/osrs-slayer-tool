@@ -1,5 +1,11 @@
 ##
 
+> **⚠️ This repository is deprecated.**
+>
+> The updated and maintained version is now at [https://github.com/jamescer/osrs-tools](https://github.com/jamescer/osrs-tools).
+>
+> Please use the new repository for the latest updates and support.
+
 <h2>osrs-slayer-tool </h2>
 <img   align='right'src="https://i.ibb.co/x3tcMM6/Slayer-cape-emote.gif" alt="Slayer-cape-emote" border="0" width="230">
 <p>A NodeJS package of Old School RuneScape slayer data and development tools to go with it.</p>
@@ -11,13 +17,13 @@
 ## [Example Usage](test.js)
 
 ```js
-import { SlayerTool } from "osrs-slayer-tool";
+import { SlayerTool } from 'osrs-slayer-tool';
 console.log(SlayerTool);
 ```
 
 **Windows:**
 
-```bash
+```sh
 npm i osrs-slayer-tool
 ```
 
@@ -25,7 +31,7 @@ npm i osrs-slayer-tool
 
 ## Bugs:
 
-If you find any bugs, please create an [issue](https://github.com/cerniglj1/osrs-slayer-tool/issues)
+If you find any bugs, please create an [issue](https://github.com/jamescer/osrs-slayer-tool/issues)
 No bugs known to date
 
 ## Backers
